@@ -20,7 +20,7 @@ main:
     code: https://github.com/RenlyH/CodeV
     image: "/assets/img/paper_logo/codev2026.png"
     url: https://arxiv.org/abs/2511.19661
-    notes: Oral Paper (Top 2%)
+    notes: Oral Paper (Top 1%)
   - title: An Empirical Study on Unifying JEPA and Language Supervision for Visual Representation Learning
     authors: Shixuan Liu<sup>*</sup>, Daniel A. Li<sup>*</sup>, Yiwei Lyu, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
     conference: NEURIPS UNIREPS WORKSHOP · 2025

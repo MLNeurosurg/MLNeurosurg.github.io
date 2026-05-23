@@ -33,7 +33,7 @@ main:
   code: https://github.com/RenlyH/CodeV
   image: "/assets/img/paper_logo/codev2026.png"
   url: https://arxiv.org/abs/2511.19661
-  notes: Oral Paper (Top 2%)
+  notes: Oral Paper (Top 1%)
 - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
   authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
   conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026

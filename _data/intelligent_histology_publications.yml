@@ -19,7 +19,7 @@ main:
     authors: Abhishek Bhattacharya, Eric Landgraf, Cheng Jiang, Asadur Chowdury, Akhil Kondepudi, Lin Wang, Edward S. Harake, Xinhai Hou, Lisa Walsh, and Todd C. Hollon
     conference: STAR PROTOCOLS · 2025
     description: >
-      This protocol provides a reproducible workflow for **single-cell annotation and segmentation** in stimulated Raman histology, enabling scalable dataset curation and model training for computational pathology studies.
+      This protocol provides a reproducible workflow for single-cell annotation and segmentation, called **Elucidate**, in stimulated Raman histology, enabling scalable dataset curation and model training for computational pathology studies.
     venue_logo: "/assets/img/venues/star_protocols.png"
     url: https://www.sciencedirect.com/science/article/pii/S2666166725006276?via%3Dihub
     pdf: "/assets/papers/1-s2.0-S2666166725006276-main.pdf"

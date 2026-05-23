@@ -2,6 +2,11 @@
 # Optional fields per person: role, research_focus, image, website, email, bio
 
 main:
+  - name: Todd Hollon, MD
+    role: Principal Investigator
+    image: /assets/img/people/toddhollon.png
+    website: https://uofmhealth.org/profile/1295176014/todd-charles-hollon
+
   - name: Jacob Ogle
     role: Data Scientist
     image: /assets/img/people/jakeogle.jpeg
@@ -10,6 +15,10 @@ main:
   - name: Lin Wang
     role: Laboratory Technician
     image: /assets/img/people/linwan.webp
+
+  - name: Karen Eddy
+    role: Lab Manager
+    image: /assets/img/people/eddyka.webp
 
   - name: Soumyanil Banerjee, PhD
     role: Postdoctoral fellow
@@ -61,7 +70,4 @@ main:
     role: Neurosurgery Resident
     image: /assets/img/people/joshiru.webp
 
-  - name: Karen Eddy
-    role: Lab Manager
-    image: /assets/img/people/eddyka.webp
     # bio: "Karen received her Bachelor's degree in Biology and Biotechnology in Ottawa, Canada. She enjoys lab management and working at the bench. She has worked for the Canadian government, Harvard University and Metabolix, Inc. She joined the Neurosurgery department in 2016."
