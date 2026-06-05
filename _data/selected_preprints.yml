@@ -1,5 +1,21 @@
 # Homepage preprints section (_includes/selected_preprints.md). Full list: /publications/
 main:
+  - title: 'SIGNAL: A Scalable, Real-World Model for Rapid Intraoperative Molecular Classification of Gliomas Using Stimulated Raman Histology'
+    authors: Nicolas K Goff, John E Markert, David Reinecke, Alexandra Springer, Anna M Chen, Minjun Park, Gabrielle Malte, Katie Scotford-Broemmer, Sophia Hoonsbeen, Karen Eddy, Asadur Chowdury, Cheng Jiang, Akhil Kondepudi, Anna-Katharina Meissner, Gina Fürtjes, Nina Müller, Volker Neuschmelting, Melike Pekmezci, Jacob Young, Christian Freudinger, Matija Snuderl, Mitchel Berger, Shawn Hervey-Jumper, John G. Golfinos, Todd C. Hollon, and Daniel A. Orringer
+    conference: medRxiv 2026
+    description: >
+      **SIGNAL** is a scalable model for rapid intraoperative molecular classification of gliomas from stimulated Raman histology, with attention-guided patch visualization that separates tumor from non-tumor tissue and distinguishes GBM, oligodendroglioma, and astrocytoma in real-world surgical settings.
+    image: /assets/img/paper_logo/goff2026signal_medrxiv.png
+    venue_logo: "/assets/img/venues/medrxiv.png"
+    url: https://doi.org/10.64898/2026.05.11.26350247
+    pdf: https://doi.org/10.64898/2026.05.11.26350247
+    pills:
+      - title: medRxiv
+        link: https://doi.org/10.64898/2026.05.11.26350247
+      - title: PubMed
+        link: https://pubmed.ncbi.nlm.nih.gov/42180331/
+      - title: PMC
+        link: https://pmc.ncbi.nlm.nih.gov/articles/PMC13193155/
   - title: Health system learning achieves generalist neuroimaging models
     authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Rushikesh Joshi, Anna-Katharina Meissner, Renly Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
     conference: arXiv 2026

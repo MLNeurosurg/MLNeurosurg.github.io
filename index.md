@@ -4,7 +4,7 @@ layout: homepage
 
 ## Bio
 
-I am a tenured Associate Professor and the Novello & Quinones-Hinojosa Research Professor at the University of Michigan. I am the principal investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
+I am an associate tenured professor and the Novello & Quinones-Hinojosa Research Professor at the University of Michigan. I am the principal investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
 We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] med.umich.edu if interested.
 
@@ -14,6 +14,7 @@ The team, the team, the team.
 
 ## MLiNS News
 
+- **May 2026** - [FastGlioma](https://looktomichigan.umich.edu/stories/fastglioma/), published in [***Nature***](https://www.nature.com/articles/s41586-024-08169-3), is featured by UM Look to Michigan campaign.
 - **Apr 2026** - Xinhai Hou's paper, ***CodeV***, is accepted at *CVPR* as *Oral Paper (Top 1%)*.
 - **Apr 2026** - Samir Harake wins UM Khan Neurosurgery Award for best medical student.
 - **Apr 2026** - Rush Joshi wins Best Clinical Absract at 2026 Neurosurgery Symposium.

@@ -109,6 +109,8 @@ sections:
             link: https://openreview.net/forum?id=WxHf4EcBWA
           - title: PDF
             link: /assets/papers/5990_Towards_Scalable_Language.pdf
+          - title: Blog
+            link: https://zch0414.github.io/hlip-ablation/
       - title: Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy
         authors: Cheng Jiang<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Asadur Chowdury, Christian W. Freudiger, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
         conference: COMPUTER VISION AND PATTERN RECOGNITION · 2023

@@ -14,6 +14,8 @@ main:
         link: https://openreview.net/forum?id=WxHf4EcBWA
       - title: PDF
         link: "/assets/papers/5990_Towards_Scalable_Language.pdf"
+      - title: Blog
+        link: https://zch0414.github.io/hlip-ablation/
 
   - title: Learning complete and explainable visual representations from itemized text supervision
     authors: Yiwei Lyu, Chenhui Zhao, Soumyanil Banerjee, Shixuan Liu, Akshay T. Rao, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon

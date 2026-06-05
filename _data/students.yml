@@ -7,11 +7,6 @@ main:
     image: /assets/img/people/toddhollon.png
     website: https://uofmhealth.org/profile/1295176014/todd-charles-hollon
 
-  - name: Jacob Ogle
-    role: Data Scientist
-    image: /assets/img/people/jakeogle.jpeg
-    website: https://www.linkedin.com/in/jakeogle/
-
   - name: Lin Wang
     role: Laboratory Technician
     image: /assets/img/people/linwan.webp

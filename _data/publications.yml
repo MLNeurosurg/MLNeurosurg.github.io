@@ -48,6 +48,8 @@ main:
     link: https://openreview.net/forum?id=WxHf4EcBWA
   - title: PDF
     link: "/assets/papers/5990_Towards_Scalable_Language.pdf"
+  - title: Blog
+    link: https://zch0414.github.io/hlip-ablation/
 - title: 'Anatomic Predilection of Isocitrate Dehydrogenase-Mutant Gliomas: A Multi-Institutional Spatial Analysis'
   authors: Park M, Weiss H, Harake ES, Fang C, Springer A, Goff NK, Markert JE, Reinecke D, Maarouf N, Heiland DH, Miller AM, Todd C. Hollon, John G. Golfinos, and Daniel A. Orringer
   conference: NEUROSURGERY · 2026
@@ -71,6 +73,19 @@ main:
     link: https://doi.org/10.1227/neu.0000000000004000
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41891708/
+- title: 'CNS-Obsidian: A Neurosurgical Vision-Language Model Built From Scientific Publications'
+  authors: Alyakin A, Stryker J, Alber DA, Lee JV, Sangwon KL, Duderstadt B, Save A, Kurland D, Frome S, Singh S, Zhang J, Yang E, Park KY, Orillac C, Valliani AA, Neifert S, Liu A, Patel A, Livia C, Lau D, Laufer I, Rozman PA, Hidalgo ET, Riina H, Feng R, Todd C. Hollon, Aphinyanaphongs Y, Golfinos JG, Snyder L, Leuthardt EC, Kondziolka D, and Eric K. Oermann
+  conference: NEUROSURGERY · 2026
+  description: >
+    **CNS-Obsidian** is a neurosurgical vision-language model trained on multimodal data from CNS Publications journals, progressing from general and medical VLMs to a specialty-specific expert for differential diagnosis, education, and clinical dialogue. A blinded randomized trial evaluates CNS-Obsidian as a multimodal co-pilot for neurosurgical diagnosis against GPT-4o with provider feedback.
+  venue_logo: "/assets/img/venues/neurosurgery.png"
+  image: "/assets/img/paper_logo/alyakin2026_cns_obsidian.png"
+  url: https://doi.org/10.1227/neu.0000000000004070
+  pills:
+  - title: DOI
+    link: https://doi.org/10.1227/neu.0000000000004070
+  - title: PubMed
+    link: https://pubmed.ncbi.nlm.nih.gov/42153721/
 - title: AI-Powered Pipeline Transforms Neurosurgical Articles Into High-Quality Graphical Abstracts
   authors: Alyakin A, Stryker J, Lee JV, Feng R, Todd C. Hollon, Kondziolka D, and Eric K. Oermann
   conference: NEUROSURGERY PRACTICE · 2026
