@@ -1,6 +1,25 @@
 # Full publication list (recent first, then lab archive from mlneurosurg.github.io).
 # Homepage highlights: _data/selected_publications.yml + _includes/selected_publications.md
 main:
+- title: Health system learning enables generalist neuroimaging models
+  authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
+  conference: NATURE MEDICINE · 2026
+  description: >
+    **NeuroVFM** is a visual foundation model trained on 5.24M clinical MRI and CT volumes via *health system learning*, a paradigm that learns directly from uncurated data generated during routine clinical care. Using a scalable volumetric joint-embedding predictive architecture, it delivers state-of-the-art radiologic diagnosis and report generation with interpretable visual grounding, surpassing frontier models in accuracy, triage, and expert preference while reducing hallucinations.
+  venue_logo: "/assets/img/venues/nature_medicine_logo.png"
+  url: https://www.nature.com/articles/s41591-026-04497-1
+  pdf: https://www.nature.com/articles/s41591-026-04497-1
+  image: "/assets/img/paper_logo/neurovfm.png"
+  demo: https://neurovfm.mlins.org/
+  pills:
+  - title: Paper
+    link: https://www.nature.com/articles/s41591-026-04497-1
+  - title: arXiv
+    link: https://arxiv.org/abs/2511.18640
+  - title: Demo
+    link: https://neurovfm.mlins.org/
+  - title: Hugging Face
+    link: https://huggingface.co/collections/mlinslab/neurovfm
 - title: Learning neuroimaging models with health system-scale data
   authors: Yiwei Lyu, Samir Harake, Asadur Chowdury, Soumyanil Banerjee, Rachel Gologorsky, Shixuan Liu, Anna-Katharina Meissner, Akshay Rao, Chenhui Zhao, Akhil Kondepudi, Cheng Jiang, Xinhai Hou, Rushikesh S. Joshi, Volker Neuschmelting, Ashok Srinivasan, Dawn Kleindorfer, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE BIOMEDICAL ENGINEERING · 2026
@@ -23,6 +42,13 @@ main:
   code: https://github.com/MLNeurosurg/ItemizedCLIP
   image: "/assets/img/paper_logo/itemizedclip2026.png"
   url: https://arxiv.org/abs/2512.11141
+  pills:
+  - title: arXiv
+    link: https://arxiv.org/abs/2512.11141
+  - title: CVPR
+    link: https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Learning_complete_and_explainable_visual_representations_from_itemized_text_supervision_CVPR_2026_paper.html
+  - title: Code
+    link: https://github.com/MLNeurosurg/ItemizedCLIP
 - title: 'CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization'
   authors: Xinhai Hou, Shaoyuan Xu, Manan Biyani, Moyan Li, Jia Liu, Todd C. Hollon, and Bryan Wang
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
@@ -34,6 +60,13 @@ main:
   image: "/assets/img/paper_logo/codev2026.png"
   url: https://arxiv.org/abs/2511.19661
   notes: Oral Paper (Top 1%)
+  pills:
+  - title: arXiv
+    link: https://arxiv.org/abs/2511.19661
+  - title: CVPR
+    link: https://openaccess.thecvf.com/content/CVPR2026/html/Hou_CodeV_Code_with_Images_for_Faithful_Visual_Reasoning_via_Tool-Aware_CVPR_2026_paper.html
+  - title: Code
+    link: https://github.com/RenlyH/CodeV
 - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
   authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
   conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026
@@ -285,14 +318,16 @@ main:
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/nasir2024localization.pdf
 - title: A self-supervised framework for learning whole slide representations
   authors: Xinhai Hou <sup>*</sup>, Cheng Jiang<sup>*</sup>, Akhil Kondepudi, Yiwei Lyu, Asadur Zaman Chowdury, Honglak Lee, and Todd C. Hollon
-  conference: ARXIV · 2024
+  conference: NEURIPS AIM-FM WORKSHOP · 2024
   description: >
     This study introduces **Slide Pre-trained Transformers (SPT)**, a self-supervised framework for whole-slide representation learning that captures multiscale histologic structure to support downstream pathology tasks with limited manual annotation.
-  venue_logo: "/assets/img/venues/arxiv-logo.png"
-  url: https://arxiv.org/abs/2402.06188
+  venue_logo: "/assets/img/venues/neurips_logo.png"
+  url: https://neurips.cc/virtual/2024/103905
   pdf: https://arxiv.org/abs/2402.06188
   image: "/assets/img/paper_logo/hou2024self.webp"
   pills:
+  - title: NeurIPS
+    link: https://neurips.cc/virtual/2024/103905
   - title: arXiv
     link: https://arxiv.org/abs/2402.06188
 - title: An empirical study of CLIP fine-tuning with similarity clusters

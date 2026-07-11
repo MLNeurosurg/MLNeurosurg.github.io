@@ -1,11 +1,12 @@
 # Lab members shown on /students/
-# Optional fields per person: role, research_focus, image, website, email, bio
+# Optional fields per person: role, research_focus, image, website, website_label, email, bio
 
 main:
   - name: Todd Hollon, MD
     role: Principal Investigator
     image: /assets/img/people/toddhollon.png
     website: https://uofmhealth.org/profile/1295176014/todd-charles-hollon
+    website_label: Clinical Website
 
   - name: Lin Wang
     role: Laboratory Technician
@@ -26,12 +27,6 @@ main:
     research_focus: Representation learning for optical microscopy
     image: /assets/img/people/chengjia.webp
     website: https://chengjia.me/
-
-  - name: Renly Hou
-    role: PhD Candidate
-    research_focus: Agentic models for medical AI
-    image: /assets/img/people/xinhaih.webp
-    website: https://renlyh.github.io/
 
   - name: Yiwei Lyu
     role: PhD Candidate

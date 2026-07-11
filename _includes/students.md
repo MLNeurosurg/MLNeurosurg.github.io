@@ -26,7 +26,7 @@
     {% endif %}
     <div class="links">
       {% if member.website %}
-      <a href="{{ member.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Website</a>
+      <a href="{{ member.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">{% if member.website_label %}{{ member.website_label }}{% else %}Website{% endif %}</a>
       {% endif %}
       {% if member.email %}
       <a href="mailto:{{ member.email }}" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">Email</a>

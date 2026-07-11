@@ -28,6 +28,30 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications { margin-top: 2rem; }
 
+.pub-year-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pub-year-nav a {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pub-year-sep {
+  color: var(--global-text-color-light);
+  padding: 0 0.2rem;
+  user-select: none;
+}
+
+.pub-year-nav a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
 .publications h2 { margin-bottom: 1rem; }
@@ -43,6 +67,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   text-align: right;
   font-weight: 700;
   letter-spacing: 0.02em;
+  scroll-margin-top: 1rem;
 }
 
 .publications h2.year span {
@@ -141,5 +166,21 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 /* Wide CVPR wordmark: default max-width is larger than teaser column, so it reads oversized next to circular journal marks. */
 .publications ol.bibliography li .venue-logo[src*="cvpr"] { max-height: 48px; max-width: min(220px, calc(100% - 10px)); }
 
+
+/* Homepage selected pubs: circular Nature journal marks sized to match visually */
+.publications.selected-publications ol.bibliography li .venue-logo[src*="nature_medicine_logo"] {
+  max-height: 82px;
+  max-width: min(82px, calc(100% - 10px));
+}
+
+.publications.selected-publications ol.bibliography li .venue-logo[src*="nature.png"] {
+  max-height: 96px;
+  max-width: min(96px, calc(100% - 10px));
+}
+
+.publications.selected-publications ol.bibliography li .venue-logo[src*="nBME"] {
+  max-height: 88px;
+  max-width: min(88px, calc(100% - 10px));
+}
 
 .publications ol.bibliography li .col-sm-9 { min-width: 0; box-sizing: border-box; }

@@ -1,5 +1,25 @@
 # Related publications for /research/neuroimaging/ (same schema as publications.yml).
 main:
+  - title: Health system learning enables generalist neuroimaging models
+    authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
+    conference: NATURE MEDICINE · 2026
+    description: >
+      **NeuroVFM** is a visual foundation model trained on 5.24M clinical MRI and CT volumes via *health system learning*, a paradigm that learns directly from uncurated data generated during routine clinical care. Using a scalable volumetric joint-embedding predictive architecture, it delivers state-of-the-art radiologic diagnosis and report generation with interpretable visual grounding, surpassing frontier models in accuracy, triage, and expert preference while reducing hallucinations.
+    venue_logo: "/assets/img/venues/nature_medicine_logo.png"
+    url: https://www.nature.com/articles/s41591-026-04497-1
+    pdf: https://www.nature.com/articles/s41591-026-04497-1
+    image: "/assets/img/paper_logo/neurovfm.png"
+    demo: https://neurovfm.mlins.org/
+    pills:
+      - title: Paper
+        link: https://www.nature.com/articles/s41591-026-04497-1
+      - title: arXiv
+        link: https://arxiv.org/abs/2511.18640
+      - title: Demo
+        link: https://neurovfm.mlins.org/
+      - title: Hugging Face
+        link: https://huggingface.co/collections/mlinslab/neurovfm
+
   - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
     authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
     conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026
@@ -27,26 +47,13 @@ main:
     code: https://github.com/MLNeurosurg/ItemizedCLIP
     image: "/assets/img/paper_logo/itemizedclip2026.png"
     url: https://arxiv.org/abs/2512.11141
-
-  - title: Health system learning achieves generalist neuroimaging models
-    authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Rushikesh Joshi, Anna-Katharina Meissner, Renly Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
-    conference: arXiv · 2026
-    description: >
-      **NeuroVFM** is a visual foundation model trained on 5.24M clinical MRI and CT volumes via *health system learning*, a paradigm that leverages uncurated data from routine care. Using a scalable volumetric joint-embedding predictive architecture, it delivers state-of-the-art radiologic diagnosis and report generation with interpretable visual grounding, surpassing frontier models in accuracy, triage, and expert preference while reducing hallucinations.
-    venue_logo: "/assets/img/venues/arxiv-logo.png"
-    url: https://arxiv.org/abs/2511.18640
-    pdf: https://arxiv.org/pdf/2511.18640
-    image: "/assets/img/paper_logo/neurovfm.png"
-    demo: https://neurovfm.mlins.org/
     pills:
       - title: arXiv
-        link: https://arxiv.org/abs/2511.18640
-      - title: PDF
-        link: https://arxiv.org/pdf/2511.18640
-      - title: Demo
-        link: https://neurovfm.mlins.org/
-      - title: Hugging Face
-        link: https://huggingface.co/collections/mlinslab/neurovfm
+        link: https://arxiv.org/abs/2512.11141
+      - title: CVPR
+        link: https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Learning_complete_and_explainable_visual_representations_from_itemized_text_supervision_CVPR_2026_paper.html
+      - title: Code
+        link: https://github.com/MLNeurosurg/ItemizedCLIP
 
   - title: Learning neuroimaging models with health system-scale data
     authors: Yiwei Lyu, Samir Harake, Asadur Chowdury, Soumyanil Banerjee, Rachel Gologorsky, Shixuan Liu, Anna-Katharina Meissner, Akshay Rao, Chenhui Zhao, Akhil Kondepudi, Cheng Jiang, Xinhai Hou, Rushikesh S. Joshi, Volker Neuschmelting, Ashok Srinivasan, Dawn Kleindorfer, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon

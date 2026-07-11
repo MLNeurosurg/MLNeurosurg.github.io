@@ -14,13 +14,14 @@ The team, the team, the team.
 
 ## MLiNS News
 
-- **May 2026** - [FastGlioma](https://looktomichigan.umich.edu/stories/fastglioma/), published in [***Nature***](https://www.nature.com/articles/s41586-024-08169-3), is featured by UM Look to Michigan campaign.
+- **Jul 2026** - Akhil Kondepudi's [NeuroVFM](https://www.nature.com/articles/s41591-026-04497-1) is published in ***Nature Medicine***. Check out the [Demo](https://neurovfm.mlins.org/).
+- **May 2026** - [FastGlioma](https://www.nature.com/articles/s41586-024-08169-3), published in ***Nature***, is featured by UM [Look to Michigan](https://looktomichigan.umich.edu/stories/fastglioma/) campaign.
 - **Apr 2026** - Xinhai Hou's paper, ***CodeV***, is accepted at *CVPR* as *Oral Paper (Top 1%)*.
 - **Apr 2026** - Samir Harake wins UM Khan Neurosurgery Award for best medical student.
 - **Apr 2026** - Rush Joshi wins Best Clinical Absract at 2026 Neurosurgery Symposium.
 - **Feb 2026** - [***Prima***](https://www.nature.com/articles/s41551-025-01608-0) is published in *Nature Biomedical Engineering*.
 - **Feb 2026** - Yiwei Lyu's paper, ***ItemizedCLIP***, is accepted at *CVPR*.
-- **Dec 2025** - MLiNS lab's [featured in *The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
+- **Dec 2025** - MLiNS lab's featured in [*The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
 - **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professor of Neurosurgery***.
 - More news [here](/news/).
 

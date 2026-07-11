@@ -10,10 +10,21 @@
 {% endfor %}
 {% assign years = year_set | split: "," | sort | reverse %}
 
+<nav class="pub-year-nav" aria-label="Jump to publications by year">
+{% assign first_year_link = true %}
+{% for y in years %}
+{% unless y == "" %}
+  {% unless first_year_link %}<span class="pub-year-sep" aria-hidden="true">|</span>{% endunless %}
+  <a href="#pub-year-{{ y }}">{{ y }}</a>
+  {% assign first_year_link = false %}
+{% endunless %}
+{% endfor %}
+</nav>
+
 {% for y in years %}
 {% unless y == "" %}
 
-<h2 class="year"><span>{{ y }}</span></h2>
+<h2 class="year" id="pub-year-{{ y }}"><span>{{ y }}</span></h2>
 
 <ol class="bibliography">
 {% for link in site.data.publications.main %}

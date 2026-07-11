@@ -16,25 +16,6 @@ main:
         link: https://pubmed.ncbi.nlm.nih.gov/42180331/
       - title: PMC
         link: https://pmc.ncbi.nlm.nih.gov/articles/PMC13193155/
-  - title: Health system learning achieves generalist neuroimaging models
-    authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Rushikesh Joshi, Anna-Katharina Meissner, Renly Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
-    conference: arXiv 2026
-    description: >
-      **NeuroVFM** is a visual foundation model trained on 5.24M clinical MRI and CT volumes via *health system learning*, a paradigm that leverages uncurated data from routine care. Using a scalable volumetric joint-embedding predictive architecture, it delivers state-of-the-art radiologic diagnosis and report generation with interpretable visual grounding, surpassing frontier models in accuracy, triage, and expert preference while reducing hallucinations.
-    image: /assets/img/paper_logo/neurovfm.png
-    venue_logo: "/assets/img/venues/arxiv-logo.png"
-    url: https://arxiv.org/abs/2511.18640
-    pdf: https://arxiv.org/pdf/2511.18640
-    demo: https://neurovfm.mlins.org/
-    pills:
-      - title: arXiv
-        link: https://arxiv.org/abs/2511.18640
-      - title: PDF
-        link: https://arxiv.org/pdf/2511.18640
-      - title: Demo
-        link: https://neurovfm.mlins.org/
-      - title: Hugging Face
-        link: https://huggingface.co/collections/mlinslab/neurovfm
   - title: Optical Microscopy Predictions of Focal Recurrence in Glioblastoma
     authors: Herr S, Olshausen N, Pekmezci M, Kaur J, Sibih Y, Ambati V, Scotford K, Persad A, Picart T, Kondepudi A, Oberheim-Bush NA, Kim A, Young J, Berger MS, Sushil M, Hollon T, and Hervey-Jumper SL
     conference: medRxiv 2025

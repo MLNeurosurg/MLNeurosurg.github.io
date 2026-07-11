@@ -1,4 +1,4 @@
-<div class="publications">
+<div class="publications selected-publications">
 {% for section in site.data.selected_publications.sections %}
 <h3 class="selected-pubs-section">{{ section.heading }}</h3>
 <ol class="bibliography">

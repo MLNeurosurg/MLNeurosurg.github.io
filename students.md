@@ -19,6 +19,7 @@ Faculty and colleagues who work closely with the lab.
 
 ## Lab Alumni
 
+- **Renly Hou**: PhD (2026) >> Amazon
 - **Asadur Chowdury**: Machine Learning Engineer (2025) >> Capital One
 - **Anna-Katharina Meissner**: Neurosurgeon-scientist >> Cologne Neurosurgery
 - **Shixuan Liu**: Undergraduate Researcher (2024) >> PhD at UIUC
