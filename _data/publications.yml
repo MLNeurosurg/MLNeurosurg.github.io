@@ -1,6 +1,18 @@
 # Full publication list (recent first, then lab archive from mlneurosurg.github.io).
 # Homepage highlights: _data/selected_publications.yml + _includes/selected_publications.md
 main:
+- title: "Benchmarking the Brain's Blood Vessels - Why We Need Specialized Models in Medical AI"
+  authors: Todd Hollon
+  conference: NEJM AI · 2026
+  description: >
+    An editorial on why specialized models remain essential for medical AI, using neurovascular imaging as a case study for the limits of general-purpose systems and the need for domain-specific benchmarking.
+  venue_logo: "/assets/img/venues/nejm_ai.png"
+  url: https://ai.nejm.org/doi/full/10.1056/AIe2600897
+  pills:
+  - title: Editorial
+    link: https://ai.nejm.org/doi/full/10.1056/AIe2600897
+  - title: DOI
+    link: https://doi.org/10.1056/AIe2600897
 - title: Health system learning enables generalist neuroimaging models
   authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE MEDICINE · 2026

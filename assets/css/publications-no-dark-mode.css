@@ -139,6 +139,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 /* Wide CVPR wordmark: default max-width is larger than teaser column, so it reads oversized next to circular journal marks. */
 .publications ol.bibliography li .venue-logo[src*="cvpr"] { max-height: 48px; max-width: min(220px, calc(100% - 10px)); }
 
+/* Stacked NEJM AI wordmark */
+.publications ol.bibliography li .venue-logo[src*="nejm_ai"] { max-height: 56px; max-width: min(160px, calc(100% - 10px)); }
+
 
 /* Homepage selected pubs: circular Nature journal marks sized to match visually */
 .publications.selected-publications ol.bibliography li .venue-logo[src*="nature_medicine_logo"] {
