@@ -7,8 +7,8 @@ email: tocho (at) umich.edu
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: deep learning, biomedical imaging, medical AI, computer vision, healthcare, artificial intelligence, machine learning, medicine, neurosurgery, neuroscience
-description: AI will change medicine.
-canonical: https://minimal-light-theme.yliu.me/
+description: Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan, led by Todd Hollon, MD. Medical AI research spanning foundation models, intraoperative imaging, computational pathology, and neuroimaging.
+canonical: https://mlins.org/
 
 lab_logo_sidebar: /assets/img/lab_logo/logo_mlins_final_blue.png
 lab_logo_link: /
@@ -45,8 +45,10 @@ auto_dark_mode: false
 font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+# Universal Analytics (UA-*) was shut down by Google in July 2023 and no longer
+# collects data. Replace the placeholder below with a GA4 measurement ID
+# (format: G-XXXXXXXXXX) to re-enable analytics, or leave commented to disable.
+# google_analytics: G-XXXXXXXXXX
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

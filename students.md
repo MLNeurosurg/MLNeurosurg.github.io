@@ -19,6 +19,8 @@ Faculty and colleagues who work closely with the lab.
 
 ## Lab Alumni
 
+- **Soumyanil Banerjee, PhD**: Postdoctoral Fellow (2026) >> Research Scientist at Corewell Health
+- **Jacob Ogle**: Machine Learning Engineer (2026) >> Data Scientist at Ford Motor Company
 - **Renly Hou**: PhD (2026) >> Amazon
 - **Asadur Chowdury**: Machine Learning Engineer (2025) >> Capital One
 - **Anna-Katharina Meissner**: Neurosurgeon-scientist >> Cologne Neurosurgery

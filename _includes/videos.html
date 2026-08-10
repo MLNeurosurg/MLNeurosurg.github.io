@@ -1,0 +1,22 @@
+{%- comment -%}
+Renders the video list from _data/videos.yml.
+Pass `featured=true` to show only homepage-featured videos:
+  {% include videos.html featured=true %}
+Omit it to show every video (used on /videos/).
+{%- endcomment -%}
+{%- assign vids = site.data.videos.videos -%}
+{%- if include.featured -%}{%- assign vids = vids | where_exp: "item", "item.featured" -%}{%- endif -%}
+{%- for v in vids -%}
+{%- if v.platform == "vimeo" -%}
+{%- assign url = v.url -%}
+{%- assign thumb = v.thumbnail -%}
+{%- assign platform_label = "Vimeo" -%}
+{%- else -%}
+{%- capture url -%}https://www.youtube.com/watch?v={{ v.id }}{%- if v.start %}&t={{ v.start }}s{%- endif -%}{%- endcapture -%}
+{%- capture thumb -%}https://img.youtube.com/vi/{{ v.id }}/hqdefault.jpg{%- endcapture -%}
+{%- assign platform_label = "YouTube" -%}
+{%- endif %}
+<a href="{{ url }}"><img src="{{ thumb }}" alt="{{ v.title }} - watch on {{ platform_label }}" width="240" height="180"></a>
+
+[{{ v.title }} ({{ platform_label }}){% if v.start_label %} (starts at {{ v.start_label }}){% endif %}]({{ url }})
+{% endfor -%}

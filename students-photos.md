@@ -76,4 +76,7 @@ Presenting in Mackinaw Island at the Michigan Association of Neurological Surgeo
 ![Lab members at a wedding celebration](/assets/img/lab/mlins_wedding_celebration.png)
 Asadur's wedding. He invited the whole lab!
 
+![MLiNS lab members at a group dinner](/assets/img/lab/mlins_fun_lab_dinner_group.jpg)
+Dinner out with the team.
+
 [← Back to lab members](/students/)

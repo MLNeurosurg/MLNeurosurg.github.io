@@ -6,7 +6,7 @@ layout: homepage
 
 I am an associate tenured professor and the Novello & Quinones-Hinojosa Research Professor at the University of Michigan. I am the principal investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
-We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] med.umich.edu if interested.
+We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] umich.edu if interested.
 
 ## [Photos and Bios of MLiNS Team](/students/)
 
@@ -44,29 +44,7 @@ The team, the team, the team.
 
 ## MLiNS Videos and Podcasts
 
-<a href="https://www.youtube.com/watch?v=wP2Y9SDNBlI"><img src="https://img.youtube.com/vi/wP2Y9SDNBlI/hqdefault.jpg" alt="Improving the Results of Brain Surgery > Look to Michigan - watch on YouTube" width="240" height="180"></a>
-
-[Improving the Results of Brain Surgery > Look to Michigan (YouTube)](https://www.youtube.com/watch?v=wP2Y9SDNBlI)
-
-<a href="https://www.youtube.com/watch?v=Q12IuCaKAr8"><img src="https://img.youtube.com/vi/Q12IuCaKAr8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
-
-[AI Journeys Session (YouTube)](https://www.youtube.com/watch?v=Q12IuCaKAr8)
-
-<a href="https://www.youtube.com/watch?v=l_y0rTK4Jdc"><img src="https://img.youtube.com/vi/l_y0rTK4Jdc/hqdefault.jpg" alt="Michigan MICDE interview - watch on YouTube" width="240" height="180"></a>
-
-[UM MICDE interview](https://www.youtube.com/watch?v=l_y0rTK4Jdc&t)
-
-<a href="https://www.youtube.com/watch?v=o-OJhH49F7o"><img src="https://img.youtube.com/vi/o-OJhH49F7o/hqdefault.jpg" alt="MICDE discussion - watch on YouTube" width="240" height="180"></a>
-
-[UM MICDE discussion](https://www.youtube.com/watch?v=o-OJhH49F7o)
-
-<a href="https://www.youtube.com/watch?v=8BbshIbl7K8"><img src="https://img.youtube.com/vi/8BbshIbl7K8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
-
-[CCMB Seminar 02/12/2025](https://www.youtube.com/watch?v=8BbshIbl7K8)
-
-<a href="https://www.youtube.com/watch?v=zNX1knTo2F4&t=80s"><img src="https://img.youtube.com/vi/zNX1knTo2F4/hqdefault.jpg" alt="I AM AI | GTC 2021 | Official Intro - watch on YouTube" width="240" height="180"></a>
-
-[I AM AI, NVIDIA GTC 2021, Official Intro (YouTube) (starts at 1:20)](https://www.youtube.com/watch?v=zNX1knTo2F4&t=80s)
+{% include videos.html featured=true %}
 
 More videos and podcasts [here](/videos/).
 
@@ -82,4 +60,4 @@ More videos and podcasts [here](/videos/).
 - [Scoliosis Research Society](https://www.srs.org/)
 - [Cook Family Foundation](https://www.cookfamilyfoundation.org/)
 
-Please email me directly at tocho [at] med.umich.edu if you would like to support our effort. **We are grateful for any contribution, big or small.**
+Please email me directly at tocho [at] umich.edu if you would like to support our effort. **We are grateful for any contribution, big or small.**

@@ -16,12 +16,6 @@ main:
     role: Lab Manager
     image: /assets/img/people/eddyka.webp
 
-  - name: Soumyanil Banerjee, PhD
-    role: Postdoctoral fellow
-    research_focus: generative neuroimaging
-    image: /assets/img/people/soumbane.webp
-    website: https://soumbane.github.io/
-
   - name: Cheng Jiang
     role: PhD Candidate
     research_focus: Representation learning for optical microscopy
@@ -53,7 +47,7 @@ main:
     website: https://zch0414.github.io/
 
   - name: Samir Harake
-    role: Medical Student
+    role: Neurosurgery Resident
     image: /assets/img/people/eharakej.webp
 
   - name: Rushikesh Joshi, MD

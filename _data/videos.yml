@@ -1,0 +1,71 @@
+# Single source of truth for the video lists.
+# Rendered by _includes/videos.html on the homepage (featured only) and /videos/ (all).
+#
+# YouTube entries: set `id` (the 11-char video ID). Thumbnail + URL are derived.
+# Other platforms (e.g. Vimeo): set `platform`, `url`, and `thumbnail` explicitly.
+# Optional: `start` (seconds) appends a start time to the URL; `start_label` (e.g. "3:20")
+#           shows a "(starts at …)" note. `featured: true` also shows it on the homepage.
+videos:
+  - title: "Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery"
+    platform: vimeo
+    url: https://vimeo.com/1074054655
+    thumbnail: https://i.vimeocdn.com/video/2003379854-27d673070f0a43d2091d5a940b34f744231e91cab5055d9c3c3a1e28962e1fb3-d_295x166
+
+  - title: "EANS Webinar: AI in neurosurgery"
+    id: w__VRKPORRs
+    start: 200
+    start_label: "3:20"
+    featured: true
+
+  - title: "Improving the Results of Brain Surgery > Look to Michigan"
+    id: wP2Y9SDNBlI
+    featured: true
+
+  - title: "AI Journeys Session"
+    id: Q12IuCaKAr8
+    featured: true
+
+  - title: "Michigan MICDE interview"
+    id: l_y0rTK4Jdc
+    featured: true
+
+  - title: "Michigan MICDE discussion"
+    id: o-OJhH49F7o
+    featured: true
+
+  - title: "CCMB Seminar 02/12/2025"
+    id: 8BbshIbl7K8
+    featured: true
+
+  - title: "Michigan AI Symposium 2025 Awards"
+    id: 4H0lqr1JIZo
+
+  - title: "CCMB Seminar 2022"
+    id: 8KopOQARsi8
+
+  - title: "DeepGlioma: AI-based Molecular Classification of Diffuse Gliomas using Label-Free Optical Imaging"
+    id: pcr8yHl8D9Q
+
+  - title: "AI-based Molecular Classification of Diffuse Gliomas"
+    id: ZKXqkYBNIVQ
+
+  - title: "Artificial Intelligence in the Operative Suite"
+    id: MGtKqfp-9aw
+
+  - title: "Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy"
+    id: PkXki83vQqg
+
+  - title: "OpenSRH: optimizing brain tumor surgery using intraoperative stimulated Raman histology"
+    id: H36ERdgU-nI
+
+  - title: "I AM AI, NVIDIA GTC 2021, Official Intro"
+    id: zNX1knTo2F4
+    start: 80
+    start_label: "1:20"
+    featured: true
+
+  - title: "Stimulated Raman Histology Workflow, Daniel Orringer and Chris Freudiger"
+    id: qgBZp5CiAnI
+
+  - title: "Artificial Intelligence Improves Brain Tumor Diagnosis, Daniel Orringer"
+    id: UZZ08_fC7UU
