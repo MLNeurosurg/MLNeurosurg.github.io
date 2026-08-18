@@ -28,8 +28,8 @@ The team, the team, the team.
 
 ## MLiNS Research Themes
 
-- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, computational pathology, brain tumor imaging
 - **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain, spine, and peripheral nerve imaging
+- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, computational pathology, brain tumor imaging
 - **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, visual representation learning, vision-language modeling
 - **[Patient Forecasting](/research/patient-forecasting/)** - outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research

@@ -46,6 +46,11 @@ main:
     image: /assets/img/people/chuizhao.webp
     website: https://zch0414.github.io/
 
+  - name: Annie Huang
+    role: PhD Student
+    image: /assets/img/people/anniehua.webp
+    website: https://ruiruihuangannie.github.io/
+
   - name: Samir Harake
     role: Neurosurgery Resident
     image: /assets/img/people/eharakej.webp
