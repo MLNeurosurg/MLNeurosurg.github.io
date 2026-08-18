@@ -7,6 +7,9 @@ permalink: /students/photos/
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Renly Hou presenting CodeV as an oral talk at CVPR 2026 in Denver, Colorado](/assets/img/lab/mlins_cvpr_oral_codev_renly.jpg)
+Renly giving his oral presentation on CodeV at CVPR 2026, selected in the top 1% of submissions.
+
 ![Panel discussion with Mitchel Berger, MD and Daniel Orringer, MD](/assets/img/lab/mlins_panel_discussion_berger_orringer.png)
 With Douglas Kondziolka (Editor-in-Chief of Neurosurgery), discussing the role of AI in scientific publications at the Society of Neurological Surgeons 2026
 
