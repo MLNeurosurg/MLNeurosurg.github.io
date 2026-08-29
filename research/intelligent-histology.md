@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /research/intelligent-histology/
+title: Intelligent Histology
+description: >-
+  Stimulated Raman histology (SRH) combined with deep learning for rapid intraoperative brain tumor diagnosis, computational pathology, and tumor margin delineation.
+
 ---
 
 ## Intelligent Histology

@@ -8,7 +8,14 @@ email: tocho (at) umich.edu
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: deep learning, biomedical imaging, medical AI, computer vision, healthcare, artificial intelligence, machine learning, medicine, neurosurgery, neuroscience
 description: Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan, led by Todd Hollon, MD. Medical AI research spanning foundation models, intraoperative imaging, computational pathology, and neuroimaging.
-canonical: https://mlins.org/
+
+# Site URL, used to build absolute canonical/Open Graph/sitemap links.
+# Per-page canonicals are derived from this in _layouts/homepage.html.
+url: https://mlins.org
+baseurl: ""
+
+# Default image for link previews (Open Graph / Twitter cards).
+og_image: /assets/img/lab_logo/logo_mlins_final_blue.png
 
 lab_logo_sidebar: /assets/img/lab_logo/logo_mlins_final_blue.png
 lab_logo_link: /
@@ -53,6 +60,9 @@ font: "Serif" # or "Sans Serif"
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
+
+plugins:
+  - jekyll-sitemap
 
 # The following files will be removed from the generated website.
 exclude:

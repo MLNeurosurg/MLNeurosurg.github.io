@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /research/computer-vision/
+title: Visual Intelligence
+description: >-
+  Visual representation learning, visual reasoning, and vision-language modeling research, including HiDisc, CLIPred, SimCLIP, and CodeV.
+
 ---
 
 ## Visual Intelligence

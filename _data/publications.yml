@@ -13,6 +13,22 @@ main:
     link: https://ai.nejm.org/doi/full/10.1056/AIe2600897
   - title: DOI
     link: https://doi.org/10.1056/AIe2600897
+- title: Learning from routine health system data builds better neuroimaging AI models
+  authors: Akhil Kondepudi and Todd Hollon
+  conference: NATURE MEDICINE · 2026
+  description: >
+    A *Nature Medicine* Research Briefing on **NeuroVFM**. Trained with *Vol-JEPA* on 5.24M CT and MRI series from 566,915 routine clinical studies - without diagnostic labels or paired reports - the model reached state-of-the-art accuracy across 82 CT and 74 MRI diagnostic tasks, and in a silent prospective study of 1,155 consecutive studies achieved 92.6% balanced triage accuracy against 71.2% for GPT-5.
+  venue_logo: "/assets/img/venues/nature_medicine_logo.png"
+  url: https://www.nature.com/articles/s41591-026-04567-4
+  pdf: "/assets/papers/neurovfm_research_briefing_2026.pdf"
+  image: "/assets/img/paper_logo/neurovfm_briefing2026.png"
+  pills:
+  - title: Research Briefing
+    link: https://www.nature.com/articles/s41591-026-04567-4
+  - title: PDF
+    link: "/assets/papers/neurovfm_research_briefing_2026.pdf"
+  - title: DOI
+    link: https://doi.org/10.1038/s41591-026-04567-4
 - title: Health system learning enables generalist neuroimaging models
   authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE MEDICINE · 2026
@@ -154,6 +170,18 @@ main:
     link: https://doi.org/10.1007/s00432-026-06458-0
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41886097/
+- title: 'Predicting postoperative hospice enrollment following stereotactic brain biopsy: a retrospective study and risk score development'
+  authors: Tripathy A, Harake ES, Ahmad A, Sharba N, Li A, Saleh S, Sagher O, Heth JA, Altshuler D, Todd C. Hollon, Thompson BG, Pandey AS, Umemura Y, and Wajd N. Al-Holou
+  conference: JOURNAL OF NEUROSURGERY · 2026
+  description: >
+    A retrospective study of 616 stereotactic brain biopsies develops and validates **pre- and postoperative risk scores** for early hospice enrollment, identifying patients least likely to benefit from the procedure. Age, basal ganglia target, mental status deficits, KPS score, prolonged ICU stay, and grade 4 glioma were independent predictors.
+  venue_logo: "/assets/img/venues/jns_logo.png"
+  url: https://thejns.org/view/journals/j-neurosurg/aop/article-10.3171-2026.2.JNS251994/article-10.3171-2026.2.JNS251994.xml
+  pills:
+  - title: DOI
+    link: https://doi.org/10.3171/2026.2.JNS251994
+  - title: PubMed
+    link: https://pubmed.ncbi.nlm.nih.gov/42537242/
 - title: 'AI-driven label-free Raman spectromics for intraoperative spinal tumor assessment'
   authors: Reinecke D, Müller N, Meissner AK, Fürtjes G, Leyer L, Wang C, Ion-Margineanu A, Maarouf N, Smith A, Todd C. Hollon, Cheng Jiang, Xinhai Hou, Al-Shughri A, Körner LI, Widhalm G, Roetzer-Pejrimovsky T, Snuderl M, Camelo-Piragua S, Golfinos JG, Goldbrunner R, Orringer DA, von Spreckelsen N, and Neuschmelting V
   conference: NPJ DIGITAL MEDICINE · 2026

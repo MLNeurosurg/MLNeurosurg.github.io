@@ -14,6 +14,7 @@ The team, the team, the team.
 
 ## MLiNS News
 
+- **Aug 2026** - Akhil Kondepudi's Research Briefing, *[Learning from routine health system data builds better neuroimaging AI models](https://www.nature.com/articles/s41591-026-04567-4)*, is published in ***Nature Medicine***.
 - **Jul 2026** - Todd Hollon's editorial, *[Benchmarking the Brain's Blood Vessels](https://ai.nejm.org/doi/full/10.1056/AIe2600897)*, is published in ***NEJM AI***.
 - **Jul 2026** - Akhil Kondepudi's [NeuroVFM](https://www.nature.com/articles/s41591-026-04497-1) is published in ***Nature Medicine***. Check out the [Demo](https://neurovfm.mlins.org/).
 - **May 2026** - [FastGlioma](https://www.nature.com/articles/s41586-024-08169-3), published in ***Nature***, is featured by UM [Look to Michigan](https://looktomichigan.umich.edu/stories/fastglioma/) campaign.
@@ -28,10 +29,10 @@ The team, the team, the team.
 
 ## MLiNS Research Themes
 
-- **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain, spine, and peripheral nerve imaging
-- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, computational pathology, brain tumor imaging
-- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, visual representation learning, vision-language modeling
-- **[Patient Forecasting](/research/patient-forecasting/)** - outcome and survival prediction
+- **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging
+- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging
+- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, self-supevised learning, vision-language modeling
+- **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
 ## Selected Publications and [Complete List](/publications/)  {#selected-publications}

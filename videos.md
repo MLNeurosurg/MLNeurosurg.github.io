@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /videos/
+title: Videos and Podcasts
+description: >-
+  Talks, interviews, seminar recordings, and podcasts from the Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan.
+
 ---
 
 ## MLiNS Videos

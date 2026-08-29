@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /research/collaborative-neuro-oncology/
+title: Collaborative Neuro-Oncology
+description: >-
+  Team science in brain tumor research: shared biobanks, multi-disciplinary trials, and privacy-preserving collaboration such as federated learning.
+
 ---
 
 ## Collaborative Neuro-Oncology

@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /news/
+title: News
+description: >-
+  Media coverage, awards, and announcements from the Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan.
+
 ---
 
 ## MLiNS News

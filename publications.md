@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /publications/
+title: Publications
+description: >-
+  Complete publication list from the Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan, spanning medical foundation models, computer vision, intraoperative imaging, and neuroimaging.
+
 ---
 
 ## Publications {#publications}

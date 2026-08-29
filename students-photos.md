@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /students/photos/
+title: Lab Photos
+description: >-
+  Outings, meals, symposiums, and other moments with the Machine Learning in Neurosurgery (MLiNS) Lab team.
+
 ---
 
 ## Fun lab photos

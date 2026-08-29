@@ -1,11 +1,17 @@
 ---
 layout: homepage
 permalink: /students/
+title: Lab Members
+description: >-
+  Students, postdocs, residents, and collaborators of the Machine Learning in Neurosurgery (MLiNS) Lab at the University of Michigan.
+
 ---
 
 ## Lab members
 
 The best part of my day is working with these people.
+
+[The Team Speech](https://www.youtube.com/watch?v=UrvwWfIeHu0){:target="_blank" rel="noopener"}
 
 ### [Fun lab photos](/students/photos/) - Outings, meals, and celebrations.
 

@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /research/patient-forecasting/
+title: Patient Forecasting
+description: >-
+  Interpretable machine learning for predicting surgical recovery, long-term outcomes, and survival from electronic medical record data.
+
 ---
 
 ## Patient forecasting

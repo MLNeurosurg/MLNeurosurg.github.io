@@ -12,7 +12,7 @@
     {% if item.image %}
     {% assign _img = item.image | replace: './', '/' %}
     <div class="teaser-with-badge">
-      <img src="{{ _img | relative_url }}" class="teaser img-fluid z-depth-1" alt="" style="width=100;height=40%">
+      <img src="{{ _img | relative_url }}" class="teaser img-fluid z-depth-1" alt="{{ item.title | escape }}" style="width=100;height=40%">
       {% assign _vp = item.venue | split: '|' %}
       {% assign _badge = _vp.last | strip %}
       {% if _badge != '' %}

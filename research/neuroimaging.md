@@ -1,6 +1,10 @@
 ---
 layout: homepage
 permalink: /research/neuroimaging/
+title: AI-based Neuroimaging
+description: >-
+  Clinically grounded AI for neuroimaging learned from routine health system data at scale, including NeuroVFM, Prima, HLIP, and ItemizedCLIP.
+
 ---
 
 ## Intelligent Neuroimaging

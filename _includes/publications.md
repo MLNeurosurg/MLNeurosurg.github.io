@@ -42,7 +42,7 @@
     <div class="teaser-with-badge">
       {% if link.image %}
       {% assign _teaser = link.image | replace: './', '/' %}
-      <img src="{{ _teaser | relative_url }}" class="teaser img-fluid z-depth-1" alt="" style="width=100;height=40%">
+      <img src="{{ _teaser | relative_url }}" class="teaser img-fluid z-depth-1" alt="Figure from: {{ link.title | escape }}" style="width=100;height=40%">
       {% endif %}
       {% if link.conference_short %}
       <abbr class="badge">{{ link.conference_short }}</abbr>

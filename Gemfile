@@ -17,3 +17,7 @@ gem "rexml"
 gem "logger"
 
 gem "webrick", "~> 1.8"
+
+# Generates sitemap.xml. Allowlisted by GitHub Pages, which supplies it server-side;
+# declared here so local builds match production.
+gem "jekyll-sitemap", "~> 1.4"

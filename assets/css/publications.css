@@ -187,3 +187,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 }
 
 .publications ol.bibliography li .col-sm-9 { min-width: 0; box-sizing: border-box; }
+
+/* Homepage research themes: theme names read slightly larger than their descriptions */
+#mlins-research-themes + ul > li > strong {
+  font-size: 1.15em;
+}
