@@ -64,6 +64,12 @@ remote_theme: yaoyao-liu/minimal-light
 plugins:
   - jekyll-sitemap
 
+# GitHub Pages enables jekyll-titles-from-headings by default, which would
+# derive index.md's title from its first heading ("Bio"). Titles are set
+# explicitly in each page's front matter instead.
+titles_from_headings:
+  enabled: false
+
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
