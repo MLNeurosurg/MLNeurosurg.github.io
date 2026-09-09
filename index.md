@@ -14,6 +14,7 @@ The team, the team, the team.
 
 ## MLiNS News
 
+- **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.
 - **Aug 2026** - Akhil Kondepudi's Research Briefing, *[Learning from routine health system data builds better neuroimaging AI models](https://www.nature.com/articles/s41591-026-04567-4)*, is published in ***Nature Medicine***.
 - **Jul 2026** - Todd Hollon's editorial, *[Benchmarking the Brain's Blood Vessels](https://ai.nejm.org/doi/full/10.1056/AIe2600897)*, is published in ***NEJM AI***.
 - **Jul 2026** - Akhil Kondepudi's [NeuroVFM](https://www.nature.com/articles/s41591-026-04497-1) is published in ***Nature Medicine***. Check out the [Demo](https://neurovfm.mlins.org/).
