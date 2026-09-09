@@ -41,7 +41,7 @@ main:
     # bio: "Akshay Rao is 2nd year MD/PhD student at the University of Michigan. His research interests are broadly in the development of signal processing and machine learning methods to address problems in healthcare and biomedical research. He completed his undergraduate studies in Computer Engineering at the University of Michigan, where he worked under Dr. Parag Patil to develop signal processing algorithms to assist surgeons during deep brain stimulation procedures."
 
   - name: Chenhui Zhao
-    role: PhD candidate
+    role: PhD Candidate
     research_focus: Hierarchical learning, scalable pretraining
     image: /assets/img/people/chuizhao.webp
     website: https://zch0414.github.io/
@@ -50,6 +50,11 @@ main:
     role: PhD Student
     image: /assets/img/people/anniehua.webp
     website: https://ruiruihuangannie.github.io/
+
+  - name: Prateek Pinchi
+    role: MD/PhD Student
+    research_focus: World models, mechanistic interpretability
+    image: /assets/img/people/prateekp.webp
 
   - name: Samir Harake
     role: Neurosurgery Resident
