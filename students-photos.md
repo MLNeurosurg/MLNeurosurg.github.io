@@ -11,6 +11,9 @@ description: >-
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Cheng Jiang presenting DistillGaze at ECCV 2026](/assets/img/lab/mlins_eccv_poster_distillgaze_cheng.jpg)
+Cheng presenting at ECCV.
+
 ![Renly Hou presenting CodeV as an oral talk at CVPR 2026 in Denver, Colorado](/assets/img/lab/mlins_cvpr_oral_codev_renly.jpg)
 Renly giving his oral presentation on CodeV at CVPR 2026, selected in the top 1% of submissions.
 
