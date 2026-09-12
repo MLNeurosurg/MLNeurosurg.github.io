@@ -192,3 +192,90 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 #mlins-research-themes + ul > li > strong {
   font-size: 1.15em;
 }
+
+/* Publications search + year filter. The toolbar is hidden until
+   publications-search.js enables it, so a no-JS visitor still gets the list. */
+.pub-search { margin: 0 0 1.25rem 0; }
+
+.pub-search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.pub-search-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1 1 20rem;
+  min-width: 0;
+  margin: 0;
+}
+
+.pub-search-field-year { flex: 0 0 auto; }
+
+.pub-search-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.pub-search input[type="search"],
+.pub-search select {
+  font: inherit;
+  font-size: 0.95rem;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid var(--global-text-color-light);
+  border-radius: 0.25rem;
+  padding: 0.45rem 0.6rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pub-search select { min-width: 7rem; }
+
+.pub-search input[type="search"]:focus,
+.pub-search select:focus {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 1px;
+  border-color: var(--global-theme-color);
+}
+
+.pub-search-clear {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--global-theme-color);
+  background: none;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  padding: 0.45rem 0.85rem;
+  cursor: pointer;
+}
+
+.pub-search-clear:hover {
+  color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+
+.pub-search-status {
+  margin: 0.6rem 0 0 0;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+.pub-search-empty {
+  margin: 1.5rem 0;
+  color: var(--global-text-color-light);
+}
+
+/* li carries a min-height, so [hidden] needs to win outright. */
+.publications [hidden] { display: none !important; }
+
+@media (prefers-color-scheme: dark) {
+  .pub-search input[type="search"],
+  .pub-search select { border-color: #5a5a5a; }
+}

@@ -10,6 +10,24 @@
 {% endfor %}
 {% assign years = year_set | split: "," | sort | reverse %}
 
+{% comment %} Search + year filter. Hidden until JS enables it, so the full
+list stays readable when scripting is unavailable. {% endcomment %}
+<div class="pub-search" role="search" hidden>
+<div class="pub-search-fields">
+<label class="pub-search-field" for="pub-search-input"><span class="pub-search-label">Search</span>
+<input type="search" id="pub-search-input" autocomplete="off" placeholder="Title, author, venue, or keyword">
+</label>
+<label class="pub-search-field pub-search-field-year" for="pub-year-filter"><span class="pub-search-label">Year</span>
+<select id="pub-year-filter">
+<option value="">All</option>
+{% for y in years %}{% unless y == "" %}<option value="{{ y }}">{{ y }}</option>{% endunless %}{% endfor %}
+</select>
+</label>
+<button type="button" class="pub-search-clear" id="pub-search-clear" hidden>Clear</button>
+</div>
+<p class="pub-search-status" id="pub-search-status" aria-live="polite" role="status"></p>
+</div>
+
 <nav class="pub-year-nav" aria-label="Jump to publications by year">
 {% assign first_year_link = true %}
 {% for y in years %}
@@ -24,14 +42,27 @@
 {% for y in years %}
 {% unless y == "" %}
 
-<h2 class="year" id="pub-year-{{ y }}"><span>{{ y }}</span></h2>
+<h2 class="year" id="pub-year-{{ y }}" data-year-heading="{{ y }}"><span>{{ y }}</span></h2>
 
-<ol class="bibliography">
+<ol class="bibliography" data-year-list="{{ y }}">
 {% for link in site.data.publications.main %}
 {% assign _link_year = link.conference | split: ' ' | last | strip %}
 {% if _link_year == y %}
 
-<li>
+{% comment %} Venue aliases: several venues are stored spelled out, so a search for
+the acronym everyone actually types (CVPR, JNS, TMLR) would otherwise miss them.
+Additive only - an unlisted venue just gets no alias. {% endcomment %}
+{% assign _venue = link.conference | upcase %}
+{% assign _alias = "" %}
+{% if _venue contains "COMPUTER VISION AND PATTERN RECOGNITION" %}{% assign _alias = _alias | append: " cvpr" %}{% endif %}
+{% if _venue contains "TRANSACTIONS ON MACHINE LEARNING RESEARCH" %}{% assign _alias = _alias | append: " tmlr" %}{% endif %}
+{% if _venue contains "JOURNAL OF NEUROSURGERY" %}{% assign _alias = _alias | append: " jns" %}{% endif %}
+{% if _venue contains "NATURE BIOMEDICAL ENGINEERING" %}{% assign _alias = _alias | append: " nbme" %}{% endif %}
+{% if _venue contains "NEURIPS" %}{% assign _alias = _alias | append: " neural information processing systems" %}{% endif %}
+{% if _venue contains "MLHC" %}{% assign _alias = _alias | append: " machine learning for healthcare" %}{% endif %}
+{% if _venue contains "NEJM" %}{% assign _alias = _alias | append: " new england journal of medicine" %}{% endif %}
+{% capture _haystack %}{{ link.title }} {{ link.authors }} {{ link.conference }} {{ link.conference_short }} {{ link.search_terms }}{{ _alias }} {{ link.description | strip_html | replace: '*', '' | replace: '_', ' ' }}{% endcapture %}
+<li data-year="{{ y }}" data-search="{{ _haystack | normalize_whitespace | downcase | escape }}">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.venue_logo %}
@@ -101,3 +132,5 @@
 {% endfor %}
 
 </div>
+
+<script src="{{ '/assets/js/publications-search.js' | relative_url }}" defer></script>
