@@ -20,6 +20,13 @@ The team, the team, the team.
 - **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
+## [MLiNS Demos](https://apps.mlins.org/){:target="_blank" rel="noopener"}
+
+<div class="demos-intro">
+<a href="https://apps.mlins.org/" target="_blank" rel="noopener"><img src="/assets/img/lab_logo/mlins_mark_umblue.png" alt="MLiNS Demos" width="64" height="64"></a>
+<p>Try our models in your browser - interactive demos for <strong>Prima</strong>, <strong>FastGlioma</strong>, and <strong>DeepGlioma</strong>.</p>
+</div>
+
 ## MLiNS News
 
 - **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.

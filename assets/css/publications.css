@@ -279,3 +279,34 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   .pub-search input[type="search"],
   .pub-search select { border-color: #5a5a5a; }
 }
+
+/* Homepage demos section: logo sits beside the blurb, vertically centred */
+.demos-intro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* The inner <p> has its margin zeroed for alignment, so the block needs its
+     own bottom spacing to keep the rhythm of the surrounding sections. */
+  margin-bottom: 20px;
+}
+
+/* The link is the flex item, so it carries the sizing; without this it
+   shrinks on narrow screens and the theme's img{max-width:100%} follows it down. */
+.demos-intro > a {
+  flex: 0 0 64px;
+  line-height: 0;
+}
+
+.demos-intro img {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+.demos-intro p { margin: 0; }
+
+/* The mark is UM blue; brightness(0) flattens it to black first so the invert
+   lands on white rather than the peach an inverted navy would give. */
+@media (prefers-color-scheme: dark) {
+  .demos-intro img { filter: brightness(0) invert(1); }
+}
