@@ -11,6 +11,9 @@ description: >-
 
 Outings, meals, symposiums, and other moments with the team.
 
+![University of Michigan Neurosurgery alumni](/assets/img/lab/mlins_um_neurosurgery_alums.jpg)
+UM Neurosurgery Alums
+
 ![Cheng Jiang presenting DistillGaze at ECCV 2026](/assets/img/lab/mlins_eccv_poster_distillgaze_cheng.jpg)
 Cheng presenting at ECCV.
 
