@@ -30,9 +30,9 @@ To add a publication, student, or news item - edit the relevant YAML file. The L
 
 ### Pages
 
-- `index.md` - Homepage (bio, news, research themes, selected publications, videos, funding)
+- `index.md` - Homepage (bio, news, research programs, selected publications, videos, funding)
 - `publications.md`, `news.md`, `students.md`, `students-photos.md`, `videos.md` - Standalone pages
-- `research/*.md` - Five research theme pages, each pulling from a topic-specific `_data/*.yml`
+- `research/*.md` - Five research program pages, each pulling from a topic-specific `_data/*.yml`
 
 ### Templates
 

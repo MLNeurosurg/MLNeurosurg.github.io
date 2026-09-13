@@ -6,11 +6,19 @@ layout: homepage
 
 I am an associate tenured professor and the Novello & Quinones-Hinojosa Research Professor at the University of Michigan. I am the principal investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
-We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] umich.edu if interested.
+We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research programs below. Please email me directly at tocho [at] umich.edu if interested.
 
 ## [Photos and Bios of MLiNS Team](/students/)
 
 The team, the team, the team.
+
+## MLiNS Research Programs
+
+- **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging
+- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging
+- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, self-supevised learning, vision-language modeling
+- **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
+- **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
 ## MLiNS News
 
@@ -27,14 +35,6 @@ The team, the team, the team.
 - **Dec 2025** - MLiNS lab's featured in [*The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
 - **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professor of Neurosurgery***.
 - More news [here](/news/).
-
-## MLiNS Research Themes
-
-- **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging
-- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging
-- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, self-supevised learning, vision-language modeling
-- **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
-- **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
 ## Selected Publications and [Complete List](/publications/)  {#selected-publications}
 
