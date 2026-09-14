@@ -1,0 +1,1459 @@
+# Complete BibTeX references for every entry in publications.yml.
+#
+# Keyed by cite key; publications.yml carries a matching bib_key. Regenerate
+# with scripts/build-bibliography.mjs, which resolves each DOI through
+# doi.org content negotiation (Crossref/DataCite).
+#
+# Provenance is recorded per entry. Papers with no DOI on record (OpenReview
+# and MLHC proceedings) are built from publications.yml itself and therefore
+# carry no volume/pages - that data does not exist for them.
+
+# doi:10.1056/AIe2600897
+hollon2026benchmarking: |-
+  @article{hollon2026benchmarking,
+    title     = {{Benchmarking the Brain’s Blood Vessels — Why We Need Specialized Models in Medical AI}},
+    author    = {Hollon, Todd},
+    journal   = {NEJM AI},
+    publisher = {Massachusetts Medical Society},
+    volume    = {3},
+    number    = {8},
+    year      = {2026},
+    month     = jul,
+    issn      = {2836-9386},
+    doi       = {10.1056/AIe2600897},
+    url       = {https://doi.org/10.1056/AIe2600897},
+    keywords  = {neuroimaging, cerebrovascular, artificial intelligence}
+  }
+
+# doi:10.1038/s41591-026-04567-4
+anon2026untitled: |-
+  @article{anon2026untitled,
+    journal   = {Nature Medicine},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {32},
+    number    = {8},
+    pages     = {2743--2744},
+    year      = {2026},
+    month     = jul,
+    issn      = {1546-170X},
+    doi       = {10.1038/s41591-026-04567-4},
+    url       = {https://doi.org/10.1038/s41591-026-04567-4},
+    keywords  = {neuroimaging, self-supervised learning, artificial intelligence}
+  }
+
+# doi:10.48550/arXiv.2511.18640
+kondepudi2025health: |-
+  @misc{kondepudi2025health,
+    title     = {{Health system learning achieves generalist neuroimaging models}},
+    author    = {Kondepudi, Akhil and Rao, Akshay and Zhao, Chenhui and Lyu, Yiwei and Harake, Samir and Banerjee, Soumyanil and Joshi, Rushikesh and Meissner, Anna-Katharina and Hou, Renly and Jiang, Cheng and Chowdury, Asadur and Srinivasan, Ashok and Athey, Brian and Gulani, Vikas and Pandey, Aditya and Lee, Honglak and Hollon, Todd},
+    publisher = {arXiv},
+    year      = {2025},
+    doi       = {10.48550/ARXIV.2511.18640},
+    url       = {https://arxiv.org/abs/2511.18640},
+    keywords  = {neuroimaging, foundation models, vision-language models, self-supervised learning}
+  }
+
+# doi:10.1038/s41551-025-01608-0
+lyu2026learning: |-
+  @article{lyu2026learning,
+    title     = {{Learning neuroimaging models from health system-scale data}},
+    author    = {Lyu, Yiwei and Harake, Samir and Chowdury, Asadur and Banerjee, Soumyanil and Gologorsky, Rachel and Liu, Shixuan and Meissner, Anna-Katharina and Rao, Akshay and Zhao, Chenhui and Kondepudi, Akhil and Jiang, Cheng and Hou, Xinhai and Joshi, Rushikesh S. and Neuschmelting, Volker and Srinivasan, Ashok and Kleindorfer, Dawn and Athey, Brian and Gulani, Vikas and Pandey, Aditya and Lee, Honglak and Hollon, Todd},
+    journal   = {Nature Biomedical Engineering},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {10},
+    number    = {8},
+    pages     = {1646--1658},
+    year      = {2026},
+    month     = feb,
+    issn      = {2157-846X},
+    doi       = {10.1038/s41551-025-01608-0},
+    url       = {https://doi.org/10.1038/s41551-025-01608-0},
+    keywords  = {neuroimaging, foundation models, vision-language models, artificial intelligence}
+  }
+
+# doi:10.48550/arXiv.2512.11141
+lyu2025learning: |-
+  @misc{lyu2025learning,
+    title     = {{Learning complete and explainable visual representations from itemized text supervision}},
+    author    = {Lyu, Yiwei and Zhao, Chenhui and Banerjee, Soumyanil and Liu, Shixuan and Rao, Akshay and Kondepudi, Akhil and Lee, Honglak and Hollon, Todd C.},
+    publisher = {arXiv},
+    year      = {2025},
+    doi       = {10.48550/ARXIV.2512.11141},
+    url       = {https://arxiv.org/abs/2512.11141},
+    keywords  = {vision-language models, self-supervised learning, representation learning, computer vision}
+  }
+
+# doi:10.48550/arXiv.2511.19661
+hou2025codev: |-
+  @misc{hou2025codev,
+    title     = {{CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization}},
+    author    = {Hou, Xinhai and Xu, Shaoyuan and Biyani, Manan and Li, Moyan and Liu, Jia and Hollon, Todd C. and Wang, Bryan},
+    publisher = {arXiv},
+    year      = {2025},
+    doi       = {10.48550/ARXIV.2511.19661},
+    url       = {https://arxiv.org/abs/2511.19661},
+    keywords  = {vision-language models, computer vision}
+  }
+
+# site-data (no DOI on record)
+zhao2026scalable: |-
+  @inproceedings{zhao2026scalable,
+    title     = {{Towards Scalable Language-Image Pre-training for 3D Medical Imaging}},
+    author    = {Chenhui Zhao and Yiwei Lyu and Asadur Zaman Chowdury and Edward S. Harake and Akhil Kondepudi and Akshay T. Rao and Xinhai Hou and Honglak Lee and Todd C. Hollon},
+    booktitle = {TRANSACTIONS ON MACHINE LEARNING RESEARCH},
+    year      = {2026},
+    url       = {https://openreview.net/forum?id=WxHf4EcBWA},
+    keywords  = {neuroimaging, vision-language models, machine learning}
+  }
+
+# pubmed:41930943 (published version)
+park2026anatomic: |-
+  @article{park2026anatomic,
+    title     = {{Anatomic Predilection of Isocitrate Dehydrogenase-Mutant Gliomas: A Multi-Institutional Spatial Analysis}},
+    author    = {Park, Minjun and Weiss, Hannah and Harake, Edward S. and Fang, Camila and Springer, Alex and Goff, Nicolas K. and Markert, John E. and Reinecke, David and Maarouf, Nader and Heiland, Dieter H. and Miller, Alex M. and Hollon, Todd and Golfinos, John G. and Orringer, Daniel A.},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    year      = {2026},
+    month     = apr,
+    issn      = {1524-4040},
+    doi       = {10.1227/neu.0000000000004019},
+    pmid      = {41930943},
+    url       = {https://doi.org/10.1227/neu.0000000000004019},
+    keywords  = {glioma, neuro-oncology, neurosurgery}
+  }
+
+# pubmed:41891708 (published version)
+maarouf2026natural: |-
+  @article{maarouf2026natural,
+    title     = {{Natural Language Processing Methods Automate Molecular Marker Extraction From Glioma Pathology Reports}},
+    author    = {Maarouf, Nader I. and Reinecke, David and Smith, Andrew and Markert, John E. and Cogan, Theodore G. and Han, Xu and Alyakin, Anton and Alber, Daniel Alexander and Park, Minjun and Goff, Nicolas K. and Weiss, Hannah and Harake, Edward S. and Eddy, Karen and Hollon, Todd and Oermann, Eric K. and Orringer, Daniel A.},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    year      = {2026},
+    month     = mar,
+    issn      = {1524-4040},
+    doi       = {10.1227/neu.0000000000004000},
+    pmid      = {41891708},
+    url       = {https://doi.org/10.1227/neu.0000000000004000},
+    keywords  = {glioma, molecular classification, natural language processing, neurosurgery}
+  }
+
+# pubmed:42153721 (published version)
+alyakin2026cnsobsidian: |-
+  @article{alyakin2026cnsobsidian,
+    title     = {{CNS-Obsidian: A Neurosurgical Vision-Language Model Built From Scientific Publications}},
+    author    = {Alyakin, Anton and Stryker, Jaden and Alber, Daniel Alexander and Lee, Jin Vivian and Sangwon, Karl L. and Duderstadt, Brandon and Save, Akshay and Kurland, David and Frome, Spencer and Singh, Shrutika and Zhang, Jeff and Yang, Eunice and Park, Ki Yun and Orillac, Cordelia and Valliani, Aly A. and Neifert, Sean and Liu, Albert and Patel, Aneek and Livia, Christopher and Lau, Darryl and Laufer, Ilya and Rozman, Peter A. and Hidalgo, Eveline Teresa and Riina, Howard and Feng, Rui and Hollon, Todd and Aphinyanaphongs, Yindalon and Golfinos, John G. and Snyder, Laura and Leuthardt, Eric C. and Kondziolka, Douglas and Oermann, Eric Karl},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    year      = {2026},
+    month     = may,
+    issn      = {1524-4040},
+    doi       = {10.1227/neu.0000000000004070},
+    pmid      = {42153721},
+    url       = {https://doi.org/10.1227/neu.0000000000004070},
+    keywords  = {vision-language models, natural language processing, neurosurgery}
+  }
+
+# doi:10.1227/neuprac.0000000000000230
+alyakin2026aipowered: |-
+  @article{alyakin2026aipowered,
+    title     = {{AI-Powered Pipeline Transforms Neurosurgical Articles Into High-Quality Graphical Abstracts}},
+    author    = {Alyakin, Anton and Stryker, Jaden and Lee, Jin Vivian and Feng, Rui and Hollon, Todd and Kondziolka, Douglas and Oermann, Eric Karl},
+    journal   = {Neurosurgery Practice},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {7},
+    number    = {2},
+    year      = {2026},
+    month     = apr,
+    issn      = {2834-4383},
+    doi       = {10.1227/neuprac.0000000000000230},
+    url       = {https://doi.org/10.1227/neuprac.0000000000000230},
+    keywords  = {artificial intelligence, neurosurgery}
+  }
+
+# doi:10.1007/s00432-026-06458-0
+li2026minimizing: |-
+  @article{li2026minimizing,
+    title     = {{Minimizing the risks of stereotactic brain biopsy in suspected central nervous system lymphoma: a retrospective database study}},
+    author    = {Li, Anran and Saleh, Sara and Sharba, Nora and Guivatchian, Elnaz and Sagher, Oren and Sullivan, Stephen E. and Heth, Jason A. and Hollon, Todd C. and Thompson, Byron G. and Pandey, Aditya S. and Umemura, Yoshie and Al-Holou, Wajd N.},
+    journal   = {Journal of Cancer Research and Clinical Oncology},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {152},
+    number    = {3},
+    year      = {2026},
+    month     = mar,
+    issn      = {1432-1335},
+    doi       = {10.1007/s00432-026-06458-0},
+    url       = {https://doi.org/10.1007/s00432-026-06458-0},
+    keywords  = {CNS lymphoma, surgical outcomes, neuro-oncology}
+  }
+
+# doi:10.3171/2026.2.JNS251994
+tripathy2026predicting: |-
+  @article{tripathy2026predicting,
+    title     = {{Predicting postoperative hospice enrollment following stereotactic brain biopsy: a retrospective study and risk score development}},
+    author    = {Tripathy, Arushi and Harake, Edward S. and Ahmad, Ammar and Sharba, Nora and Li, Anran and Saleh, Sara and Sagher, Oren and Heth, Jason A. and Altshuler, David and Hollon, Todd C. and Thompson, B. Gregory and Pandey, Aditya S. and Umemura, Yoshie and Al-Holou, Wajd N.},
+    journal   = {Journal of Neurosurgery},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    pages     = {1--13},
+    year      = {2026},
+    month     = jul,
+    issn      = {1933-0693},
+    doi       = {10.3171/2026.2.JNS251994},
+    url       = {https://doi.org/10.3171/2026.2.JNS251994},
+    keywords  = {glioma, surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1038/s41746-025-02279-6
+reinecke2026aidriven: |-
+  @article{reinecke2026aidriven,
+    title     = {{AI-driven label-free Raman spectromics for intraoperative spinal tumor assessment}},
+    author    = {Reinecke, David and Müller, Nina and Meissner, Anna-Katharina and Fürtjes, Gina and Leyer, Lili and Wang, Claire and Ion-Margineanu, Adrian and Maarouf, Nader and Smith, Andrew and Hollon, Todd C. and Jiang, Cheng and Hou, Xinhai and Al-Shughri, Abdulkader and Körner, Lisa I. and Widhalm, Georg and Roetzer-Pejrimovsky, Thomas and Snuderl, Matija and Camelo-Piragua, Sandra and Golfinos, John G. and Goldbrunner, Roland and Orringer, Daniel A. and von Spreckelsen, Niklas and Neuschmelting, Volker},
+    journal   = {npj Digital Medicine},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {9},
+    number    = {1},
+    year      = {2026},
+    month     = mar,
+    issn      = {2398-6352},
+    doi       = {10.1038/s41746-025-02279-6},
+    url       = {https://doi.org/10.1038/s41746-025-02279-6},
+    keywords  = {spine, label-free imaging, intraoperative diagnosis, neuro-oncology}
+  }
+
+# doi:10.48550/arXiv.2502.02409
+zhao2025extending: |-
+  @misc{zhao2025extending,
+    title     = {{Extending SEEDS to a Supervoxel Algorithm for Medical Image Analysis}},
+    author    = {Zhao, Chenhui and Jiang, Yan and Hollon, Todd C.},
+    publisher = {arXiv},
+    year      = {2025},
+    doi       = {10.48550/ARXIV.2502.02409},
+    url       = {https://arxiv.org/abs/2502.02409},
+    keywords  = {segmentation}
+  }
+
+# doi:10.1016/j.ijrobp.2025.02.020
+kim2025phase: |-
+  @article{kim2025phase,
+    title     = {{A Phase 2 Study of Multiparametric Magnetic Resonance Imaging-Guided High-Dose Response-Adaptive Radiation Therapy With Concurrent Temozolomide in Patients With Newly Diagnosed Glioblastoma: Results From an Interim Analysis}},
+    author    = {Kim, Michelle M. and Aryal, Madhava P. and Suresh, Krithika and Rosen, Benjamin S. and Parmar, Hemant and You, Daekeun and Leung, Denise and Clarke, Nathan and Fortunato, John and Al-Holou, Wajd and Heth, Jason and Altshuler, David and Hollon, Todd and Edwards, Donna M. and Wahl, Daniel R. and Lawrence, Theodore S. and Cao, Yue},
+    journal   = {International Journal of Radiation Oncology*Biology*Physics},
+    publisher = {Elsevier BV},
+    volume    = {122},
+    number    = {3},
+    pages     = {605--610},
+    year      = {2025},
+    month     = jul,
+    issn      = {0360-3016},
+    doi       = {10.1016/j.ijrobp.2025.02.020},
+    url       = {https://doi.org/10.1016/j.ijrobp.2025.02.020},
+    keywords  = {glioblastoma, neuroimaging, surgical outcomes, clinical trials}
+  }
+
+# doi:10.1093/neuonc/noae270
+reinecke2024fast: |-
+  @article{reinecke2024fast,
+    title     = {{Fast intraoperative detection of primary central nervous system lymphoma and differentiation from common central nervous system tumors using stimulated Raman histology and deep learning}},
+    author    = {Reinecke, David and Maarouf, Nader and Smith, Andrew and Alber, Daniel and Markert, John and Goff, Nicolas K and Hollon, Todd C and Chowdury, Asadur and Jiang, Cheng and Hou, Xinhai and Meissner, Anna-Katharina and Fürtjes, Gina and Ruge, Maximilian I and Ruess, Daniel and Stehle, Thomas and Al-Shughri, Abdulkader and Körner, Lisa I and Widhalm, Georg and Roetzer-Pejrimovsky, Thomas and Golfinos, John G and Snuderl, Matija and Neuschmelting, Volker and Orringer, Daniel A},
+    journal   = {Neuro-Oncology},
+    publisher = {Oxford University Press (OUP)},
+    volume    = {27},
+    number    = {5},
+    pages     = {1297--1310},
+    year      = {2024},
+    month     = dec,
+    issn      = {1523-5866},
+    doi       = {10.1093/neuonc/noae270},
+    url       = {https://doi.org/10.1093/neuonc/noae270},
+    keywords  = {stimulated Raman histology, CNS lymphoma, intraoperative diagnosis, deep learning}
+  }
+
+# doi:10.1126/sciadv.adt5708
+mehari2025predicting: |-
+  @article{mehari2025predicting,
+    title     = {{Predicting therapeutic clinical trial enrollment for adult patients with low- and high-grade glioma using supervised machine learning}},
+    author    = {Mehari, Mulki and Warrier, Gayathri and Dada, Abraham and Kabir, Aymen and Haskell-Mendoza, Aden P. and Tripathy, Arushi and Jha, Rohan and Nieblas-Bedolla, Edwin and Jackson, Joshua D. and Gonzalez, Ariel T. and Reason, Ellery H. and Flusche, Ann Marie and Reihl, Sheantel and Dalton, Tara and Negussie, Mikias and Gonzales, Cesar Nava and Ambati, Vardhaan S. and Desjardins, Annick and Daniel, Andy G. S. and Krishna, Saritha and Chang, Susan and Porter, Alyx and Fecci, Peter E. and Hollon, Todd and Chukwueke, Ugonma N. and Badal, Kimberly and Molinaro, Annette M. and Hervey-Jumper, Shawn L.},
+    journal   = {Science Advances},
+    publisher = {American Association for the Advancement of Science (AAAS)},
+    volume    = {11},
+    number    = {23},
+    year      = {2025},
+    month     = jun,
+    issn      = {2375-2548},
+    doi       = {10.1126/sciadv.adt5708},
+    url       = {https://doi.org/10.1126/sciadv.adt5708},
+    keywords  = {glioma, clinical trials, machine learning}
+  }
+
+# doi:10.3171/2025.3.FOCUS2574
+joshi2025validation: |-
+  @article{joshi2025validation,
+    title     = {{Validation of a novel artificial intelligence model (SpinePose) to automatically and accurately predict spinopelvic parameters using scoliosis radiographs in an external cohort}},
+    author    = {Joshi, Rushikesh S. and Harake, Edward S. and Jiang, Cheng and Haselhuhn, Jason J. and Linzey, Joseph R. and Jones, Jaes C. and Zaki, Mark M. and Odland, Kari and Wilseck, Zachary and Joseph, Jacob R. and Polly, David W. and Hollon, Todd C. and Park, Paul},
+    journal   = {Neurosurgical Focus},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {58},
+    number    = {6},
+    pages     = {E10},
+    year      = {2025},
+    month     = jun,
+    issn      = {1092-0684},
+    doi       = {10.3171/2025.3.FOCUS2574},
+    url       = {https://doi.org/10.3171/2025.3.FOCUS2574},
+    keywords  = {radiographs, artificial intelligence, neurosurgery}
+  }
+
+# doi:10.1002/smll.202307097
+halseth2025hdl: |-
+  @article{halseth2025hdl,
+    title     = {{HDL Nanodiscs Loaded with Liver X Receptor Agonist Decreases Tumor Burden and Mediates Long‐term Survival in Mouse Glioma Model}},
+    author    = {Halseth, Troy A. and Mujeeb, Anzar A. and Liu, Lisha and Banerjee, Kaushik and Lang, Nigel and Hollon, Todd and Yu, Minzhi and Vander Roest, Mark and Mei, Ling and He, Hongliang and Sheth, Maya and Castro, Maria G. and Schwendeman, Anna},
+    journal   = {Small},
+    publisher = {Wiley},
+    volume    = {21},
+    number    = {20},
+    year      = {2025},
+    month     = apr,
+    issn      = {1613-6829},
+    doi       = {10.1002/smll.202307097},
+    url       = {https://doi.org/10.1002/smll.202307097},
+    keywords  = {glioma, drug delivery, surgical outcomes, neuro-oncology}
+  }
+
+# doi:10.1093/noajnl/vdag065
+hou2026intelligent: |-
+  @article{hou2026intelligent,
+    title     = {{Intelligent histology for tumor neurosurgery}},
+    author    = {Hou, Xinhai and Kondepudi, Akhil V and Jiang, Cheng and Lyu, Yiwei and Harake, Edward Samir and Chowdury, Asadur and Meißner, Anna-Katharina and Neuschmelting, Volker and Reinecke, David and Fürtjes, Gina and Widhalm, Georg and Körner, Lisa Irinia and Straehle, Jakob and Neidert, Nicolas and Scheffler, Pierre and Beck, Jüergen and Ivan, Michael E and Shah, Ashish H and Pandey, Aditya S and Camelo-Piragua, Sandra and Heiland, Dieter Henrik and Schnell, Oliver and Freudiger, Chris and Young, Jacob and Pekmezci, Melike and Scotford, Katie and Hervey-Jumper, Shawn and Orringer, Daniel and Berger, Mitchel and Hollon, Todd},
+    journal   = {Neuro-Oncology Advances},
+    publisher = {Oxford University Press (OUP)},
+    volume    = {8},
+    number    = {1},
+    year      = {2026},
+    month     = jan,
+    issn      = {2632-2498},
+    doi       = {10.1093/noajnl/vdag065},
+    url       = {https://doi.org/10.1093/noajnl/vdag065},
+    keywords  = {stimulated Raman histology, intraoperative diagnosis, histology, neuro-oncology}
+  }
+
+# doi:10.1038/s41586-024-08169-3
+kondepudi2024foundation: |-
+  @article{kondepudi2024foundation,
+    title     = {{Foundation models for fast, label-free detection of glioma infiltration}},
+    author    = {Kondepudi, Akhil and Pekmezci, Melike and Hou, Xinhai and Scotford, Katie and Jiang, Cheng and Rao, Akshay and Harake, Edward S. and Chowdury, Asadur and Al-Holou, Wajd and Wang, Lin and Pandey, Aditya and Lowenstein, Pedro R. and Castro, Maria G. and Koerner, Lisa Irina and Roetzer-Pejrimovsky, Thomas and Widhalm, Georg and Camelo-Piragua, Sandra and Movahed-Ezazi, Misha and Orringer, Daniel A. and Lee, Honglak and Freudiger, Christian and Berger, Mitchel and Hervey-Jumper, Shawn and Hollon, Todd},
+    journal   = {Nature},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {637},
+    number    = {8045},
+    pages     = {439--445},
+    year      = {2024},
+    month     = nov,
+    issn      = {1476-4687},
+    doi       = {10.1038/s41586-024-08169-3},
+    url       = {https://doi.org/10.1038/s41586-024-08169-3},
+    keywords  = {glioma, foundation models, label-free imaging, neurosurgery}
+  }
+
+# doi:10.1016/j.xpro.2025.104221
+bhattacharya2025protocol: |-
+  @article{bhattacharya2025protocol,
+    title     = {{Protocol to annotate and automate single-cell instance segmentation on stimulated Raman histology using deep learning}},
+    author    = {Bhattacharya, Abhishek and Landgraf, Eric and Jiang, Cheng and Chowdury, Asadur and Kondepudi, Akhil and Wang, Lin and Harake, Edward S. and Hou, Xinhai and Walsh, Lisa and Hollon, Todd C.},
+    journal   = {STAR Protocols},
+    publisher = {Elsevier BV},
+    volume    = {6},
+    number    = {4},
+    pages     = {104221},
+    year      = {2025},
+    month     = dec,
+    issn      = {2666-1667},
+    doi       = {10.1016/j.xpro.2025.104221},
+    url       = {https://doi.org/10.1016/j.xpro.2025.104221},
+    keywords  = {stimulated Raman histology, single-cell analysis, deep learning, segmentation}
+  }
+
+# doi:10.3390/cancers17243920
+chen2025intraoperative: |-
+  @article{chen2025intraoperative,
+    title     = {{The Intraoperative Utility of Raman Spectroscopy for Neurosurgical Oncology}},
+    author    = {Chen, Jia-Shu and Oh, Jun Yeop and Hollon, Todd C. and Hervey-Jumper, Shawn L. and Young, Jacob S. and Berger, Mitchel S.},
+    journal   = {Cancers},
+    publisher = {MDPI AG},
+    volume    = {17},
+    number    = {24},
+    pages     = {3920},
+    year      = {2025},
+    month     = dec,
+    issn      = {2072-6694},
+    doi       = {10.3390/cancers17243920},
+    url       = {https://doi.org/10.3390/cancers17243920},
+    keywords  = {Raman spectroscopy, intraoperative diagnosis, neuro-oncology, neurosurgery}
+  }
+
+# site-data (no DOI on record)
+liu2025empirical: |-
+  @inproceedings{liu2025empirical,
+    title     = {{An Empirical Study on Unifying JEPA and Language Supervision for Visual Representation Learning}},
+    author    = {Shixuan Liu and Daniel A. Li and Yiwei Lyu and Akhil Kondepudi and Honglak Lee and Todd C. Hollon},
+    booktitle = {NEURIPS UNIREPS WORKSHOP},
+    year      = {2025},
+    url       = {https://openreview.net/forum?id=nvEy6Yo381},
+    keywords  = {vision-language models, self-supervised learning, representation learning}
+  }
+
+# pubmed:41001081 (published proceedings; arXiv kept as eprint)
+lyu2024stepcalibrated: |-
+  @inproceedings{lyu2024stepcalibrated,
+    title         = {{Step-Calibrated Diffusion for Biomedical Optical Image Restoration}},
+    author        = {Lyu, Yiwei and Cha, Sung Jik and Jiang, Cheng and Chowdury, Asadur and Hou, Xinhai and Harake, Edward and Kondepudi, Akhil and Freudiger, Christian and Lee, Honglak and Hollon, Todd C.},
+    booktitle     = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume        = {39},
+    number        = {6},
+    pages         = {5946--5954},
+    year          = {2025},
+    month         = feb,
+    doi           = {10.1609/aaai.v39i6.32635},
+    pmid          = {41001081},
+    eprint        = {2403.13680},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1609/aaai.v39i6.32635},
+    keywords      = {image restoration, microscopy}
+  }
+
+# doi:10.1038/s41551-024-01217-3
+nasirmoin2024localization: |-
+  @article{nasirmoin2024localization,
+    title     = {{Localization of protoporphyrin IX during glioma-resection surgery via paired stimulated Raman histology and fluorescence microscopy}},
+    author    = {Nasir-Moin, Mustafa and Wadiura, Lisa Irina and Sacalean, Vlad and Juros, Devin and Movahed-Ezazi, Misha and Lock, Emily K. and Smith, Andrew and Lee, Matthew and Weiss, Hannah and Müther, Michael and Alber, Daniel and Ratna, Sujay and Fang, Camila and Suero-Molina, Eric and Hellwig, Sönke and Stummer, Walter and Rössler, Karl and Hainfellner, Johannes A. and Widhalm, Georg and Kiesel, Barbara and Reichert, David and Mischkulnig, Mario and Jain, Rajan and Straehle, Jakob and Neidert, Nicolas and Schnell, Oliver and Beck, Jürgen and Trautman, Jay and Pastore, Steve and Pacione, Donato and Placantonakis, Dimitris and Oermann, Eric Karl and Golfinos, John G. and Hollon, Todd C. and Snuderl, Matija and Freudiger, Christian W. and Heiland, Dieter Henrik and Orringer, Daniel A.},
+    journal   = {Nature Biomedical Engineering},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {8},
+    number    = {6},
+    pages     = {672--688},
+    year      = {2024},
+    month     = jul,
+    issn      = {2157-846X},
+    doi       = {10.1038/s41551-024-01217-3},
+    url       = {https://doi.org/10.1038/s41551-024-01217-3},
+    keywords  = {stimulated Raman histology, glioma, intraoperative diagnosis, histology}
+  }
+
+# doi:10.48550/arXiv.2402.06188
+hou2024selfsupervised: |-
+  @misc{hou2024selfsupervised,
+    title     = {{A self-supervised framework for learning whole slide representations}},
+    author    = {Hou, Xinhai and Jiang, Cheng and Kondepudi, Akhil and Lyu, Yiwei and Chowdury, Asadur and Lee, Honglak and Hollon, Todd C.},
+    publisher = {arXiv},
+    year      = {2024},
+    doi       = {10.48550/ARXIV.2402.06188},
+    url       = {https://arxiv.org/abs/2402.06188},
+    keywords  = {self-supervised learning, representation learning, histology}
+  }
+
+# site-data (no DOI on record)
+liu2024empirical: |-
+  @inproceedings{liu2024empirical,
+    title     = {{An empirical study of CLIP fine-tuning with similarity clusters}},
+    author    = {Shixuan Liu and Yiwei Lyu and Honglak Lee and Todd C. Hollon},
+    booktitle = {NEURIPS FITML WORKSHOP},
+    year      = {2024},
+    url       = {https://openreview.net/forum?id=NmNmlAEBAl},
+    keywords  = {vision-language models}
+  }
+
+# pubmed:39355755 (published proceedings; arXiv kept as eprint)
+jiang2024superresolution: |-
+  @inproceedings{jiang2024superresolution,
+    title         = {{Super-resolution of biomedical volumes with 2D supervision}},
+    author        = {Jiang, Cheng and Gedeon, Alexander and Lyu, Yiwei and Landgraf, Eric and Zhang, Yufeng and Hou, Xinhai and Kondepudi, Akhil and Chowdury, Asadur and Lee, Honglak and Hollon, Todd},
+    booktitle     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+    volume        = {2024},
+    pages         = {6966--6977},
+    year          = {2024},
+    month         = jun,
+    doi           = {10.1109/cvprw63382.2024.00690},
+    pmid          = {39355755},
+    eprint        = {2404.09425},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1109/cvprw63382.2024.00690},
+    keywords      = {image restoration}
+  }
+
+# pubmed:38552236 (published version)
+harake2024development: |-
+  @article{harake2024development,
+    title         = {{Development and validation of an artificial intelligence model to accurately predict spinopelvic parameters}},
+    author        = {Harake, Edward S. and Linzey, Joseph R. and Jiang, Cheng and Joshi, Rushikesh S. and Zaki, Mark M. and Jones, Jaes C. and Khalsa, Siri S. and Lee, John H. and Wilseck, Zachary and Joseph, Jacob R. and Hollon, Todd C. and Park, Paul},
+    journal       = {Journal of Neurosurgery: Spine},
+    volume        = {41},
+    number        = {1},
+    pages         = {88--96},
+    year          = {2024},
+    month         = jul,
+    doi           = {10.3171/2024.1.SPINE231252},
+    pmid          = {38552236},
+    eprint        = {2402.06185},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.3171/2024.1.SPINE231252},
+    keywords      = {spine, radiographs, artificial intelligence, neurosurgery}
+  }
+
+# doi:10.1016/S1470-2045(23)00347-9
+umemura2023combined: |-
+  @article{umemura2023combined,
+    title     = {{Combined cytotoxic and immune-stimulatory gene therapy for primary adult high-grade glioma: a phase 1, first-in-human trial}},
+    author    = {Umemura, Yoshie and Orringer, Daniel and Junck, Larry and Varela, Maria L and West, Molly E J and Faisal, Syed M and Comba, Andrea and Heth, Jason and Sagher, Oren and Leung, Denise and Mammoser, Aaron and Hervey-Jumper, Shawn and Zamler, Daniel and Yadav, Viveka N and Dunn, Patrick and Al-Holou, Wajd and Hollon, Todd and Kim, Michelle M and Wahl, Daniel R and Camelo-Piragua, Sandra and Lieberman, Andrew P and Venneti, Sriram and McKeever, Paul and Lawrence, Theodore and Kurokawa, Ryo and Sagher, Karen and Altshuler, David and Zhao, Lili and Muraszko, Karin and Castro, Maria G and Lowenstein, Pedro R},
+    journal   = {The Lancet Oncology},
+    publisher = {Elsevier BV},
+    volume    = {24},
+    number    = {9},
+    pages     = {1042--1052},
+    year      = {2023},
+    month     = sep,
+    issn      = {1470-2045},
+    doi       = {10.1016/S1470-2045(23)00347-9},
+    url       = {https://doi.org/10.1016/S1470-2045(23)00347-9},
+    keywords  = {glioma, drug delivery, clinical trials, neuro-oncology}
+  }
+
+# pubmed:37654477 (published proceedings; arXiv kept as eprint)
+jiang2023hierarchical: |-
+  @inproceedings{jiang2023hierarchical,
+    title         = {{Hierarchical discriminative learning improves visual representations of biomedical microscopy}},
+    author        = {Jiang, Cheng and Hou, Xinhai and Kondepudi, Akhil and Chowdury, Asadur and Freudiger, Christian W. and Orringer, Daniel A. and Lee, Honglak and Hollon, Todd C.},
+    booktitle     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    volume        = {2023},
+    pages         = {19798--19808},
+    year          = {2023},
+    month         = jun,
+    doi           = {10.1109/cvpr52729.2023.01896},
+    pmid          = {37654477},
+    eprint        = {2303.01605},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1109/cvpr52729.2023.01896},
+    keywords      = {self-supervised learning, representation learning, computer vision, microscopy}
+  }
+
+# cv (proceedings details from the author CV; no index record)
+lyu2023finegrained: |-
+  @inproceedings{lyu2023finegrained,
+    title     = {{Fine-grained Text Style Transfer with Diffusion-Based Language Models}},
+    author    = {Lyu, Yiwei and Luo, Tiange and Shi, Jiacheng and Hollon, Todd C. and Lee, Honglak},
+    booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+    publisher = {arXiv},
+    pages     = {65--74},
+    year      = {2023},
+    doi       = {10.48550/ARXIV.2305.19512},
+    url       = {https://arxiv.org/abs/2305.19512},
+    keywords  = {natural language processing}
+  }
+
+# doi:10.1038/s41591-023-02252-4
+hollon2023artificialintelligencebased: |-
+  @article{hollon2023artificialintelligencebased,
+    title     = {{Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging}},
+    author    = {Hollon, Todd and Jiang, Cheng and Chowdury, Asadur and Nasir-Moin, Mustafa and Kondepudi, Akhil and Aabedi, Alexander and Adapa, Arjun and Al-Holou, Wajd and Heth, Jason and Sagher, Oren and Lowenstein, Pedro and Castro, Maria and Wadiura, Lisa Irina and Widhalm, Georg and Neuschmelting, Volker and Reinecke, David and von Spreckelsen, Niklas and Berger, Mitchel S. and Hervey-Jumper, Shawn L. and Golfinos, John G. and Snuderl, Matija and Camelo-Piragua, Sandra and Freudiger, Christian and Lee, Honglak and Orringer, Daniel A.},
+    journal   = {Nature Medicine},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {29},
+    number    = {4},
+    pages     = {828--832},
+    year      = {2023},
+    month     = mar,
+    issn      = {1546-170X},
+    doi       = {10.1038/s41591-023-02252-4},
+    url       = {https://doi.org/10.1038/s41591-023-02252-4},
+    keywords  = {glioma, label-free imaging, optical imaging, molecular classification}
+  }
+
+# doi:10.1016/j.medj.2023.07.008
+orringer2023unlocking: |-
+  @article{orringer2023unlocking,
+    title     = {{Unlocking glioma genetics with deep learning}},
+    author    = {Orringer, Daniel A. and Hollon, Todd C.},
+    journal   = {Med},
+    publisher = {Elsevier BV},
+    volume    = {4},
+    number    = {8},
+    pages     = {493--494},
+    year      = {2023},
+    month     = aug,
+    issn      = {2666-6340},
+    doi       = {10.1016/j.medj.2023.07.008},
+    url       = {https://doi.org/10.1016/j.medj.2023.07.008},
+    keywords  = {glioma, molecular classification, deep learning}
+  }
+
+# doi:10.1016/j.neo.2022.100872
+alholou2023subclonal: |-
+  @article{alholou2023subclonal,
+    title     = {{Subclonal evolution and expansion of spatially distinct THY1-positive cells is associated with recurrence in glioblastoma}},
+    author    = {Al-Holou, Wajd N. and Wang, Hanxiao and Ravikumar, Visweswaran and Shankar, Sunita and Oneka, Morgan and Fehmi, Ziad and Verhaak, Roel GW and Kim, Hoon and Pratt, Drew and Camelo-Piragua, Sandra and Speers, Corey and Wahl, Daniel R and Hollon, Todd and Sagher, Oren and Heth, Jason A and Muraszko, Karin M. and Lawrence, Theodore S. and de Carvalho, Ana C and Mikkelsen, Tom and Rao, Arvind and Rehemtulla, Alnawaz},
+    journal   = {Neoplasia},
+    publisher = {Elsevier BV},
+    volume    = {36},
+    pages     = {100872},
+    year      = {2023},
+    month     = feb,
+    issn      = {1476-5586},
+    doi       = {10.1016/j.neo.2022.100872},
+    url       = {https://doi.org/10.1016/j.neo.2022.100872},
+    keywords  = {glioblastoma}
+  }
+
+# doi:10.1016/j.wnsx.2023.100181
+talbotstetsko2023comparison: |-
+  @article{talbotstetsko2023comparison,
+    title     = {{A comparison of ventricular volume and linear indices in predicting shunt dependence in aneurysmal subarachnoid hemorrhage}},
+    author    = {Talbot-Stetsko, Haley K. and Hollon, Todd C. and Maher, Cormac O. and Pandey, Aditya S. and Khalsa, Siri Sahib S.},
+    journal   = {World Neurosurgery: X},
+    publisher = {Elsevier BV},
+    volume    = {19},
+    pages     = {100181},
+    year      = {2023},
+    month     = jul,
+    issn      = {2590-1397},
+    doi       = {10.1016/j.wnsx.2023.100181},
+    url       = {https://doi.org/10.1016/j.wnsx.2023.100181},
+    keywords  = {cerebrovascular, hydrocephalus, neurosurgery}
+  }
+
+# doi:10.1016/j.xpro.2023.102174
+comba2023generation: |-
+  @article{comba2023generation,
+    title     = {{Generation of 3D ex vivo mouse- and patient-derived glioma explant slice model for integration of confocal time-lapse imaging and spatial analysis}},
+    author    = {Comba, Andrea and Varela, Maria Luisa and Faisal, Syed M. and Abel, Clifford C. and Argento, Anna E. and Al-Holou, Wajd N. and Hollon, Todd C. and Perelman, Jacqueline D. and Dunn, Patrick J. and Motsch, Sebastien and Castro, Maria G. and Lowenstein, Pedro R.},
+    journal   = {STAR Protocols},
+    publisher = {Elsevier BV},
+    volume    = {4},
+    number    = {2},
+    pages     = {102174},
+    year      = {2023},
+    month     = jun,
+    issn      = {2666-1667},
+    doi       = {10.1016/j.xpro.2023.102174},
+    url       = {https://doi.org/10.1016/j.xpro.2023.102174},
+    keywords  = {glioma}
+  }
+
+# pubmed:37082565 (published proceedings; arXiv kept as eprint)
+jiang2022opensrh: |-
+  @inproceedings{jiang2022opensrh,
+    title         = {{OpenSRH: optimizing brain tumor surgery using intraoperative stimulated Raman histology}},
+    author        = {Jiang, Cheng and Chowdury, Asadur and Hou, Xinhai and Kondepudi, Akhil and Freudiger, Christian W. and Conway, Kyle and Camelo-Piragua, Sandra and Orringer, Daniel A. and Lee, Honglak and Hollon, Todd C.},
+    booktitle     = {Advances in Neural Information Processing Systems},
+    volume        = {35},
+    number        = {DB},
+    pages         = {28502--28516},
+    year          = {2022},
+    month         = dec,
+    pmid          = {37082565},
+    eprint        = {2206.08439},
+    archiveprefix = {arXiv},
+    url           = {https://arxiv.org/abs/2206.08439},
+    keywords      = {stimulated Raman histology, intraoperative diagnosis, brain tumor, histology}
+  }
+
+# doi:10.1007/s11102-022-01255-7
+gologorsky2022generating: |-
+  @article{gologorsky2022generating,
+    title     = {{Generating novel pituitary datasets from open-source imaging data and deep volumetric segmentation}},
+    author    = {Gologorsky, Rachel and Harake, Edward and von Oiste, Grace and Nasir-Moin, Mustafa and Couldwell, William and Oermann, Eric and Hollon, Todd},
+    journal   = {Pituitary},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {25},
+    number    = {6},
+    pages     = {842--853},
+    year      = {2022},
+    month     = aug,
+    issn      = {1573-7403},
+    doi       = {10.1007/s11102-022-01255-7},
+    url       = {https://doi.org/10.1007/s11102-022-01255-7},
+    keywords  = {pituitary, segmentation, artificial intelligence}
+  }
+
+# doi:10.1227/neu.0000000000002198
+cheung2022methods: |-
+  @article{cheung2022methods,
+    title     = {{Methods and Impact for Using Federated Learning to Collaborate on Clinical Research}},
+    author    = {Cheung, Alexander T. M. and Nasir-Moin, Mustafa and (Fred) Kwon, Young Joon and Guan, Jiahui and Liu, Chris and Jiang, Lavender and Raimondo, Christian and Chotai, Silky and Chambless, Lola and Ahmad, Hasan S. and Chauhan, Daksh and Yoon, Jang W. and Hollon, Todd and Buch, Vivek and Kondziolka, Douglas and Chen, Dinah and Al-Aswad, Lama A. and Aphinyanaphongs, Yindalon and Oermann, Eric Karl},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {92},
+    number    = {2},
+    pages     = {431--438},
+    year      = {2022},
+    month     = nov,
+    issn      = {1524-4040},
+    doi       = {10.1227/neu.0000000000002198},
+    url       = {https://doi.org/10.1227/neu.0000000000002198},
+    keywords  = {machine learning, neurosurgery}
+  }
+
+# pubmed:36185938 (published version)
+babajanian2022perigeniculate: |-
+  @article{babajanian2022perigeniculate,
+    title     = {{Perigeniculate Giant Cell Tumor of Temporal Bone}},
+    author    = {Babajanian, Eric E and Hollon, Todd C and Seasor, Tori A and Couldwell, William and Gurgel, Richard K},
+    journal   = {Cureus},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {14},
+    number    = {8},
+    pages     = {e28515},
+    year      = {2022},
+    month     = aug,
+    issn      = {2168-8184},
+    doi       = {10.7759/cureus.28515},
+    pmid      = {36185938},
+    url       = {https://doi.org/10.7759/cureus.28515},
+    keywords  = {neuro-oncology, neurosurgery}
+  }
+
+# site-data (no DOI on record)
+bhattacharya2022singlecell: |-
+  @inproceedings{bhattacharya2022singlecell,
+    title     = {{Single-cell phenotyping using optical imaging and artificial intelligence}},
+    author    = {Abhishek Bhattacharya and Daniel Alber and Todd Hollon},
+    booktitle = {MLHC},
+    year      = {2022},
+    url       = {https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/62e97e74502c534f3b5585ae/1659469428255/109+Single+Cell+Clinical+Abstract+%5BFINAL%5D.pdf},
+    keywords  = {optical imaging, single-cell analysis, artificial intelligence}
+  }
+
+# doi:10.1016/j.wneu.2022.03.016
+fredrickson2022laminectomy: |-
+  @article{fredrickson2022laminectomy,
+    title     = {{Laminectomy at T4 and T5 for Resection of Symptomatic Cavernous Malformation}},
+    author    = {Fredrickson, Vance L. and Hollon, Todd C. and Rennert, Robert C. and Mazur, Marcus D. and Dailey, Andrew T. and Couldwell, William T.},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {163},
+    pages     = {3},
+    year      = {2022},
+    month     = jul,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2022.03.016},
+    url       = {https://doi.org/10.1016/j.wneu.2022.03.016},
+    keywords  = {spine, neurosurgery}
+  }
+
+# doi:10.1038/s41467-022-31340-1
+comba2022spatiotemporal: |-
+  @article{comba2022spatiotemporal,
+    title     = {{Spatiotemporal analysis of glioma heterogeneity reveals COL1A1 as an actionable target to disrupt tumor progression}},
+    author    = {Comba, Andrea and Faisal, Syed M. and Dunn, Patrick J. and Argento, Anna E. and Hollon, Todd C. and Al-Holou, Wajd N. and Varela, Maria Luisa and Zamler, Daniel B. and Quass, Gunnar L. and Apostolides, Pierre F. and Abel, Clifford and Brown, Christine E. and Kish, Phillip E. and Kahana, Alon and Kleer, Celina G. and Motsch, Sebastien and Castro, Maria G. and Lowenstein, Pedro R.},
+    journal   = {Nature Communications},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {13},
+    number    = {1},
+    year      = {2022},
+    month     = jun,
+    issn      = {2041-1723},
+    doi       = {10.1038/s41467-022-31340-1},
+    url       = {https://doi.org/10.1038/s41467-022-31340-1},
+    keywords  = {glioma, brain tumor, segmentation, neuro-oncology}
+  }
+
+# doi:10.1227/neu.0000000000001929
+jiang2022rapid: |-
+  @article{jiang2022rapid,
+    title     = {{Rapid Automated Analysis of Skull Base Tumor Specimens Using Intraoperative Optical Imaging and Artificial Intelligence}},
+    author    = {Jiang, Cheng and Bhattacharya, Abhishek and Linzey, Joseph R. and Joshi, Rushikesh S. and Cha, Sung Jik and Srinivasan, Sudharsan and Alber, Daniel and Kondepudi, Akhil and Urias, Esteban and Pandian, Balaji and Al-Holou, Wajd N. and Sullivan, Stephen E. and Thompson, B. Gregory and Heth, Jason A. and Freudiger, Christian W. and Khalsa, Siri Sahib S. and Pacione, Donato R. and Golfinos, John G. and Camelo-Piragua, Sandra and Orringer, Daniel A. and Lee, Honglak and Hollon, Todd C.},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {90},
+    number    = {6},
+    pages     = {758--767},
+    year      = {2022},
+    month     = mar,
+    issn      = {1524-4040},
+    doi       = {10.1227/neu.0000000000001929},
+    url       = {https://doi.org/10.1227/neu.0000000000001929},
+    keywords  = {skull base, optical imaging, intraoperative diagnosis, neuro-oncology}
+  }
+
+# doi:10.1016/j.wneu.2021.10.184
+hollon2022extent: |-
+  @article{hollon2022extent,
+    title     = {{Extent of Resection Research in Skull Base Neurosurgery: Previous Studies and Future Directions}},
+    author    = {Hollon, Todd and Fredrickson, Vance and Couldwell, William T.},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {161},
+    pages     = {396--404},
+    year      = {2022},
+    month     = may,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2021.10.184},
+    url       = {https://doi.org/10.1016/j.wneu.2021.10.184},
+    keywords  = {skull base, surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1227/ons.0000000000000027
+fredrickson2021cranioorbital: |-
+  @article{fredrickson2021cranioorbital,
+    title     = {{Cranio-Orbital Approach for Single-Stage En Bloc Resection of Optic Nerve Glioma: Technical Note}},
+    author    = {Fredrickson, Vance L. and Agnoletto, Guilherme J. and Hollon, Todd C. and Kundu, Bornali and Mortimer, Vance R. and Couldwell, William T.},
+    journal   = {Operative Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {22},
+    number    = {2},
+    pages     = {e95--e99},
+    year      = {2021},
+    month     = dec,
+    issn      = {2332-4260},
+    doi       = {10.1227/ons.0000000000000027},
+    url       = {https://doi.org/10.1227/ons.0000000000000027},
+    keywords  = {glioma, neurosurgery}
+  }
+
+# doi:10.1016/j.wneu.2021.11.076
+fredrickson2022microsurgical: |-
+  @article{fredrickson2022microsurgical,
+    title     = {{Microsurgical Excision of Ruptured Lenticulostriate Artery Aneurysm}},
+    author    = {Fredrickson, Vance L. and Makarenko, Serge and Hollon, Todd C. and Rennert, Robert C. and Grandhi, Ramesh and Couldwell, William T.},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {158},
+    pages     = {181},
+    year      = {2022},
+    month     = feb,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2021.11.076},
+    url       = {https://doi.org/10.1016/j.wneu.2021.11.076},
+    keywords  = {cerebrovascular, neurosurgery}
+  }
+
+# doi:10.3389/fonc.2021.703764
+comba2021uncovering: |-
+  @article{comba2021uncovering,
+    title     = {{Uncovering Spatiotemporal Heterogeneity of High-Grade Gliomas: From Disease Biology to Therapeutic Implications}},
+    author    = {Comba, Andrea and Faisal, Syed M. and Varela, Maria Luisa and Hollon, Todd and Al-Holou, Wajd N. and Umemura, Yoshie and Nunez, Felipe J. and Motsch, Sebastien and Castro, Maria G. and Lowenstein, Pedro R.},
+    journal   = {Frontiers in Oncology},
+    publisher = {Frontiers Media SA},
+    volume    = {11},
+    year      = {2021},
+    month     = aug,
+    issn      = {2234-943X},
+    doi       = {10.3389/fonc.2021.703764},
+    url       = {https://doi.org/10.3389/fonc.2021.703764},
+    keywords  = {glioma, neuro-oncology}
+  }
+
+# doi:10.1093/ons/opab197
+croci2021lateral: |-
+  @article{croci2021lateral,
+    title     = {{Lateral Suboccipital Craniotomy With C1-C2 Hemilaminectomies and C1-C3 Fusion for the Treatment of a C1-C2 Synovial Cyst Causing Spinal Cord Compression: 2-Dimensional Operative Video}},
+    author    = {Croci, Davide Marco and Fredrickson, Vance L and Hollon, Todd C and Dailey, Andrew T and Couldwell, William T},
+    journal   = {Operative Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {21},
+    number    = {3},
+    pages     = {E248--E249},
+    year      = {2021},
+    month     = jun,
+    issn      = {2332-4260},
+    doi       = {10.1093/ons/opab197},
+    url       = {https://doi.org/10.1093/ons/opab197},
+    keywords  = {spine, neurosurgery}
+  }
+
+# doi:10.1007/s11060-019-03380-z
+hollon2021labelfree: |-
+  @article{hollon2021labelfree,
+    title     = {{Label-free brain tumor imaging using Raman-based methods}},
+    author    = {Hollon, Todd and Orringer, Daniel A.},
+    journal   = {Journal of Neuro-Oncology},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {151},
+    number    = {3},
+    pages     = {393--402},
+    year      = {2021},
+    month     = feb,
+    issn      = {1573-7373},
+    doi       = {10.1007/s11060-019-03380-z},
+    url       = {https://doi.org/10.1007/s11060-019-03380-z},
+    keywords  = {Raman spectroscopy, label-free imaging, intraoperative diagnosis, brain tumor}
+  }
+
+# doi:10.1093/neuonc/noaa162
+hollon2020rapid: |-
+  @article{hollon2020rapid,
+    title     = {{Rapid, label-free detection of diffuse glioma recurrence using intraoperative stimulated Raman histology and deep neural networks}},
+    author    = {Hollon, Todd C and Pandian, Balaji and Urias, Esteban and Save, Akshay V and Adapa, Arjun R and Srinivasan, Sudharsan and Jairath, Neil K and Farooq, Zia and Marie, Tamara and Al-Holou, Wajd N and Eddy, Karen and Heth, Jason A and Khalsa, Siri Sahib S and Conway, Kyle and Sagher, Oren and Bruce, Jeffrey N and Canoll, Peter and Freudiger, Christian W and Camelo-Piragua, Sandra and Lee, Honglak and Orringer, Daniel A},
+    journal   = {Neuro-Oncology},
+    publisher = {Oxford University Press (OUP)},
+    volume    = {23},
+    number    = {1},
+    pages     = {144--155},
+    year      = {2020},
+    month     = jul,
+    issn      = {1523-5866},
+    doi       = {10.1093/neuonc/noaa162},
+    url       = {https://doi.org/10.1093/neuonc/noaa162},
+    keywords  = {stimulated Raman histology, glioma, label-free imaging, intraoperative diagnosis}
+  }
+
+# doi:10.1007/978-1-0716-1803-5_12
+orillac2021clinical: |-
+  @inbook{orillac2021clinical,
+    title     = {{Clinical Translation of Stimulated Raman Histology}},
+    author    = {Orillac, Cordelia and Hollon, Todd and Orringer, Daniel A.},
+    booktitle = {Biomedical Engineering Technologies},
+    publisher = {Springer US},
+    pages     = {225--236},
+    year      = {2021},
+    month     = nov,
+    issn      = {1940-6029},
+    doi       = {10.1007/978-1-0716-1803-5_12},
+    url       = {https://doi.org/10.1007/978-1-0716-1803-5_12},
+    keywords  = {stimulated Raman histology, intraoperative diagnosis, histology},
+    isbn      = {9781071618035}
+  }
+
+# doi:10.1016/j.wneu.2021.09.085
+talbotstetsko2022ventricular: |-
+  @article{talbotstetsko2022ventricular,
+    title     = {{Ventricular Volume Change as a Predictor of Shunt-Dependent Hydrocephalus in Aneurysmal Subarachnoid Hemorrhage}},
+    author    = {Talbot-Stetsko, Haley K. and Pawlowski, Kristen D. and Aaron, Bryan L. and Adapa, Arjun R. and Altshuler, David B. and Srinivasan, Sudharsan and Pandey, Aditya S. and Maher, Cormac O. and Hollon, Todd C. and Khalsa, Siri Sahib S.},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {157},
+    pages     = {e57--e65},
+    year      = {2022},
+    month     = jan,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2021.09.085},
+    url       = {https://doi.org/10.1016/j.wneu.2021.09.085},
+    keywords  = {cerebrovascular, hydrocephalus, neurosurgery}
+  }
+
+# doi:10.4103/0028-3886.333526
+agnoletto2021far: |-
+  @article{agnoletto2021far,
+    title     = {{Far Lateral Craniotomy for Obliteration of High-Risk Craniocervical Junction Arteriovenous Fistula}},
+    author    = {Agnoletto, Guilherme J and Fredrickson, Vance L and Hollon, Todd C and Couldwell, William T},
+    journal   = {Neurology India},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {69},
+    number    = {6},
+    pages     = {1554--1556},
+    year      = {2021},
+    month     = nov,
+    issn      = {0028-3886},
+    doi       = {10.4103/0028-3886.333526},
+    url       = {https://doi.org/10.4103/0028-3886.333526},
+    keywords  = {cerebrovascular, neurosurgery}
+  }
+
+# doi:10.1007/s00701-021-04926-9
+gamblin2021idiopathic: |-
+  @article{gamblin2021idiopathic,
+    title     = {{Idiopathic chronic temporal lobe herniation with associated epilepsy}},
+    author    = {Gamblin, Austin and Fredrickson, Vance L. and Hollon, Todd C. and Salzman, Karen L. and Couldwell, William T.},
+    journal   = {Acta Neurochirurgica},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {163},
+    number    = {10},
+    pages     = {2805--2808},
+    year      = {2021},
+    month     = jul,
+    issn      = {0942-0940},
+    doi       = {10.1007/s00701-021-04926-9},
+    url       = {https://doi.org/10.1007/s00701-021-04926-9},
+    keywords  = {neurosurgery}
+  }
+
+# doi:10.3171/2020.5.PEDS20178
+cutler2020normal: |-
+  @article{cutler2020normal,
+    title     = {{Normal cerebral ventricular volume growth in childhood}},
+    author    = {Cutler, Noah S. and Srinivasan, Sudharsan and Aaron, Bryan L. and Anand, Sharath Kumar and Kang, Michael S. and Altshuler, David B. and Schermerhorn, Thomas C. and Hollon, Todd C. and Maher, Cormac O. and Khalsa, Siri Sahib S.},
+    journal   = {Journal of Neurosurgery: Pediatrics},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {26},
+    number    = {5},
+    pages     = {517--524},
+    year      = {2020},
+    month     = nov,
+    issn      = {1933-0715},
+    doi       = {10.3171/2020.5.PEDS20178},
+    url       = {https://doi.org/10.3171/2020.5.PEDS20178},
+    keywords  = {neuroimaging, hydrocephalus, pediatric neurosurgery, neurosurgery}
+  }
+
+# doi:10.2217/cns-2020-0003
+khalsa2020automated: |-
+  @article{khalsa2020automated,
+    title     = {{Automated histologic diagnosis of CNS tumors with machine learning}},
+    author    = {Khalsa, Siri Sahib S and Hollon, Todd C and Adapa, Arjun R and Urias, Esteban and Srinivasan, Sudharsan and Jairath, Neil and Szczepanski, Julianne and Ouillette, Peter and Camelo-Piragua, Sandra and Orringer, Daniel A},
+    journal   = {CNS Oncology},
+    publisher = {Informa UK Limited},
+    volume    = {9},
+    number    = {2},
+    year      = {2020},
+    month     = jun,
+    issn      = {2045-0915},
+    doi       = {10.2217/cns-2020-0003},
+    url       = {https://doi.org/10.2217/cns-2020-0003},
+    keywords  = {intraoperative diagnosis, histology, neuro-oncology, machine learning}
+  }
+
+# doi:10.1038/s41591-019-0715-9
+hollon2020near: |-
+  @article{hollon2020near,
+    title     = {{Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks}},
+    author    = {Hollon, Todd C. and Pandian, Balaji and Adapa, Arjun R. and Urias, Esteban and Save, Akshay V. and Khalsa, Siri Sahib S. and Eichberg, Daniel G. and D’Amico, Randy S. and Farooq, Zia U. and Lewis, Spencer and Petridis, Petros D. and Marie, Tamara and Shah, Ashish H. and Garton, Hugh J. L. and Maher, Cormac O. and Heth, Jason A. and McKean, Erin L. and Sullivan, Stephen E. and Hervey-Jumper, Shawn L. and Patil, Parag G. and Thompson, B. Gregory and Sagher, Oren and McKhann, Guy M. and Komotar, Ricardo J. and Ivan, Michael E. and Snuderl, Matija and Otten, Marc L. and Johnson, Timothy D. and Sisti, Michael B. and Bruce, Jeffrey N. and Muraszko, Karin M. and Trautman, Jay and Freudiger, Christian W. and Canoll, Peter and Lee, Honglak and Camelo-Piragua, Sandra and Orringer, Daniel A.},
+    journal   = {Nature Medicine},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {26},
+    number    = {1},
+    pages     = {52--58},
+    year      = {2020},
+    month     = jan,
+    issn      = {1546-170X},
+    doi       = {10.1038/s41591-019-0715-9},
+    url       = {https://doi.org/10.1038/s41591-019-0715-9},
+    keywords  = {stimulated Raman histology, intraoperative diagnosis, brain tumor, deep learning}
+  }
+
+# doi:10.1080/23723556.2020.1736742
+hollon2020automated: |-
+  @article{hollon2020automated,
+    title     = {{An automated tissue-to-diagnosis pipeline using intraoperative stimulated Raman histology and deep learning}},
+    author    = {Hollon, Todd C. and Orringer, Daniel A.},
+    journal   = {Molecular &amp; Cellular Oncology},
+    publisher = {Informa UK Limited},
+    volume    = {7},
+    number    = {3},
+    pages     = {1736742},
+    year      = {2020},
+    month     = apr,
+    issn      = {2372-3556},
+    doi       = {10.1080/23723556.2020.1736742},
+    url       = {https://doi.org/10.1080/23723556.2020.1736742},
+    keywords  = {stimulated Raman histology, single-cell analysis, intraoperative diagnosis, deep learning}
+  }
+
+# cv (proceedings details from the author CV; no index record)
+urias2020denoising: |-
+  @inproceedings{urias2020denoising,
+    title     = {{Denoising stimulated Raman histology using weak supervision to improve label-free optical microscopy of human brain tumors}},
+    author    = {Esteban Urias and Christopher Freudiger and Daniel Orringer and Honglak Lee and Todd Hollon},
+    booktitle = {Machine Learning for Healthcare Conference Proceedings},
+    volume    = {5},
+    year      = {2020},
+    url       = {https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5f245aaae2b6cb56478c0c28/1596218027588/101_CameraReadySubmission_MLfH+Abstract+Final.pdf},
+    keywords  = {stimulated Raman histology, label-free imaging, optical imaging, brain tumor}
+  }
+
+# doi:10.1186/s12916-019-1423-5
+schultz2019synthetic: |-
+  @article{schultz2019synthetic,
+    title     = {{Synthetic high-density lipoprotein nanoparticles for the treatment of Niemann–Pick diseases}},
+    author    = {Schultz, Mark L. and Fawaz, Maria V. and Azaria, Ruth D. and Hollon, Todd C. and Liu, Elaine A. and Kunkel, Thaddeus J. and Halseth, Troy A. and Krus, Kelsey L. and Ming, Ran and Morin, Emily E. and McLoughlin, Hayley S. and Bushart, David D. and Paulson, Henry L. and Shakkottai, Vikram G. and Orringer, Daniel A. and Schwendeman, Anna S. and Lieberman, Andrew P.},
+    journal   = {BMC Medicine},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {17},
+    number    = {1},
+    year      = {2019},
+    month     = nov,
+    issn      = {1741-7015},
+    doi       = {10.1186/s12916-019-1423-5},
+    url       = {https://doi.org/10.1186/s12916-019-1423-5},
+    keywords  = {drug delivery, surgical outcomes}
+  }
+
+# doi:10.1016/j.nec.2018.08.012
+hollon2019surgical: |-
+  @article{hollon2019surgical,
+    title     = {{Surgical Adjuncts to Increase the Extent of Resection}},
+    author    = {Hollon, Todd and Stummer, Walter and Orringer, Daniel and Suero Molina, Eric},
+    journal   = {Neurosurgery Clinics of North America},
+    publisher = {Elsevier BV},
+    volume    = {30},
+    number    = {1},
+    pages     = {65--74},
+    year      = {2019},
+    month     = jan,
+    issn      = {1042-3680},
+    doi       = {10.1016/j.nec.2018.08.012},
+    url       = {https://doi.org/10.1016/j.nec.2018.08.012},
+    keywords  = {stimulated Raman histology, neuroimaging, intraoperative diagnosis, histology}
+  }
+
+# doi:10.3171/2018.8.focus18268
+hollon2018machine: |-
+  @article{hollon2018machine,
+    title     = {{A machine learning approach to predict early outcomes after pituitary adenoma surgery}},
+    author    = {Hollon, Todd C. and Parikh, Adish and Pandian, Balaji and Tarpeh, Jamaal and Orringer, Daniel A. and Barkan, Ariel L. and McKean, Erin L. and Sullivan, Stephen E.},
+    journal   = {Neurosurgical Focus},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {45},
+    number    = {5},
+    pages     = {E8},
+    year      = {2018},
+    month     = nov,
+    issn      = {1092-0684},
+    doi       = {10.3171/2018.8.focus18268},
+    url       = {https://doi.org/10.3171/2018.8.focus18268},
+    keywords  = {pituitary, surgical outcomes, machine learning, neurosurgery}
+  }
+
+# doi:10.1097/ccm.0000000000003207
+franko2018clinical: |-
+  @article{franko2018clinical,
+    title     = {{Clinical Factors Associated With ICU-Specific Care Following Supratentoral Brain Tumor Resection and Validation of a Risk Prediction Score}},
+    author    = {Franko, Lynze R. and Hollon, Todd and Linzey, Joseph and Roark, Christopher and Rajajee, Venkatakrishna and Sheehan, Kyle and Teig, Magnus and Hervey-Jumper, Shawn and Heth, Jason and Orringer, Daniel and Williamson, Craig A.},
+    journal   = {Critical Care Medicine},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {46},
+    number    = {8},
+    pages     = {1302--1308},
+    year      = {2018},
+    month     = aug,
+    issn      = {0090-3493},
+    doi       = {10.1097/ccm.0000000000003207},
+    url       = {https://doi.org/10.1097/ccm.0000000000003207},
+    keywords  = {brain tumor, surgical outcomes, neuro-oncology, neurosurgery}
+  }
+
+# doi:10.1093/ons/opx220
+hollon2017ventriculoscopic: |-
+  @article{hollon2017ventriculoscopic,
+    title     = {{Ventriculoscopic Surgery for Cystic Retrochiasmatic Craniopharyngiomas: Indications, Surgical Technique, and Short-Term Patient Outcomes}},
+    author    = {Hollon, Todd C and Savastano, Luis E and Altshuler, David and Barkan, Ariel L and Sullivan, Stephen E},
+    journal   = {Operative Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {15},
+    number    = {2},
+    pages     = {109--119},
+    year      = {2017},
+    month     = oct,
+    issn      = {2332-4260},
+    doi       = {10.1093/ons/opx220},
+    url       = {https://doi.org/10.1093/ons/opx220},
+    keywords  = {pituitary, hydrocephalus, surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1158/1078-0432.ccr-18-0011
+hollon2018shedding: |-
+  @article{hollon2018shedding,
+    title     = {{Shedding Light on <i>IDH1</i> Mutation in Gliomas}},
+    author    = {Hollon, Todd C. and Orringer, Daniel A.},
+    journal   = {Clinical Cancer Research},
+    publisher = {American Association for Cancer Research (AACR)},
+    volume    = {24},
+    number    = {11},
+    pages     = {2467--2469},
+    year      = {2018},
+    month     = may,
+    issn      = {1557-3265},
+    doi       = {10.1158/1078-0432.ccr-18-0011},
+    url       = {https://doi.org/10.1158/1078-0432.ccr-18-0011},
+    keywords  = {glioma, molecular classification, neuro-oncology}
+  }
+
+# doi:10.3171/2017.1.jns162719
+savastano2018korsakoff: |-
+  @article{savastano2018korsakoff,
+    title     = {{Korsakoff syndrome from retrochiasmatic suprasellar lesions: rapid reversal after relief of cerebral compression in 4 cases}},
+    author    = {Savastano, Luis E. and Hollon, Todd C. and Barkan, Ariel L. and Sullivan, Stephen E.},
+    journal   = {Journal of Neurosurgery},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {128},
+    number    = {6},
+    pages     = {1731--1736},
+    year      = {2018},
+    month     = jun,
+    issn      = {1933-0693},
+    doi       = {10.3171/2017.1.jns162719},
+    url       = {https://doi.org/10.3171/2017.1.jns162719},
+    keywords  = {pituitary, neurosurgery}
+  }
+
+# doi:10.1055/s-0037-1605593
+wertz2017surgical: |-
+  @article{wertz2017surgical,
+    title     = {{Surgical Treatment of Olfactory Neuroblastoma: Major Complication Rates, Progression Free and Overall Survival}},
+    author    = {Wertz, Aileen and Hollon, Todd and Marentette, Lawrence and Sullivan, Stephen and McHugh, Jonathan and McKean, Erin},
+    journal   = {Journal of Neurological Surgery Part B: Skull Base},
+    publisher = {Georg Thieme Verlag KG},
+    volume    = {79},
+    number    = {02},
+    pages     = {151--155},
+    year      = {2017},
+    month     = aug,
+    issn      = {2193-634X},
+    doi       = {10.1055/s-0037-1605593},
+    url       = {https://doi.org/10.1055/s-0037-1605593},
+    keywords  = {surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1016/j.jocn.2018.01.052
+saadeh2018primary: |-
+  @article{saadeh2018primary,
+    title     = {{Primary diffuse leptomeningeal melanomatosis: Description and recommendations}},
+    author    = {Saadeh, Yamaan S. and Hollon, Todd C. and Fisher-Hubbard, Amanda and Savastano, Luis E. and McKeever, Paul E. and Orringer, Daniel A.},
+    journal   = {Journal of Clinical Neuroscience},
+    publisher = {Elsevier BV},
+    volume    = {50},
+    pages     = {139--143},
+    year      = {2018},
+    month     = apr,
+    issn      = {0967-5868},
+    doi       = {10.1016/j.jocn.2018.01.052},
+    url       = {https://doi.org/10.1016/j.jocn.2018.01.052},
+    keywords  = {neuropathology}
+  }
+
+# doi:10.1016/j.wneu.2018.01.056
+hollon2018microvascular: |-
+  @article{hollon2018microvascular,
+    title     = {{Microvascular Brainstem Ischemia After Vestibular Schwannoma Surgery: A Clinical and Microanatomic Study}},
+    author    = {Hollon, Todd C. and Savastano, Luis E. and Argersinger, Davis P. and Quint, Douglas J. and Thompson, B. Gregory},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {112},
+    pages     = {e415--e424},
+    year      = {2018},
+    month     = apr,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2018.01.056},
+    url       = {https://doi.org/10.1016/j.wneu.2018.01.056},
+    keywords  = {skull base, cerebrovascular, neurosurgery}
+  }
+
+# doi:10.1158/0008-5472.can-17-1974
+hollon2018rapid: |-
+  @article{hollon2018rapid,
+    title     = {{Rapid Intraoperative Diagnosis of Pediatric Brain Tumors Using Stimulated Raman Histology}},
+    author    = {Hollon, Todd C. and Lewis, Spencer and Pandian, Balaji and Niknafs, Yashar S. and Garrard, Mia R. and Garton, Hugh and Maher, Cormac O. and McFadden, Kathryn and Snuderl, Matija and Lieberman, Andrew P. and Muraszko, Karin and Camelo-Piragua, Sandra and Orringer, Daniel A.},
+    journal   = {Cancer Research},
+    publisher = {American Association for Cancer Research (AACR)},
+    volume    = {78},
+    number    = {1},
+    pages     = {278--289},
+    year      = {2018},
+    month     = jan,
+    issn      = {1538-7445},
+    doi       = {10.1158/0008-5472.can-17-1974},
+    url       = {https://doi.org/10.1158/0008-5472.can-17-1974},
+    keywords  = {stimulated Raman histology, label-free imaging, pediatric neurosurgery, intraoperative diagnosis}
+  }
+
+# doi:10.1136/neurintsurg-2016-012446.rep
+khalsa2016republished: |-
+  @article{khalsa2016republished,
+    title     = {{Republished: Spontaneous subarachnoid hemorrhage due to ruptured cavernous internal carotid artery aneurysm after medical prolactinoma treatment}},
+    author    = {Khalsa, Siri Sahib and Hollon, Todd C and Shastri, Ravi and Trobe, Jonathan D and Gemmete, Joseph J and Pandey, Aditya S},
+    journal   = {Journal of NeuroInterventional Surgery},
+    publisher = {BMJ},
+    volume    = {9},
+    number    = {3},
+    pages     = {e9--e9},
+    year      = {2016},
+    month     = jun,
+    issn      = {1759-8486},
+    doi       = {10.1136/neurintsurg-2016-012446.rep},
+    url       = {https://doi.org/10.1136/neurintsurg-2016-012446.rep},
+    keywords  = {pituitary, cerebrovascular, surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1038/s41551-016-0027
+orringer2017rapid: |-
+  @article{orringer2017rapid,
+    title     = {{Rapid intraoperative histology of unprocessed surgical specimens via fibre-laser-based stimulated Raman scattering microscopy}},
+    author    = {Orringer, Daniel A. and Pandian, Balaji and Niknafs, Yashar S. and Hollon, Todd C. and Boyle, Julianne and Lewis, Spencer and Garrard, Mia and Hervey-Jumper, Shawn L. and Garton, Hugh J. L. and Maher, Cormac O. and Heth, Jason A. and Sagher, Oren and Wilkinson, D. Andrew and Snuderl, Matija and Venneti, Sriram and Ramkissoon, Shakti H. and McFadden, Kathryn A. and Fisher-Hubbard, Amanda and Lieberman, Andrew P. and Johnson, Timothy D. and Xie, X. Sunney and Trautman, Jay K. and Freudiger, Christian W. and Camelo-Piragua, Sandra},
+    journal   = {Nature Biomedical Engineering},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {1},
+    number    = {2},
+    year      = {2017},
+    month     = feb,
+    issn      = {2157-846X},
+    doi       = {10.1038/s41551-016-0027},
+    url       = {https://doi.org/10.1038/s41551-016-0027},
+    keywords  = {stimulated Raman histology, Raman spectroscopy, label-free imaging, intraoperative diagnosis}
+  }
+
+# doi:10.3171/2015.7.jns151187
+hollon2016supratentorial: |-
+  @article{hollon2016supratentorial,
+    title     = {{Supratentorial hemispheric ependymomas: an analysis of 109 adults for survival and prognostic factors}},
+    author    = {Hollon, Todd and Nguyen, Vincent and Smith, Brandon W. and Lewis, Spencer and Junck, Larry and Orringer, Daniel A.},
+    journal   = {Journal of Neurosurgery},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {125},
+    number    = {2},
+    pages     = {410--418},
+    year      = {2016},
+    month     = aug,
+    issn      = {1933-0693},
+    doi       = {10.3171/2015.7.jns151187},
+    url       = {https://doi.org/10.3171/2015.7.jns151187},
+    keywords  = {surgical outcomes, neurosurgery}
+  }
+
+# doi:10.1016/j.pmrj.2015.10.011
+guan2015delayed: |-
+  @article{guan2015delayed,
+    title     = {{Delayed Sciatic Nerve Injury Resulting From Myositis Ossificans Traumatica}},
+    author    = {Guan, Zhe and Wilson, Thomas J. and Jacobson, Jon A. and Hollon, Todd C. and Yang, Lynda J.‐S.},
+    journal   = {PM&amp;R},
+    publisher = {Wiley},
+    volume    = {8},
+    number    = {5},
+    pages     = {484--487},
+    year      = {2015},
+    month     = nov,
+    issn      = {1934-1563},
+    doi       = {10.1016/j.pmrj.2015.10.011},
+    url       = {https://doi.org/10.1016/j.pmrj.2015.10.011},
+    keywords  = {peripheral nerve}
+  }
+
+# doi:10.3171/2015.12.focus15557
+hollon2016improving: |-
+  @article{hollon2016improving,
+    title     = {{Improving the accuracy of brain tumor surgery via Raman-based technology}},
+    author    = {Hollon, Todd and Lewis, Spencer and Freudiger, Christian W. and Sunney Xie, X. and Orringer, Daniel A.},
+    journal   = {Neurosurgical Focus},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {40},
+    number    = {3},
+    pages     = {E9},
+    year      = {2016},
+    month     = mar,
+    issn      = {1092-0684},
+    doi       = {10.3171/2015.12.focus15557},
+    url       = {https://doi.org/10.3171/2015.12.focus15557},
+    keywords  = {Raman spectroscopy, intraoperative diagnosis, brain tumor, neuro-oncology}
+  }
+
+# doi:10.1016/j.wneu.2015.08.015
+hollon2016surgical: |-
+  @article{hollon2016surgical,
+    title     = {{Surgical Management of Skull Base Rosai–Dorfman Disease}},
+    author    = {Hollon, Todd and Camelo-Piragua, Sandra I. and McKean, Erin L. and Sullivan, Stephen E. and Garton, Hugh J.L.},
+    journal   = {World Neurosurgery},
+    publisher = {Elsevier BV},
+    volume    = {87},
+    pages     = {661.e5--661.e12},
+    year      = {2016},
+    month     = mar,
+    issn      = {1878-8750},
+    doi       = {10.1016/j.wneu.2015.08.015},
+    url       = {https://doi.org/10.1016/j.wneu.2015.08.015},
+    keywords  = {skull base, neurosurgery}
+  }
+
+# doi:10.1227/neu.0000000000001011
+chandler2016outcome: |-
+  @article{chandler2016outcome,
+    title     = {{Outcome of Transsphenoidal Surgery for Cushing Disease: A Single-Center Experience Over 32 Years}},
+    author    = {Chandler, William F. and Barkan, Ariel L. and Hollon, Todd and Sakharova, Alla and Sack, Jayson and Brahma, Barunashish and Schteingart, David E.},
+    journal   = {Neurosurgery},
+    publisher = {Ovid Technologies (Wolters Kluwer Health)},
+    volume    = {78},
+    number    = {2},
+    pages     = {216--223},
+    year      = {2016},
+    month     = feb,
+    issn      = {0148-396X},
+    doi       = {10.1227/neu.0000000000001011},
+    url       = {https://doi.org/10.1227/neu.0000000000001011},
+    keywords  = {pituitary, surgical outcomes, neurosurgery}
+  }
+
+# doi:10.3171/2015.4.peds153
+guan2015ruptured: |-
+  @article{guan2015ruptured,
+    title     = {{Ruptured pediatric cerebellopontine angle epidermoid cyst: a case report detailing radiographic evolution and clinical course}},
+    author    = {Guan, Zhe and Hollon, Todd and Bentley, J. Nicole and Garton, Hugh J. L.},
+    journal   = {Journal of Neurosurgery: Pediatrics},
+    publisher = {Journal of Neurosurgery Publishing Group (JNSPG)},
+    volume    = {16},
+    number    = {5},
+    pages     = {574--578},
+    year      = {2015},
+    month     = nov,
+    issn      = {1933-0715},
+    doi       = {10.3171/2015.4.peds153},
+    url       = {https://doi.org/10.3171/2015.4.peds153},
+    keywords  = {pediatric neurosurgery, neurosurgery}
+  }
+
+# doi:10.1016/j.semradonc.2015.02.007
+hollon2015advances: |-
+  @article{hollon2015advances,
+    title     = {{Advances in the Surgical Management of Low-Grade Glioma}},
+    author    = {Hollon, Todd and Hervey-Jumper, Shawn L. and Sagher, Oren and Orringer, Daniel A.},
+    journal   = {Seminars in Radiation Oncology},
+    publisher = {Elsevier BV},
+    volume    = {25},
+    number    = {3},
+    pages     = {181--188},
+    year      = {2015},
+    month     = jul,
+    issn      = {1053-4296},
+    doi       = {10.1016/j.semradonc.2015.02.007},
+    url       = {https://doi.org/10.1016/j.semradonc.2015.02.007},
+    keywords  = {glioma, neuro-oncology, neurosurgery}
+  }
+
+# doi:10.1007/s00381-015-2676-8
+hollon2015skull: |-
+  @article{hollon2015skull,
+    title     = {{Skull fracture mimicking eosinophilic granuloma}},
+    author    = {Hollon, Todd and McKeever, Paul E. and Garton, Hugh J. L. and Maher, Cormac O.},
+    journal   = {Child’s Nervous System},
+    publisher = {Springer Science and Business Media LLC},
+    volume    = {31},
+    number    = {7},
+    pages     = {1171--1174},
+    year      = {2015},
+    month     = mar,
+    issn      = {1433-0350},
+    doi       = {10.1007/s00381-015-2676-8},
+    url       = {https://doi.org/10.1007/s00381-015-2676-8},
+    keywords  = {pediatric neurosurgery, neuropathology, neurosurgery}
+  }
+
+# doi:10.4161/onci.25620
+hollon2013mutations: |-
+  @article{hollon2013mutations,
+    title     = {{Mutations in glioblastoma oncosuppressive pathways pave the way for oncomodulatory activity of cytomegalovirus}},
+    author    = {Hollon, Todd C and Price, Richard L and Kwon, Chang-Hyuk and Chiocca, E Antonio},
+    journal   = {OncoImmunology},
+    publisher = {Informa UK Limited},
+    volume    = {2},
+    number    = {9},
+    pages     = {e25620},
+    year      = {2013},
+    month     = sep,
+    issn      = {2162-402X},
+    doi       = {10.4161/onci.25620},
+    url       = {https://doi.org/10.4161/onci.25620},
+    keywords  = {glioblastoma, molecular classification, neuro-oncology}
+  }
+
+# doi:10.1158/0008-5472.can-12-3846
+price2013cytomegalovirus: |-
+  @article{price2013cytomegalovirus,
+    title     = {{Cytomegalovirus Contributes to Glioblastoma in the Context of Tumor Suppressor Mutations}},
+    author    = {Price, Richard L. and Song, Jieun and Bingmer, Katherine and Kim, Tae Hyong and Yi, Ji-Yeun and Nowicki, Michal O. and Mo, Xiaokui and Hollon, Todd and Murnan, Eric and Alvarez-Breckenridge, Christopher and Fernandez, Soledad and Kaur, Balveen and Rivera, Andreana and Oglesbee, Michael and Cook, Charles and Chiocca, E. Antonio and Kwon, Chang-Hyuk},
+    journal   = {Cancer Research},
+    publisher = {American Association for Cancer Research (AACR)},
+    volume    = {73},
+    number    = {11},
+    pages     = {3441--3450},
+    year      = {2013},
+    month     = may,
+    issn      = {1538-7445},
+    doi       = {10.1158/0008-5472.can-12-3846},
+    url       = {https://doi.org/10.1158/0008-5472.can-12-3846},
+    keywords  = {glioblastoma, molecular classification, neuro-oncology}
+  }

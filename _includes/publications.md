@@ -25,7 +25,10 @@ list stays readable when scripting is unavailable. {% endcomment %}
 </label>
 <button type="button" class="pub-search-clear" id="pub-search-clear" hidden>Clear</button>
 </div>
+<div class="pub-search-statusrow">
 <p class="pub-search-status" id="pub-search-status" aria-live="polite" role="status"></p>
+<button type="button" class="pub-bib-download" id="pub-bib-download">Download BibTeX</button>
+</div>
 </div>
 
 <nav class="pub-year-nav" aria-label="Jump to publications by year">
@@ -61,8 +64,8 @@ Additive only - an unlisted venue just gets no alias. {% endcomment %}
 {% if _venue contains "NEURIPS" %}{% assign _alias = _alias | append: " neural information processing systems" %}{% endif %}
 {% if _venue contains "MLHC" %}{% assign _alias = _alias | append: " machine learning for healthcare" %}{% endif %}
 {% if _venue contains "NEJM" %}{% assign _alias = _alias | append: " new england journal of medicine" %}{% endif %}
-{% capture _haystack %}{{ link.title }} {{ link.authors }} {{ link.conference }} {{ link.conference_short }} {{ link.search_terms }}{{ _alias }} {{ link.description | strip_html | replace: '*', '' | replace: '_', ' ' }}{% endcapture %}
-<li data-year="{{ y }}" data-search="{{ _haystack | normalize_whitespace | downcase | escape }}">
+{% capture _haystack %}{{ link.title }} {{ link.authors }} {{ link.conference }} {{ link.conference_short }} {{ link.keywords | join: ' ' }} {{ link.search_terms }}{{ _alias }} {{ link.description | strip_html | replace: '*', '' | replace: '_', ' ' }}{% endcapture %}
+<li data-year="{{ y }}" data-bib-key="{{ link.bib_key }}" data-search="{{ _haystack | normalize_whitespace | downcase | escape }}">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.venue_logo %}
@@ -119,6 +122,13 @@ Additive only - an unlisted venue just gets no alias. {% endcomment %}
       {{ link.others }}
       {% endif %}
     </div>
+    {% comment %} Topic keywords. Rendered as plain text so they stay readable
+    without JS; publications-search.js makes them clickable filters. {% endcomment %}
+    {% if link.keywords and link.keywords.size > 0 %}
+    <ul class="pub-keywords">
+      {% for kw in link.keywords %}<li class="pub-keyword" data-keyword="{{ kw | escape }}">{{ kw }}</li>{% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </div>
 </li>
@@ -132,5 +142,14 @@ Additive only - an unlisted venue just gets no alias. {% endcomment %}
 {% endfor %}
 
 </div>
+
+{% comment %} Complete references from _data/bibliography.yml, resolved from each
+paper's DOI. Emitted once as JSON for the BibTeX export. {% endcomment %}
+<script type="application/json" id="pub-bibtex-data">
+{
+{% assign _first = true %}{% for entry in site.data.bibliography %}{% unless _first %},
+{% endunless %}{{ entry[0] | jsonify }}: {{ entry[1] | jsonify }}{% assign _first = false %}{% endfor %}
+}
+</script>
 
 <script src="{{ '/assets/js/publications-search.js' | relative_url }}" defer></script>

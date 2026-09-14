@@ -2,6 +2,8 @@
 # Homepage highlights: _data/selected_publications.yml + _includes/selected_publications.md
 main:
 - title: "Benchmarking the Brain's Blood Vessels - Why We Need Specialized Models in Medical AI"
+  bib_key: hollon2026benchmarking
+  keywords: [neuroimaging, cerebrovascular, artificial intelligence]
   authors: Todd Hollon
   conference: NEJM AI · 2026
   description: >
@@ -15,6 +17,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1056/AIe2600897
 - title: Learning from routine health system data builds better neuroimaging AI models
+  bib_key: anon2026untitled
+  keywords: [neuroimaging, self-supervised learning, artificial intelligence]
   authors: Akhil Kondepudi and Todd Hollon
   conference: NATURE MEDICINE · 2026
   description: >
@@ -31,6 +35,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1038/s41591-026-04567-4
 - title: Health system learning enables generalist neuroimaging models
+  bib_key: kondepudi2025health
+  keywords: [neuroimaging, foundation models, vision-language models, self-supervised learning]
   authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE MEDICINE · 2026
   description: >
@@ -50,6 +56,8 @@ main:
   - title: Hugging Face
     link: https://huggingface.co/collections/mlinslab/neurovfm
 - title: Learning neuroimaging models with health system-scale data
+  bib_key: lyu2026learning
+  keywords: [neuroimaging, foundation models, vision-language models, artificial intelligence]
   authors: Yiwei Lyu, Samir Harake, Asadur Chowdury, Soumyanil Banerjee, Rachel Gologorsky, Shixuan Liu, Anna-Katharina Meissner, Akshay Rao, Chenhui Zhao, Akhil Kondepudi, Cheng Jiang, Xinhai Hou, Rushikesh S. Joshi, Volker Neuschmelting, Ashok Srinivasan, Dawn Kleindorfer, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE BIOMEDICAL ENGINEERING · 2026
   description: >
@@ -62,6 +70,8 @@ main:
   demo: https://prima.mlins.org/
   url: https://www.nature.com/articles/s41551-025-01608-0
 - title: Learning complete and explainable visual representations from itemized text supervision
+  bib_key: lyu2025learning
+  keywords: [vision-language models, self-supervised learning, representation learning, computer vision]
   authors: Yiwei Lyu, Chenhui Zhao, Soumyanil Banerjee, Shixuan Liu, Akshay T. Rao, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
   description: >
@@ -79,6 +89,8 @@ main:
   - title: Code
     link: https://github.com/MLNeurosurg/ItemizedCLIP
 - title: 'CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization'
+  bib_key: hou2025codev
+  keywords: [vision-language models, computer vision]
   authors: Xinhai Hou, Shaoyuan Xu, Manan Biyani, Moyan Li, Jia Liu, Todd C. Hollon, and Bryan Wang
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
   description: >
@@ -97,6 +109,8 @@ main:
   - title: Code
     link: https://github.com/RenlyH/CodeV
 - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
+  bib_key: zhao2026scalable
+  keywords: [neuroimaging, vision-language models, machine learning]
   authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
   conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026
   description: >
@@ -113,6 +127,8 @@ main:
   - title: Blog
     link: https://zch0414.github.io/hlip-ablation/
 - title: 'Anatomic Predilection of Isocitrate Dehydrogenase-Mutant Gliomas: A Multi-Institutional Spatial Analysis'
+  bib_key: park2026anatomic
+  keywords: [glioma, neuro-oncology, neurosurgery]
   authors: Park M, Weiss H, Harake ES, Fang C, Springer A, Goff NK, Markert JE, Reinecke D, Maarouf N, Heiland DH, Miller AM, Todd C. Hollon, John G. Golfinos, and Daniel A. Orringer
   conference: NEUROSURGERY · 2026
   description: >
@@ -124,6 +140,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1227/neu.0000000000004019
 - title: 'Natural Language Processing Methods Automate Molecular Marker Extraction From Glioma Pathology Reports'
+  bib_key: maarouf2026natural
+  keywords: [glioma, molecular classification, natural language processing, neurosurgery]
   authors: Maarouf NI, Reinecke D, Smith A, Markert JE, Cogan TG, Han X, Alyakin A, Alber DA, Park M, Goff NK, Weiss H, Harake ES, Eddy K, Todd C. Hollon, Eric K. Oermann, and Daniel A. Orringer
   conference: NEUROSURGERY · 2026
   description: >
@@ -136,6 +154,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41891708/
 - title: 'CNS-Obsidian: A Neurosurgical Vision-Language Model Built From Scientific Publications'
+  bib_key: alyakin2026cnsobsidian
+  keywords: [vision-language models, natural language processing, neurosurgery]
   authors: Alyakin A, Stryker J, Alber DA, Lee JV, Sangwon KL, Duderstadt B, Save A, Kurland D, Frome S, Singh S, Zhang J, Yang E, Park KY, Orillac C, Valliani AA, Neifert S, Liu A, Patel A, Livia C, Lau D, Laufer I, Rozman PA, Hidalgo ET, Riina H, Feng R, Todd C. Hollon, Aphinyanaphongs Y, Golfinos JG, Snyder L, Leuthardt EC, Kondziolka D, and Eric K. Oermann
   conference: NEUROSURGERY · 2026
   description: >
@@ -149,6 +169,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/42153721/
 - title: AI-Powered Pipeline Transforms Neurosurgical Articles Into High-Quality Graphical Abstracts
+  bib_key: alyakin2026aipowered
+  keywords: [artificial intelligence, neurosurgery]
   authors: Alyakin A, Stryker J, Lee JV, Feng R, Todd C. Hollon, Kondziolka D, and Eric K. Oermann
   conference: NEUROSURGERY PRACTICE · 2026
   description: >
@@ -160,6 +182,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1227/neuprac.0000000000000230
 - title: 'Minimizing the risks of stereotactic brain biopsy in suspected central nervous system lymphoma: a retrospective database study'
+  bib_key: li2026minimizing
+  keywords: [CNS lymphoma, surgical outcomes, neuro-oncology]
   authors: Li A, Saleh S, Sharba N, Guivatchian E, Sagher O, Sullivan SE, Heth JA, Todd C. Hollon, Thompson BG, Pandey AS, Umemura Y, and Wajd N. Al-Holou
   conference: JOURNAL OF CANCER RESEARCH AND CLINICAL ONCOLOGY · 2026
   description: >
@@ -172,6 +196,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41886097/
 - title: 'Predicting postoperative hospice enrollment following stereotactic brain biopsy: a retrospective study and risk score development'
+  bib_key: tripathy2026predicting
+  keywords: [glioma, surgical outcomes, neurosurgery]
   authors: Tripathy A, Harake ES, Ahmad A, Sharba N, Li A, Saleh S, Sagher O, Heth JA, Altshuler D, Todd C. Hollon, Thompson BG, Pandey AS, Umemura Y, and Wajd N. Al-Holou
   conference: JOURNAL OF NEUROSURGERY · 2026
   description: >
@@ -184,6 +210,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/42537242/
 - title: 'AI-driven label-free Raman spectromics for intraoperative spinal tumor assessment'
+  bib_key: reinecke2026aidriven
+  keywords: [spine, label-free imaging, intraoperative diagnosis, neuro-oncology]
   authors: Reinecke D, Müller N, Meissner AK, Fürtjes G, Leyer L, Wang C, Ion-Margineanu A, Maarouf N, Smith A, Todd C. Hollon, Cheng Jiang, Xinhai Hou, Al-Shughri A, Körner LI, Widhalm G, Roetzer-Pejrimovsky T, Snuderl M, Camelo-Piragua S, Golfinos JG, Goldbrunner R, Orringer DA, von Spreckelsen N, and Neuschmelting V
   conference: NPJ DIGITAL MEDICINE · 2026
   description: >
@@ -197,6 +225,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41844881/
 - title: 'Extending SEEDS to a Supervoxel Algorithm for Medical Image Analysis'
+  bib_key: zhao2025extending
+  keywords: [segmentation]
   authors: Chenhui Zhao, Yan Jiang, and Todd C. Hollon
   conference: ARXIV · 2025
   description: >
@@ -209,6 +239,8 @@ main:
   - title: arXiv
     link: https://arxiv.org/abs/2502.02409
 - title: 'A Phase 2 Study of Multiparametric Magnetic Resonance Imaging-Guided High-Dose Response-Adaptive Radiation Therapy With Concurrent Temozolomide in Patients With Newly Diagnosed Glioblastoma: Results From an Interim Analysis'
+  bib_key: kim2025phase
+  keywords: [glioblastoma, neuroimaging, surgical outcomes, clinical trials]
   authors: Kim MM, Aryal MP, Suresh K, Rosen BS, Parmar H, You D, Leung D, Clarke N, Fortunato J, Al-Holou W, Heth J, Altshuler D, Todd Hollon, Edwards DM, Wahl DR, Lawrence TS, and Cao Y
   conference: INTERNATIONAL JOURNAL OF RADIATION ONCOLOGY, BIOLOGY, PHYSICS · 2025
   description: >
@@ -221,6 +253,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/40058709/
 - title: 'Fast intraoperative detection of primary central nervous system lymphoma and differentiation from common central nervous system tumors using stimulated Raman histology and deep learning'
+  bib_key: reinecke2024fast
+  keywords: [stimulated Raman histology, CNS lymphoma, intraoperative diagnosis, deep learning]
   authors: Reinecke D, Maarouf N, Smith A, Alber D, Markert J, Goff NK, Todd C. Hollon, Asadur Chowdury, Cheng Jiang, Xinhai Hou, Meissner AK, Fürtjes G, Ruge MI, Ruess D, Stehle T, Al-Shughri A, Körner LI, Widhalm G, Roetzer-Pejrimovsky T, Golfinos JG, Snuderl M, Neuschmelting V, and Daniel A. Orringer
   conference: NEURO-ONCOLOGY · 2025
   description: >
@@ -234,6 +268,8 @@ main:
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/39673805/
 - title: 'Predicting therapeutic clinical trial enrollment for adult patients with low- and high-grade glioma using supervised machine learning'
+  bib_key: mehari2025predicting
+  keywords: [glioma, clinical trials, machine learning]
   authors: Mehari M, Warrier G, Dada A, Kabir A, Haskell-Mendoza AP, Tripathy A, Jha R, Nieblas-Bedolla E, Jackson JD, Gonzalez AT, Reason EH, Flusche AM, Reihl S, Dalton T, Negussie M, Gonzales CN, Ambati VS, Desjardins A, Daniel AGS, Krishna S, Chang S, Porter A, Fecci PE, Todd Hollon, Chukwueke UN, Badal K, Molinaro AM, and Hervey-Jumper SL
   conference: SCIENCE ADVANCES · 2025
   description: >
@@ -245,6 +281,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1126/sciadv.adt5708
 - title: 'Validation of a novel artificial intelligence model (SpinePose) to automatically and accurately predict spinopelvic parameters using scoliosis radiographs in an external cohort'
+  bib_key: joshi2025validation
+  keywords: [radiographs, artificial intelligence, neurosurgery]
   authors: Rushikesh S. Joshi, Edward S. Harake, Cheng Jiang, Haselhuhn JJ, Linzey JR, Jones JC, Zaki MM, Odland K, Wilseck Z, Joseph JR, Polly DW, Todd C. Hollon, and P. Park
   conference: NEUROSURGERY FOCUS · 2025
   description: >
@@ -256,6 +294,8 @@ main:
   - title: DOI
     link: https://doi.org/10.3171/2025.3.FOCUS2574
 - title: 'HDL Nanodiscs Loaded with Liver X Receptor Agonist Decreases Tumor Burden and Mediates Long-term Survival in Mouse Glioma Model'
+  bib_key: halseth2025hdl
+  keywords: [glioma, drug delivery, surgical outcomes, neuro-oncology]
   authors: Halseth TA, Mujeeb AA, Liu L, Banerjee K, Lang N, Todd Hollon, Yu M, Vander Roest M, Mei L, He H, Sheth M, Maria G. Castro, and Schwendeman A
   conference: SMALL · 2025
   description: >
@@ -266,6 +306,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1002/smll.202307097
 - title: Intelligent histology for tumor neurosurgery
+  bib_key: hou2026intelligent
+  keywords: [stimulated Raman histology, intraoperative diagnosis, histology, neuro-oncology]
   authors: Xinhai Hou <sup>*</sup>, Akhil V. Kondepudi <sup>*</sup>, Cheng Jiang <sup>*</sup>, Yiwei Lyu, Edward Samir Harake, Asadur Chowdury, Anna-Katharina Meißner, Volker Neuschmelting, David Reinecke, Gina Fürtjes, Georg Widhalm, Lisa Irina Körner, Jakob Straehle, Nicolas Neidert, Pierre Scheffler, Jürgen Beck, Michael E. Ivan, Ashish H. Shah, Aditya S. Pandey, Sandra Camelo-Piragua, Dieter Henrik Heiland, Oliver Schnell, Chris Freudiger, Jacob Young, Melike Pekmezci, Katie Scotford, Shawn Hervey-Jumper, Daniel Orringer, Mitchel Berger, and Todd Hollon
   conference: NEURO-ONCOLOGY ADVANCES · 2026
   description: >
@@ -280,6 +322,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1093/noajnl/vdag065
 - title: Foundation models for fast, label-free detection of glioma infiltration
+  bib_key: kondepudi2024foundation
+  keywords: [glioma, foundation models, label-free imaging, neurosurgery]
   authors: Akhil Kondepudi, Melike Pekmezci, Xinhai Hou, Katie Scotford, Cheng Jiang, Akshay Rao, Edward S. Harake, Asadur Chowdury, Wajd Al-Holou, Lin Wang, Aditya Pandey, Pedro R. Lowenstein, Maria G. Castro, Lisa Irina Koerner, Thomas Roetzer-Pejrimovsky, Georg Widhalm, Sandra Camelo-Piragua, Misha Movahed-Ezazi, Daniel A. Orringer, Honglak Lee, Christian Freudiger, Mitchel Berger, Shawn Hervey-Jumper, and Todd Hollon
   conference: NATURE · 2025
   description: >
@@ -291,6 +335,9 @@ main:
   image: "/assets/img/paper_logo/fastglioma.png"
   url: https://www.nature.com/articles/s41586-024-08169-3
 - title: Protocol to annotate and automate single-cell instance segmentation on stimulated Raman histology using deep learning
+  bib_key: bhattacharya2025protocol
+  keywords: [stimulated Raman histology, single-cell analysis, deep learning, segmentation]
+  doi: 10.1016/j.xpro.2025.104221
   authors: Abhishek Bhattacharya, Eric Landgraf, Cheng Jiang, Asadur Chowdury, Akhil Kondepudi, Lin Wang, Edward S. Harake, Xinhai Hou, Lisa Walsh, and Todd C. Hollon
   conference: STAR PROTOCOLS · 2025
   description: >
@@ -305,6 +352,8 @@ main:
   - title: PDF
     link: "/assets/papers/1-s2.0-S2666166725006276-main.pdf"
 - title: The Intraoperative Utility of Raman Spectroscopy for Neurosurgical Oncology
+  bib_key: chen2025intraoperative
+  keywords: [Raman spectroscopy, intraoperative diagnosis, neuro-oncology, neurosurgery]
   authors: Chen JS, Oh JY, Hollon TC, Hervey-Jumper SL, Young JS, and Berger MS
   conference: CANCERS (BASEL) · 2025
   description: >
@@ -315,6 +364,8 @@ main:
   - title: DOI
     link: https://doi.org/10.3390/cancers17243920
 - title: An Empirical Study on Unifying JEPA and Language Supervision for Visual Representation Learning
+  bib_key: liu2025empirical
+  keywords: [vision-language models, self-supervised learning, representation learning]
   authors: Shixuan Liu<sup>*</sup>, Daniel A. Li<sup>*</sup>, Yiwei Lyu, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
   conference: NEURIPS UNIREPS WORKSHOP · 2025
   description: >
@@ -329,6 +380,8 @@ main:
   - title: PDF
     link: https://openreview.net/pdf?id=nvEy6Yo381
 - title: Step-Calibrated Diffusion for Biomedical Optical Image Restoration
+  bib_key: lyu2024stepcalibrated
+  keywords: [image restoration, microscopy]
   authors: Yiwei Lyu, Sung Jik Cha, Cheng Jiang, Asadur Chowdury, Xinhai Hou, Edward Harake, Akhil Kondepudi, Christian Freudiger, Honglak Lee, and Todd C. Hollon
   conference: AAAI · 2025
   description: >
@@ -346,6 +399,8 @@ main:
   - title: Poster
     link: https://drive.google.com/file/d/1TjpVt_SjekUG0X3Y-98H_7cjM7NktIEx/view?usp=sharing
 - title: Localization of protoporphyrin IX during glioma-resection surgery via paired stimulated Raman histology and fluorescence microscopy
+  bib_key: nasirmoin2024localization
+  keywords: [stimulated Raman histology, glioma, intraoperative diagnosis, histology]
   authors: Mustafa Nasir-Moin, Lisa Irina Wadiura, Vlad Sacalean, Devin Juros, Misha Movahed-Ezazi, Emily K. Lock, Andrew Smith, Matthew Lee, Hannah Weiss, Michael Müther, Daniel Alber, Sujay Ratna, Camila Fang, Eric Suero-Molina, Sönke Hellwig, Walter Stummer, Karl Rössler, Johannes A. Hainfellner, Georg Widhalm, Barbara Kiesel, David Reichert, Mario Mischkulnig, Rajan Jain, Jakob Straehle, Nicolas Neidert, Oliver Schnell, Jürgen Beck, Jay Trautman, Steve Pastore, Donato Pacione, Dimitris Placantonakis, Eric Karl Oermann, John G. Golfinos, Todd C. Hollon, Matija Snuderl, Christian W. Freudiger, Dieter Henrik Heiland, and Daniel A. Orringer
   conference: NATURE BIOMEDICAL ENGINEERING · 2024
   description: >
@@ -358,6 +413,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/nasir2024localization.pdf
 - title: A self-supervised framework for learning whole slide representations
+  bib_key: hou2024selfsupervised
+  keywords: [self-supervised learning, representation learning, histology]
   authors: Xinhai Hou <sup>*</sup>, Cheng Jiang<sup>*</sup>, Akhil Kondepudi, Yiwei Lyu, Asadur Zaman Chowdury, Honglak Lee, and Todd C. Hollon
   conference: NEURIPS AIM-FM WORKSHOP · 2024
   description: >
@@ -372,6 +429,8 @@ main:
   - title: arXiv
     link: https://arxiv.org/abs/2402.06188
 - title: An empirical study of CLIP fine-tuning with similarity clusters
+  bib_key: liu2024empirical
+  keywords: [vision-language models]
   authors: Shixuan Liu, Yiwei Lyu, Honglak Lee, and Todd C. Hollon
   conference: NEURIPS FITML WORKSHOP · 2024
   description: >
@@ -389,6 +448,8 @@ main:
   - title: Github
     link: https://github.com/sx-liu/SimCLIP/
 - title: Super-resolution of biomedical volumes with 2D supervision
+  bib_key: jiang2024superresolution
+  keywords: [image restoration]
   authors: Cheng Jiang, Alexander Gedeon, Yiwei Lyu, Eric Landgraf, Yufeng Zhang, Xinhai Hou, Akhil Kondepudi, Asadur Chowdury, Honglak Lee, and Todd C. Hollon
   conference: CVPR WORKSHOP · 2024
   description: >
@@ -409,6 +470,8 @@ main:
   - title: Poster
     link: https://mlins-site.s3.amazonaws.com/pdf/posters/jiang2024super.png
 - title: Development and Validation of an Artificial Intelligence Model to Accurately Predict Spinopelvic Parameters
+  bib_key: harake2024development
+  keywords: [spine, radiographs, artificial intelligence, neurosurgery]
   authors: Edward S. Harake, Joseph R. Linzey, Cheng Jiang, Rushikesh S. Joshi, Mark M. Zaki, Jaes C. Jones, Siri S. Khalsa, John H. Lee, Zachary Wilseck, Jacob R. Joseph, Todd C. Hollon, and Paul Park
   conference: JOURNAL OF NEUROSURGERY SPINE · 2024
   description: >
@@ -426,6 +489,8 @@ main:
   - title: Paper
     link: https://thejns.org/spine/view/journals/j-neurosurg-spine/aop/article-10.3171-2024.1.SPINE231252/article-10.3171-2024.1.SPINE231252.xml
 - title: 'Combined cytotoxic and immune-stimulatory gene therapy for primary adult high-grade glioma: a phase 1, first-in- human trial'
+  bib_key: umemura2023combined
+  keywords: [glioma, drug delivery, clinical trials, neuro-oncology]
   authors: Yoshie Umemura, Daniel Orringer, Larry Junck, Maria L Varela, Molly E J West, Syed M Faisal, Andrea Comba, Jason Heth, Oren Sagher, Denise Leung, Aaron Mammoser, Shawn Hervey-Jumper, Daniel Zamler, Viveka N Yadav, Patrick Dunn, Wajd Al-Holou, Todd Hollon, Michelle M Kim, Daniel R Wahl, Sandra Camelo-Piragua, Andrew P Lieberman, Sriram Venneti, Paul McKeever, Theodore Lawrence, Ryo Kurokawa, Karen Sagher, David Altshuler, Lili Zhao, Karin Muraszko, Maria G Castro, and Pedro R Lowenstein
   conference: LANCET ONCOLOGY · 2023
   description: >
@@ -438,6 +503,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/umemura2023combined.pdf
 - title: Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy
+  bib_key: jiang2023hierarchical
+  keywords: [self-supervised learning, representation learning, computer vision, microscopy]
   authors: Cheng Jiang<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Asadur Chowdury, Christian W. Freudiger, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2023
   description: >
@@ -457,6 +524,8 @@ main:
   - title: Github
     link: https://github.com/MLNeurosurg/hidisc
 - title: Fine-grained Text Style Transfer with Diffusion-Based Language Models
+  bib_key: lyu2023finegrained
+  keywords: [natural language processing]
   authors: Yiwei Lyu, Tiange Luo, Jiacheng Shi, Todd C. Hollon, and Honglak Lee
   conference: ACL Repl4NLP Workshop · 2023
   description: >
@@ -472,6 +541,8 @@ main:
   - title: Github
     link: https://github.com/lvyiwei1/DiffuSeq_StylePTB
 - title: AI-based molecular classification of diffuse gliomas using rapid, label-free optical imaging
+  bib_key: hollon2023artificialintelligencebased
+  keywords: [glioma, label-free imaging, optical imaging, molecular classification]
   authors: Todd Hollon, Cheng Jiang, Asadur Chowdury, Mustafa Nasir-Moin, Akhil Kondepudi, Alexander Aabedi, Arjun Adapa, Wajd Al-Holou, Jason Heth, Oren Sagher, Pedro Lowenstein, Maria Castro, Lisa Irina Wadiura, Georg Widhalm, Volker Neuschmelting, David Reinecke, Niklas von Spreckelsen, Mitchel Berger, Shawn Hervey-Jumper, John Golfinos, Matija Snuderl, Sandra Camelo-Piragua, Christian Freudiger, Honglak Lee, and Daniel Orringer
   conference: NATURE MEDICINE · 2023
   description: >
@@ -492,6 +563,8 @@ main:
   - title: Github
     link: https://github.com/MLNeurosurg/deepglioma
 - title: Unlocking glioma genetics with deep learning
+  bib_key: orringer2023unlocking
+  keywords: [glioma, molecular classification, deep learning]
   authors: Daniel A. Orringer and Todd C. Hollon
   conference: MED · 2023
   description: >
@@ -502,6 +575,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1016/j.medj.2023.07.008
 - title: Subclonal evolution and expansion of spatially distinct THY1-positive cells is associated with recurrence in glioblastoma
+  bib_key: alholou2023subclonal
+  keywords: [glioblastoma]
   authors: Wajd N. Al-Holou, Hanxiao Wang, Visweswaran Ravikumar, Sunita Shankar, Morgan Oneka, Ziad Fehmi, Roel GW Verhaak, Hoon Kim, Drew Pratt, Sandra Camelo-Piragua, Corey Speers, Daniel R Wahl, Todd Hollon, Oren Sagher, Jason A Heth, Karin M. Muraszko, Theodore S. Lawrence, Ana C de Carvalho, Tom Mikkelsen, Arvind Rao, Alnawaz Rehemtulla
   conference: NEOPLASIA · 2023
   description: >
@@ -513,6 +588,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/alholou2023subclonal.pdf
 - title: A comparison of ventricular volume and linear indices in predicting shunt dependence in aneurysmal subarachnoid hemorrhage
+  bib_key: talbotstetsko2023comparison
+  keywords: [cerebrovascular, hydrocephalus, neurosurgery]
   authors: Talbot-Stetsko HK, Pawlowski KD, Aaron BL, Adapa AR, Altshuler DB, Srinivasan S, Pandey AS, Maher CO, Hollon TC, and Khalsa SSS
   conference: WORLD NEUROSURGERY X · 2023
   description: >
@@ -524,6 +601,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1016/j.wnsx.2023.100181
 - title: Generation of 3D ex vivo mouse- and patient-derived glioma explant slice model for integration of confocal time-lapse imaging and spatial analysis
+  bib_key: comba2023generation
+  keywords: [glioma]
   authors: Comba A, Varela ML, Faisal SM, Abel CC 2nd, Argento AE, Al-Holou WN, Hollon TC, Perelman JD, Dunn PJ, Motsch S, Castro MG, and Lowenstein PR
   conference: STAR PROTOCOLS · 2023
   description: >
@@ -535,6 +614,8 @@ main:
   - title: DOI
     link: https://doi.org/10.1016/j.xpro.2023.102174
 - title: 'OpenSRH: optimizing brain tumor surgery using intraoperative stimulated Raman histology'
+  bib_key: jiang2022opensrh
+  keywords: [stimulated Raman histology, intraoperative diagnosis, brain tumor, histology]
   authors: Cheng Jiang<sup>*</sup>, Asadur Chowdury<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Christian W. Freudiger, Kyle Conway, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
   conference: NEURIPS DATASETS & BENCHMARKS · 2022
   description: >
@@ -558,7 +639,9 @@ main:
     link: https://mlins-site.s3.amazonaws.com/pdf/posters/jiang2022opensrh.pdf
   - title: OpenReview
     link: https://openreview.net/forum?id=2N8JzuiWZ25
-- title: Generating novel pituitary datasets from open-source imaging data and deep volumentric segmentation
+- title: Generating novel pituitary datasets from open-source imaging data and deep volumetric segmentation
+  bib_key: gologorsky2022generating
+  keywords: [pituitary, segmentation, artificial intelligence]
   authors: Rachel Gologorsky, Edward Harake, Grace von Oiste, Mustafa Nasir-Moin, William Couldwell, Eric Oermann, and Todd Hollon
   conference: PITUITARY · 2022
   description: >
@@ -570,6 +653,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/gologorsky2022generating.pdf
 - title: Methods and Impact for Using Federated Learning to Collaborate on Clinical Research
+  bib_key: cheung2022methods
+  keywords: [machine learning, neurosurgery]
   authors: Alexander T M Cheung, Mustafa Nasir-Moin, Young Joon Fred Kwon, Jiahui Guan, Chris Liu, Lavender Jiang, Christian Raimondo, Silky Chotai, Lola Chambless, Hasan S Ahmad, Daksh Chauhan, Jang W Yoon, Todd Hollon, Vivek Buch, Douglas Kondziolka, Dinah Chen, Lama A Al-Aswad, Yindalon Aphinyanaphongs, and Eric Karl Oermann
   conference: NEUROSURGERY · 2022
   description: >
@@ -582,6 +667,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/cheung2022methods.pdf
 - title: Perigeniculate giant cell tumor of temporal bone
+  bib_key: babajanian2022perigeniculate
+  keywords: [neuro-oncology, neurosurgery]
   authors: Eric E. Babajanian, Todd C. Hollon, Tori A. Seasor, William Couldwell, and Richard K. Gurgel
   conference: CUREUS · 2022
   description: >
@@ -593,6 +680,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/babajanian2022perigeniculate.pdf
 - title: Single-cell phenotyping using optical imaging and artificial intelligence
+  bib_key: bhattacharya2022singlecell
+  keywords: [optical imaging, single-cell analysis, artificial intelligence]
   authors: Abhishek Bhattacharya, Daniel Alber, and Todd Hollon
   conference: MLHC · 2022
   description: >
@@ -604,6 +693,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/bhattacharya2022single.pdf
 - title: Laminectomy at T4 and T5 for Resection of Symptomatic Cavernous Malformation
+  bib_key: fredrickson2022laminectomy
+  keywords: [spine, neurosurgery]
   authors: Vance L.Fredrickson Todd C.Hollon Robert C.Rennert Marcus D.Mazur Andrew T.Dailey, and William T.Couldwell
   conference: WORLD NEUROSURGERY · 2022
   description: >
@@ -616,6 +707,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022laminectomy.pdf
 - title: Spatiotemporal analysis of glioma heterogeneity reveals COL1A1 as an actionable target to disrupt tumor progression
+  bib_key: comba2022spatiotemporal
+  keywords: [glioma, brain tumor, segmentation, neuro-oncology]
   authors: Andrea Comba, Syed M. Faisal, Patrick J. Dunn, Anna E. Argento, Todd C. Hollon, Wajd N. Al-Holou, Maria Luisa Varela, Daniel B. Zamler, Gunnar L. Quass, Pierre F. Apostolides, Clifford Abel II, Christine E. Brown, Phillip E. Kish, Alon Kahana, Celina G. Kleer, Sebastien Motsch, Maria G. Castro and Pedro R. Lowenstein
   conference: NATURE COMMUNICATIONS · 2022
   description: >
@@ -628,6 +721,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/comba2021uncovering.pdf
 - title: Rapid automated analysis of skull base tumor specimens using intraoperative optical imaging and artificial intelligence
+  bib_key: jiang2022rapid
+  keywords: [skull base, optical imaging, intraoperative diagnosis, neuro-oncology]
   authors: Cheng Jiang, Abhishek Bhattacharya, Joseph Linzey, Rushikesh Joshi, Sung Jik Cha, Sudharsan Srinivasan, Daniel Alber, Akhil Kondepudi, Esteban Urias, Balaji Pandian, Wajd Al-Holou, Steve Sullivan, B. Gregory Thompson, Jason Heth, Chris Freudiger, Siri Khalsa, Donato Pacione, John G. Golfinos, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and Todd Hollon
   conference: NEUROSURGERY · 2022
   description: >
@@ -646,6 +741,8 @@ main:
   - title: Talk
     link: https://youtu.be/Y_VW_RL6ujk?t=2678
 - title: 'Extent of Resection Research in Skull Base Neurosurgery: Previous Studies and Future Directions'
+  bib_key: hollon2022extent
+  keywords: [skull base, surgical outcomes, neurosurgery]
   authors: Todd Hollon, Vance Fredrickson, William Couldwell
   conference: WORLD NEUROSURGERY · 2022
   description: >
@@ -658,6 +755,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2022extent.pdf
 - title: 'Cranio-Orbital Approach for Single-Stage En Bloc Resection of Optic Nerve Glioma: Technical Note'
+  bib_key: fredrickson2021cranioorbital
+  keywords: [glioma, neurosurgery]
   authors: Vance L Fredrickson, Guilherme J Agnoletto, Todd C Hollon, Bornali Kundu, Vance R Mortimer, William T Couldwell
   conference: OPERATIVE NEUROSURGERY · 2022
   description: >
@@ -670,6 +769,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022cranio.pdf
 - title: Microsurgical Excision of Ruptured Lenticulostriate Artery Aneurysm
+  bib_key: fredrickson2022microsurgical
+  keywords: [cerebrovascular, neurosurgery]
   authors: Vance L Fredrickson, Serge Makarenko, Todd C Hollon, Robert C Rennert, Ramesh Grandhi, William T Couldwell
   conference: WORLD NEUROSURGERY · 2022
   description: >
@@ -682,6 +783,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022microsurgical.pdf
 - title: 'Uncovering Spatiotemporal Heterogeneity of High-Grade Gliomas: From Disease Biology to Therapeutic Implications'
+  bib_key: comba2021uncovering
+  keywords: [glioma, neuro-oncology]
   authors: Andrea Comba, Syed M Faisal, Maria Luisa Varela, Todd Hollon, Wajd N Al-Holou, Yoshie Umemura, Felipe J Nunez, Sebastien Motsch, Maria G Castro, and Pedro R Lowenstein
   conference: FRONTIERS IN ONCOLOGY · 2021
   description: >
@@ -693,6 +796,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/comba2021uncovering.pdf
 - title: 'Lateral Suboccipital Craniotomy With C1-C2 Hemilaminectomies and C1-C3 Fusion for the Treatment of a C1-C2 Synovial Cyst Causing Spinal Cord Compression: 2-Dimensional Operative Video'
+  bib_key: croci2021lateral
+  keywords: [spine, neurosurgery]
   authors: Davide Marco Croci, Vance L. Fredrickson, Todd C. Hollon, Andrew T. Dailey, and William T. Couldwell
   conference: OPERATIVE NEUROSURGERY · 2021
   description: >
@@ -705,6 +810,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/croci2021lateral.pdf
 - title: Label-free brain tumor imaging using Raman-based methods
+  bib_key: hollon2021labelfree
+  keywords: [Raman spectroscopy, label-free imaging, intraoperative diagnosis, brain tumor]
   authors: Todd Hollon and Daniel A. Orringer
   conference: JOURNAL OF NEURO-ONCOLOGY · 2021
   description: >
@@ -716,6 +823,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2021label.pdf
 - title: Rapid, label-free detection of diffuse glioma recurrence using intraoperative stimulated Raman histology and deep neural networks
+  bib_key: hollon2020rapid
+  keywords: [stimulated Raman histology, glioma, label-free imaging, intraoperative diagnosis]
   authors: Todd C Hollon, Balaji Pandian, Esteban Urias, Akshay V Save, Arjun R Adapa, Sudharsan Srinivasan, Neil K Jairath, Zia Farooq, Tamara Marie, Wajd N Al-Holou, Karen Eddy, Jason A Heth, Siri Sahib S Khalsa, Kyle Conway, Oren Sagher, Jeffrey N Bruce, Peter Canoll, Christian W Freudiger, Sandra Camelo-Piragua, Honglak Lee, Daniel A Orringer
   conference: NEURO-ONCOLOGY · 2021
   description: >
@@ -728,6 +837,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2021rapid.pdf
 - title: Clinical Translation of Stimulated Raman Histology
+  bib_key: orillac2021clinical
+  keywords: [stimulated Raman histology, intraoperative diagnosis, histology]
   authors: Cordelia Orillac, Todd Hollon, Daniel A Orringer
   conference: METHODS IN MOLECULAR BIOLOGY · 2021
   description: >
@@ -736,6 +847,8 @@ main:
   pdf: https://doi.org/10.1007/978-1-0716-1803-5_12
   image: "/assets/img/paper_logo/orillic2021_clinical_translation_srh_system.png"
 - title: Ventricular Volume Change as a Predictor of Shunt-Dependent Hydrocephalus in Aneurysmal Subarachnoid Hemorrhage
+  bib_key: talbotstetsko2022ventricular
+  keywords: [cerebrovascular, hydrocephalus, neurosurgery]
   authors: Haley K Talbot-Stetsko, Kristen D Raue, Bryan L Aaron, Arjun R Adapa, David B Altshuler, Sudharsan Srinivasan, Aditya S Pandey, Cormac O Maher, Todd C Hollon, Siri Sahib S Khalsa
   conference: WORLD NEUROSURGERY · 2021
   description: >
@@ -748,6 +861,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/talbotsketsko2021ventricular.pdf
 - title: Far Lateral Craniotomy for Obliteration of High-Risk Craniocervical Junction Arteriovenous Fistula
+  bib_key: agnoletto2021far
+  keywords: [cerebrovascular, neurosurgery]
   authors: Guilherme J Agnoletto, Vance L Fredrickson, Todd C Hollon, William T Couldwell
   conference: NEUROLOGY INDIA · 2021
   description: >
@@ -759,6 +874,8 @@ main:
   - title: HTML
     link: https://doi.org/10.4103/0028-3886.333526
 - title: Idiopathic chronic temporal lobe herniation with associated epilepsy
+  bib_key: gamblin2021idiopathic
+  keywords: [neurosurgery]
   authors: Austin Gamblin, Vance L Fredrickson, Todd C Hollon, Karen L Salzman, William T Couldwell
   conference: ACTA NEUROCHIRURGICA · 2021
   description: >
@@ -770,6 +887,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/gamblin2021idiopathic.pdf
 - title: Normal cerebral ventricular volume growth in childhood
+  bib_key: cutler2020normal
+  keywords: [neuroimaging, hydrocephalus, pediatric neurosurgery, neurosurgery]
   authors: Noah S Cutler , Sudharsan Srinivasan , Bryan L Aaron, Sharath Kumar Anand , Michael S Kang, David B Altshuler, Thomas C Schermerhorn, Todd C Hollon , Cormac O Maher , and Siri Sahib S Khalsa
   conference: JOURNAL OF NEUROSURGERY PEDIATRICS · 2020
   description: >
@@ -782,6 +901,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/cutler2020normal.pdf
 - title: Automated histologic diagnosis of CNS tumors with machine learning
+  bib_key: khalsa2020automated
+  keywords: [intraoperative diagnosis, histology, neuro-oncology, machine learning]
   authors: Siri Sahib S Khalsa, Todd C Hollon, Arjun Adapa, Esteban Urias, Sudharsan Srinivasan, Neil Jairath, Julianne Szczepanski, Peter Ouillette, Sandra Camelo-Piragua, Daniel A Orringer
   conference: CNS ONCOLOGY · 2020
   description: >
@@ -793,6 +914,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2020automated.pdf
 - title: Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks
+  bib_key: hollon2020near
+  keywords: [stimulated Raman histology, intraoperative diagnosis, brain tumor, deep learning]
   authors: Todd C Hollon, Balaji Pandian, Arjun R Adapa, Esteban Urias, Akshay V Save, Siri Sahib S Khalsa, Daniel G Eichberg, Randy S D'Amico, Zia U Farooq, Spencer Lewis, Petros D Petridis, Tamara Marie, Ashish H Shah, Hugh J L Garton, Cormac O Maher, Jason A Heth, Erin L McKean, Stephen E Sullivan, Shawn L Hervey-Jumper, Parag G Patil, B Gregory Thompson, Oren Sagher, Guy M McKhann 2nd, Ricardo J Komotar, Michael E Ivan, Matija Snuderl, Marc L Otten, Timothy D Johnson, Michael B Sisti, Jeffrey N Bruce, Karin M Muraszko, Jay Trautman, Christian W Freudiger, Peter Canoll, Honglak Lee, Sandra Camelo-Piragua, Daniel A Orringer
   conference: NATURE MEDICINE · 2020
   description: >
@@ -814,6 +937,8 @@ main:
   - title: NYTimes Article
     link: https://www.nytimes.com/2020/01/06/health/artificial-intelligence-brain-cancer.html
 - title: An automated tissue-to-diagnosis pipeline using intraoperative stimulated Raman histology and deep learning
+  bib_key: hollon2020automated
+  keywords: [stimulated Raman histology, single-cell analysis, intraoperative diagnosis, deep learning]
   authors: Todd C. Hollon and Daniel A. Orringer
   conference: MOLECULAR & CELLULAR ONCOLOGY · 2020
   description: >
@@ -825,6 +950,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020automated.pdf
 - title: Denoising stimulated Raman histology using weak supervision to improve label-free optical microscopy of human brain tumors
+  bib_key: urias2020denoising
+  keywords: [stimulated Raman histology, label-free imaging, optical imaging, brain tumor]
   authors: Esteban Urias, Christopher Freudiger, Daniel Orringer, Honglak Lee, and Todd Hollon
   conference: MLHC · 2020
   description: >
@@ -836,6 +963,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/urias2020denoising.pdf
 - title: Synthetic high-density lipoprotein nanoparticles for the treatment of Niemann-Pick diseases
+  bib_key: schultz2019synthetic
+  keywords: [drug delivery, surgical outcomes]
   authors: Mark L Schultz, Maria V Fawaz, Ruth D Azaria, Todd C Hollon, Elaine A Liu, Thaddeus J Kunkel, Troy A Halseth, Kelsey L Krus, Ran Ming, Emily E Morin, Hayley S McLoughlin, David D Bushart, Henry L Paulson, Vikram G Shakkottai, Daniel A Orringer, Anna S Schwendeman, Andrew P Lieberman
   conference: BMC MEDICINE · 2019
   description: >
@@ -847,6 +976,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/schultz2019synthetic.pdf
 - title: 'Surgical Adjuncts to Increase the Extent of Resection: Intraoperative MRI, Fluorescence, and Raman Histology'
+  bib_key: hollon2019surgical
+  keywords: [stimulated Raman histology, neuroimaging, intraoperative diagnosis, histology]
   authors: Todd Hollon, Walter Stummer, Daniel Orringer, Eric Suero Molina
   conference: NEUROSURGERY CLINICS OF NORTH AMERICA · 2019
   description: >
@@ -855,6 +986,8 @@ main:
   pdf: https://doi.org/10.1016/j.nec.2018.08.012
   image: "/assets/img/paper_logo/hollon2019_surgical_adjuncts_srh_grid.png"
 - title: A machine learning approach to predict early outcomes after pituitary adenoma surgery
+  bib_key: hollon2018machine
+  keywords: [pituitary, surgical outcomes, machine learning, neurosurgery]
   authors: Todd C Hollon, Adish Parikh, Balaji Pandian, Jamaal Tarpeh, Daniel A Orringer, Ariel L Barkan, Erin L McKean, Stephen E Sullivan
   conference: JOURNAL OF NEUROSURGERY · 2018
   description: >
@@ -867,6 +1000,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
 - title: Clinical Factors Associated With ICU-Specific Care Following Supratentoral Brain Tumor Resection and Validation of a Risk Prediction Score
+  bib_key: franko2018clinical
+  keywords: [brain tumor, surgical outcomes, neuro-oncology, neurosurgery]
   authors: Lynze R Franko, Todd Hollon, Joseph Linzey, Christopher Roark, Venkatakrishna Rajajee, Kyle Sheehan, Magnus Teig, Shawn Hervey-Jumper, Jason Heth, Daniel Orringer, Craig A Williamson
   conference: CRITICAL CARE MEDICINE · 2018
   description: >
@@ -878,6 +1013,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
 - title: 'Ventriculoscopic Surgery for Cystic Retrochiasmatic Craniopharyngiomas: Indications, Surgical Technique, and Short-Term Patient Outcomes'
+  bib_key: hollon2017ventriculoscopic
+  keywords: [pituitary, hydrocephalus, surgical outcomes, neurosurgery]
   authors: Todd C Hollon, Luis E Savastano, David Altshuler, Ariel L Barkan, Stephen E Sullivan
   conference: OPERATIVE NEUROSURGERY · 2017
   description: >
@@ -890,6 +1027,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2017ventriculoscopic.pdf
 - title: Shedding Light on IDH1 Mutation in Gliomas
+  bib_key: hollon2018shedding
+  keywords: [glioma, molecular classification, neuro-oncology]
   authors: Todd C Hollon, Daniel A Orringer
   conference: CLINICAL CANCER RESEARCH · 2018
   description: >
@@ -902,6 +1041,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018shedding.pdf
 - title: 'Korsakoff syndrome from retrochiasmatic suprasellar lesions: rapid reversal after relief of cerebral compression in 4 cases'
+  bib_key: savastano2018korsakoff
+  keywords: [pituitary, neurosurgery]
   authors: Luis E Savastano, Todd C Hollon, Ariel L Barkan, Stephen E Sullivan
   conference: JOURNAL OF NEUROSURGERY · 2017
   description: >
@@ -914,6 +1055,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/savastano2017korsakoff.pdf
 - title: 'Surgical Treatment of Olfactory Neuroblastoma: Major Complication Rates, Progression Free and Overall Survival'
+  bib_key: wertz2017surgical
+  keywords: [surgical outcomes, neurosurgery]
   authors: Aileen Wertz, Todd Hollon, Lawrence J Marentette, Stephen E Sullivan, Jonathan B McHugh, Erin L McKean
   conference: JOURNAL OF NEUROLOGICAL SURGERY · 2018
   description: >
@@ -925,6 +1068,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
 - title: 'Primary diffuse leptomeningeal melanomatosis: Description and recommendations'
+  bib_key: saadeh2018primary
+  keywords: [neuropathology]
   authors: Yamaan S Saadeh, Todd C Hollon, Amanda Fisher-Hubbard, Luis E Savastano, Paul E McKeever, Daniel A Orringer
   conference: JOURNAL OF CLINICAL NEUROSCIENCE · 2018
   description: >
@@ -936,6 +1081,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/saadeh2018primary.pdf
 - title: 'Microvascular Brainstem Ischemia After Vestibular Schwannoma Surgery: A Clinical and Microanatomic Study'
+  bib_key: hollon2018microvascular
+  keywords: [skull base, cerebrovascular, neurosurgery]
   authors: Todd C Hollon, Luis E Savastano, Davis P Argersinger, Douglas J Quint, B Gregory Thompson
   conference: WORLD NEUROSURGERY · 2018
   description: >
@@ -948,6 +1095,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018microvascular.pdf
 - title: Rapid Intraoperative Diagnosis of Pediatric Brain Tumors Using Stimulated Raman Histology
+  bib_key: hollon2018rapid
+  keywords: [stimulated Raman histology, label-free imaging, pediatric neurosurgery, intraoperative diagnosis]
   authors: Todd C Hollon, Spencer Lewis, Balaji Pandian, Yashar S Niknafs, Mia R Garrard, Hugh Garton, Cormac O Maher, Kathryn McFadden, Matija Snuderl, Andrew P Lieberman, Karin Muraszko, Sandra Camelo-Piragua, Daniel A Orringer
   conference: CANCER RESEARCH · 2018
   description: >
@@ -960,6 +1109,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
 - title: Spontaneous subarachnoid hemorrhage due to ruptured cavernous internal carotid artery aneurysm after medical prolactinoma treatment
+  bib_key: khalsa2016republished
+  keywords: [pituitary, cerebrovascular, surgical outcomes, neurosurgery]
   authors: Siri Sahib Khalsa, Todd C Hollon, Ravi Shastri, Jonathan D Trobe, Joseph J Gemmete, and Aditya S Pandey
   conference: JOURNAL OF NEUROINTERVENTIONAL SURGERY · 2016
   description: >
@@ -971,6 +1122,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2016spontaneous.pdf
 - title: Rapid intraoperative histology of unprocessed surgical specimens via fibre-laser-based stimulated Raman scattering microscopy
+  bib_key: orringer2017rapid
+  keywords: [stimulated Raman histology, Raman spectroscopy, label-free imaging, intraoperative diagnosis]
   authors: Daniel A Orringer, Balaji Pandian, Yashar S Niknafs, Todd C Hollon, Julianne Boyle, Spencer Lewis, Mia Garrard, Shawn L Hervey-Jumper, Hugh J L Garton, Cormac O Maher, Jason A Heth, Oren Sagher, D Andrew Wilkinson, Matija Snuderl, Sriram Venneti, Shakti H Ramkissoon, Kathryn A McFadden, Amanda Fisher-Hubbard, Andrew P Lieberman, Timothy D Johnson, X Sunney Xie, Jay K Trautman, Christian W Freudiger, Sandra Camelo-Piragua
   conference: NATURE BIOMEDICAL ENGINEERING · 2017
   description: >
@@ -983,6 +1136,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/orringer2017rapid.pdf
 - title: 'Supratentorial hemispheric ependymomas: an analysis of 109 adults for survival and prognostic factors'
+  bib_key: hollon2016supratentorial
+  keywords: [surgical outcomes, neurosurgery]
   authors: Todd Hollon, Vincent Nguyen, Brandon W Smith, Spencer Lewis, Larry Junck, Daniel A Orringer
   conference: JOURNAL OF NEUROSURGERY · 2016
   description: >
@@ -995,6 +1150,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016superatentorial.pdf
 - title: Delayed Sciatic Nerve Injury Resulting From Myositis Ossificans Traumatica
+  bib_key: guan2015delayed
+  keywords: [peripheral nerve]
   authors: Zhe Guan, Thomas J Wilson, Jon A Jacobson, Todd C Hollon, Lynda J-S Yang
   conference: PM&R · 2016
   description: >
@@ -1006,6 +1163,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2016delayed.pdf
 - title: Improving the accuracy of brain tumor surgery via Raman-based technology
+  bib_key: hollon2016improving
+  keywords: [Raman spectroscopy, intraoperative diagnosis, brain tumor, neuro-oncology]
   authors: Todd Hollon, Spencer Lewis, Christian W Freudiger, X Sunney Xie, Daniel A Orringer
   conference: JOURNAL OF NEUROSURGERY · 2016
   description: >
@@ -1018,6 +1177,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016improving.pdf
 - title: Surgical Management of Skull Base Rosai-Dorfman Disease
+  bib_key: hollon2016surgical
+  keywords: [skull base, neurosurgery]
   authors: Todd Hollon, Sandra I Camelo-Piragua, Erin L McKean, Stephen E Sullivan, Hugh J L Garton
   conference: WORLD NEUROSURGERY · 2016
   description: >
@@ -1030,6 +1191,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016surgical.pdf
 - title: 'Outcome of Transsphenoidal Surgery for Cushing Disease: A Single-Center Experience Over 32 Years'
+  bib_key: chandler2016outcome
+  keywords: [pituitary, surgical outcomes, neurosurgery]
   authors: William F Chandler, Ariel L Barkan, Todd Hollon, Alla Sakharova, Jayson Sack, Barunashish Brahma, David E Schteingart
   conference: NEUROSURGERY · 2016
   description: >
@@ -1042,6 +1205,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
 - title: 'Ruptured pediatric cerebellopontine angle epidermoid cyst: a case report detailing radiographic evolution and clinical course'
+  bib_key: guan2015ruptured
+  keywords: [pediatric neurosurgery, neurosurgery]
   authors: Zhe Guan, Todd Hollon, J Nicole Bentley, Hugh J L Garton
   conference: JOURNAL OF NEUROSURGERY · 2015
   description: >
@@ -1054,6 +1219,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2015ruptured.pdf
 - title: Advances in the Surgical Management of Low-Grade Glioma
+  bib_key: hollon2015advances
+  keywords: [glioma, neuro-oncology, neurosurgery]
   authors: Todd Hollon, Shawn L Hervey-Jumper, Oren Sagher, Daniel A Orringer
   conference: SEMINARS IN RADIATION ONCOLOGY · 2015
   description: >
@@ -1065,6 +1232,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015advances.pdf
 - title: Skull fracture mimicking eosinophilic granuloma
+  bib_key: hollon2015skull
+  keywords: [pediatric neurosurgery, neuropathology, neurosurgery]
   authors: Todd Hollon, Paul E McKeever, Hugh J L Garton, Cormac O Maher
   conference: CHILD'S NERVOUS SYSTEM · 2015
   description: >
@@ -1076,6 +1245,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015skull.pdf
 - title: Mutations in glioblastoma oncosuppressive pathways pave the way for oncomodulatory activity of cytomegalovirus
+  bib_key: hollon2013mutations
+  keywords: [glioblastoma, molecular classification, neuro-oncology]
   authors: Todd C Hollon, Richard L Price, Chang-Hyuk Kwon, E Antonio Chiocca
   conference: ONCOIMMUNOLOGY · 2013
   description: >
@@ -1087,6 +1258,8 @@ main:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2013mutations.pdf
 - title: Cytomegalovirus contributes to glioblastoma in the context of tumor suppressor mutations
+  bib_key: price2013cytomegalovirus
+  keywords: [glioblastoma, molecular classification, neuro-oncology]
   authors: Richard L Price, Jieun Song, Katherine Bingmer, Tae Hyong Kim, Ji-Yeun Yi, Michal O Nowicki, Xiaokui Mo, Todd Hollon, Eric Murnan, Christopher Alvarez-Breckenridge, Soledad Fernandez, Balveen Kaur, Andreana Rivera, Michael Oglesbee, Charles Cook, E Antonio Chiocca, Chang-Hyuk Kwon
   conference: CANCER RESEARCH · 2013
   description: >

@@ -110,7 +110,7 @@ main:
       - title: Paper
         link: https://thejns.org/spine/view/journals/j-neurosurg-spine/aop/article-10.3171-2024.1.SPINE231252/article-10.3171-2024.1.SPINE231252.xml
 
-  - title: Generating novel pituitary datasets from open-source imaging data and deep volumentric segmentation
+  - title: Generating novel pituitary datasets from open-source imaging data and deep volumetric segmentation
     authors: Rachel Gologorsky, Edward Harake, Grace von Oiste, Mustafa Nasir-Moin, William Couldwell, Eric Oermann, and Todd Hollon
     conference: PITUITARY · 2022
     description: >

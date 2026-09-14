@@ -310,3 +310,73 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 @media (prefers-color-scheme: dark) {
   .demos-intro img { filter: brightness(0) invert(1); }
 }
+
+/* Status line pairs the result count with the BibTeX export */
+.pub-search-statusrow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+}
+
+.pub-search-statusrow .pub-search-status { margin-top: 0; }
+
+.pub-bib-download {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--global-theme-color);
+  background: none;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+
+.pub-bib-download:hover:not(:disabled) {
+  color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+
+.pub-bib-download:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Topic keywords: metadata, so quieter than the pill buttons above them */
+.publications ol.bibliography li ul.pub-keywords {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.55rem 0 0 0;
+  padding: 0;
+}
+
+.publications ol.bibliography li .pub-keyword {
+  /* The entry rule `ol.bibliography li` sets min-height:125px and also matches
+     these nested list items, so it has to be undone here. */
+  min-height: 0;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+  border: 1px solid #d8dade;
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Only the JS-upgraded chips advertise themselves as clickable. */
+.publications ol.bibliography li .pub-keyword[role="button"] { cursor: pointer; }
+
+.publications ol.bibliography li .pub-keyword[role="button"]:hover,
+.publications ol.bibliography li .pub-keyword[role="button"]:focus-visible {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .publications ol.bibliography li .pub-keyword { border-color: #4a4a4a; }
+}
