@@ -38,7 +38,7 @@ const ALL = process.argv.includes('--all');
    returns (proceedings pagination, published versions of arXiv preprints).
    A --all refresh must not throw that away; --force-all is the deliberate escape. */
 const FORCE = process.argv.includes('--force-all');
-const PROTECTED = /^(pubmed:|cv\b)/;
+const PROTECTED = /^(pubmed:|cv\b|cvf:|tmlr:)/;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 /* Crossref titles carry markup (e.g. "<i>IDH1</i>"); strip it before comparing

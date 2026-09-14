@@ -70,7 +70,7 @@ main:
   demo: https://prima.mlins.org/
   url: https://www.nature.com/articles/s41551-025-01608-0
 - title: Learning complete and explainable visual representations from itemized text supervision
-  bib_key: lyu2025learning
+  bib_key: lyu2026itemized
   keywords: [vision-language models, self-supervised learning, representation learning, computer vision]
   authors: Yiwei Lyu, Chenhui Zhao, Soumyanil Banerjee, Shixuan Liu, Akshay T. Rao, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
@@ -89,7 +89,7 @@ main:
   - title: Code
     link: https://github.com/MLNeurosurg/ItemizedCLIP
 - title: 'CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization'
-  bib_key: hou2025codev
+  bib_key: hou2026codev
   keywords: [vision-language models, computer vision]
   authors: Xinhai Hou, Shaoyuan Xu, Manan Biyani, Moyan Li, Jia Liu, Todd C. Hollon, and Bryan Wang
   conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026

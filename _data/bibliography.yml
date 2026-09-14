@@ -79,39 +79,48 @@ lyu2026learning: |-
     keywords  = {neuroimaging, foundation models, vision-language models, artificial intelligence}
   }
 
-# doi:10.48550/arXiv.2512.11141
-lyu2025learning: |-
-  @misc{lyu2025learning,
-    title     = {{Learning complete and explainable visual representations from itemized text supervision}},
-    author    = {Lyu, Yiwei and Zhao, Chenhui and Banerjee, Soumyanil and Liu, Shixuan and Rao, Akshay and Kondepudi, Akhil and Lee, Honglak and Hollon, Todd C.},
-    publisher = {arXiv},
-    year      = {2025},
-    doi       = {10.48550/ARXIV.2512.11141},
-    url       = {https://arxiv.org/abs/2512.11141},
-    keywords  = {vision-language models, self-supervised learning, representation learning, computer vision}
+# cvf:CVPR2026 (official CVF proceedings record; arXiv kept as eprint)
+lyu2026itemized: |-
+  @inproceedings{lyu2026itemized,
+    title         = {{Learning complete and explainable visual representations from itemized text supervision}},
+    author        = {Lyu, Yiwei and Zhao, Chenhui and Banerjee, Soumyanil and Liu, Shixuan and Rao, Akshay and Kondepudi, Akhil and Lee, Honglak and Hollon, Todd C.},
+    booktitle     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages         = {21110--21120},
+    year          = {2026},
+    month         = jun,
+    eprint        = {2512.11141},
+    archiveprefix = {arXiv},
+    url           = {https://openaccess.thecvf.com/content/CVPR2026/html/Lyu_Learning_complete_and_explainable_visual_representations_from_itemized_text_supervision_CVPR_2026_paper.html},
+    keywords      = {vision-language models, self-supervised learning, representation learning, computer vision}
   }
 
-# doi:10.48550/arXiv.2511.19661
-hou2025codev: |-
-  @misc{hou2025codev,
-    title     = {{CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization}},
-    author    = {Hou, Xinhai and Xu, Shaoyuan and Biyani, Manan and Li, Moyan and Liu, Jia and Hollon, Todd C. and Wang, Bryan},
-    publisher = {arXiv},
-    year      = {2025},
-    doi       = {10.48550/ARXIV.2511.19661},
-    url       = {https://arxiv.org/abs/2511.19661},
-    keywords  = {vision-language models, computer vision}
+# cvf:CVPR2026 (official CVF proceedings record; arXiv kept as eprint)
+hou2026codev: |-
+  @inproceedings{hou2026codev,
+    title         = {{CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization}},
+    author        = {Hou, Xinhai and Xu, Shaoyuan and Biyani, Manan and Li, Moyan and Liu, Jia and Hollon, Todd C. and Wang, Bryan},
+    booktitle     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages         = {21500--21510},
+    year          = {2026},
+    month         = jun,
+    eprint        = {2511.19661},
+    archiveprefix = {arXiv},
+    url           = {https://openaccess.thecvf.com/content/CVPR2026/html/Hou_CodeV_Code_with_Images_for_Faithful_Visual_Reasoning_via_Tool-Aware_CVPR_2026_paper.html},
+    keywords      = {vision-language models, computer vision}
   }
 
-# site-data (no DOI on record)
+# tmlr:2026-02 (TMLR issue listing; no volume or pages by design)
 zhao2026scalable: |-
-  @inproceedings{zhao2026scalable,
-    title     = {{Towards Scalable Language-Image Pre-training for 3D Medical Imaging}},
-    author    = {Chenhui Zhao and Yiwei Lyu and Asadur Zaman Chowdury and Edward S. Harake and Akhil Kondepudi and Akshay T. Rao and Xinhai Hou and Honglak Lee and Todd C. Hollon},
-    booktitle = {TRANSACTIONS ON MACHINE LEARNING RESEARCH},
-    year      = {2026},
-    url       = {https://openreview.net/forum?id=WxHf4EcBWA},
-    keywords  = {neuroimaging, vision-language models, machine learning}
+  @article{zhao2026scalable,
+    title         = {{Towards Scalable Language-Image Pre-training for 3D Medical Imaging}},
+    author        = {Zhao, Chenhui and Lyu, Yiwei and Chowdury, Asadur Zaman and Harake, Edward S. and Kondepudi, Akhil and Rao, Akshay T. and Hou, Xinhai and Lee, Honglak and Hollon, Todd C.},
+    journal       = {Transactions on Machine Learning Research},
+    year          = {2026},
+    month         = feb,
+    eprint        = {2505.21862},
+    archiveprefix = {arXiv},
+    url           = {https://openreview.net/forum?id=WxHf4EcBWA},
+    keywords      = {neuroimaging, vision-language models, machine learning}
   }
 
 # pubmed:41930943 (published version)
