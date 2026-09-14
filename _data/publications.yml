@@ -35,7 +35,7 @@ main:
   - title: DOI
     link: https://doi.org/10.1038/s41591-026-04567-4
 - title: Health system learning enables generalist neuroimaging models
-  bib_key: kondepudi2025health
+  bib_key: kondepudi2026health
   keywords: [neuroimaging, foundation models, vision-language models, self-supervised learning]
   authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
   conference: NATURE MEDICINE · 2026

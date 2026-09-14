@@ -60,7 +60,7 @@ function readPublications() {
       arxiv = ([p['url'], p['pdf']] + pills.map { |pl| pl['link'] }).compact
                 .find { |u| u.to_s.include?('arxiv.org') }
       { idx: i, title: p['title'], authors: p['authors'], conference: p['conference'],
-        year: p['conference'].to_s.split(' ').last, url: p['url'],
+        year: p['conference'].to_s.split(' ').last, url: p['url'], pdf: p['pdf'],
         bib_key: p['bib_key'], keywords: p['keywords'],
         doi: doi && doi.sub(%r{^https?://(dx\\.)?doi\\.org/}, ''), arxiv: arxiv }
     })`;
@@ -238,7 +238,9 @@ for (const p of pubs) {
     continue;
   }
 
-  const doi = p.doi || doiFromUrl(p.arxiv || p.url);
+  /* Order matters: a published paper usually keeps its arXiv link in a pill,
+     and resolving that instead of the article URL files it as a preprint. */
+  const doi = p.doi || doiFromUrl(p.url) || doiFromUrl(p.pdf) || doiFromUrl(p.arxiv);
   let parsed = null, origin = null;
 
   if (doi) {
@@ -267,6 +269,11 @@ for (const p of pubs) {
   if (p.doi) parsed.fields.doi = p.doi;   /* Crossref sometimes lowercases the suffix */
   if (!parsed.fields.url && p.url) parsed.fields.url = p.url;
 
+  /* Preserve the preprint alongside the published record. */
+  if (p.arxiv && parsed.fields.doi && !/arxiv/i.test(parsed.fields.doi)) {
+    const id = String(p.arxiv).match(/(\d{4}\.\d{4,5})/);
+    if (id) { parsed.fields.eprint = id[1]; parsed.fields.archiveprefix = 'arXiv'; }
+  }
   const key = citeKey(parsed.fields, p.year, used);
   if (p.keywords && p.keywords.length) parsed.fields.keywords = p.keywords.join(', ');
   entries.push({ key, bibtex: render(parsed.type, key, parsed.fields), origin });

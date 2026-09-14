@@ -41,16 +41,24 @@ anon2026untitled: |-
     keywords  = {neuroimaging, self-supervised learning, artificial intelligence}
   }
 
-# doi:10.48550/arXiv.2511.18640
-kondepudi2025health: |-
-  @misc{kondepudi2025health,
-    title     = {{Health system learning achieves generalist neuroimaging models}},
-    author    = {Kondepudi, Akhil and Rao, Akshay and Zhao, Chenhui and Lyu, Yiwei and Harake, Samir and Banerjee, Soumyanil and Joshi, Rushikesh and Meissner, Anna-Katharina and Hou, Renly and Jiang, Cheng and Chowdury, Asadur and Srinivasan, Ashok and Athey, Brian and Gulani, Vikas and Pandey, Aditya and Lee, Honglak and Hollon, Todd},
-    publisher = {arXiv},
-    year      = {2025},
-    doi       = {10.48550/ARXIV.2511.18640},
-    url       = {https://arxiv.org/abs/2511.18640},
-    keywords  = {neuroimaging, foundation models, vision-language models, self-supervised learning}
+# doi:10.1038/s41591-026-04497-1
+kondepudi2026health: |-
+  @article{kondepudi2026health,
+    title         = {{Health system learning enables generalist neuroimaging models}},
+    author        = {Kondepudi, Akhil and Rao, Akshay and Zhao, Chenhui and Lyu, Yiwei and Harake, Samir and Banerjee, Soumyanil and Ogle, Jacob and Joshi, Rushikesh and Meissner, Anna-Katharina and Hou, Xinhai and Jiang, Cheng and Chowdury, Asadur and Srinivasan, Ashok and Athey, Brian and Gulani, Vikas and Pandey, Aditya and Lee, Honglak and Hollon, Todd},
+    journal       = {Nature Medicine},
+    publisher     = {Springer Science and Business Media LLC},
+    volume        = {32},
+    number        = {8},
+    pages         = {2831--2837},
+    year          = {2026},
+    month         = jul,
+    issn          = {1546-170X},
+    doi           = {10.1038/s41591-026-04497-1},
+    eprint        = {2511.18640},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1038/s41591-026-04497-1},
+    keywords      = {neuroimaging, foundation models, vision-language models, self-supervised learning}
   }
 
 # doi:10.1038/s41551-025-01608-0
@@ -553,19 +561,21 @@ lyu2023finegrained: |-
 # doi:10.1038/s41591-023-02252-4
 hollon2023artificialintelligencebased: |-
   @article{hollon2023artificialintelligencebased,
-    title     = {{Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging}},
-    author    = {Hollon, Todd and Jiang, Cheng and Chowdury, Asadur and Nasir-Moin, Mustafa and Kondepudi, Akhil and Aabedi, Alexander and Adapa, Arjun and Al-Holou, Wajd and Heth, Jason and Sagher, Oren and Lowenstein, Pedro and Castro, Maria and Wadiura, Lisa Irina and Widhalm, Georg and Neuschmelting, Volker and Reinecke, David and von Spreckelsen, Niklas and Berger, Mitchel S. and Hervey-Jumper, Shawn L. and Golfinos, John G. and Snuderl, Matija and Camelo-Piragua, Sandra and Freudiger, Christian and Lee, Honglak and Orringer, Daniel A.},
-    journal   = {Nature Medicine},
-    publisher = {Springer Science and Business Media LLC},
-    volume    = {29},
-    number    = {4},
-    pages     = {828--832},
-    year      = {2023},
-    month     = mar,
-    issn      = {1546-170X},
-    doi       = {10.1038/s41591-023-02252-4},
-    url       = {https://doi.org/10.1038/s41591-023-02252-4},
-    keywords  = {glioma, label-free imaging, optical imaging, molecular classification}
+    title         = {{Artificial-intelligence-based molecular classification of diffuse gliomas using rapid, label-free optical imaging}},
+    author        = {Hollon, Todd and Jiang, Cheng and Chowdury, Asadur and Nasir-Moin, Mustafa and Kondepudi, Akhil and Aabedi, Alexander and Adapa, Arjun and Al-Holou, Wajd and Heth, Jason and Sagher, Oren and Lowenstein, Pedro and Castro, Maria and Wadiura, Lisa Irina and Widhalm, Georg and Neuschmelting, Volker and Reinecke, David and von Spreckelsen, Niklas and Berger, Mitchel S. and Hervey-Jumper, Shawn L. and Golfinos, John G. and Snuderl, Matija and Camelo-Piragua, Sandra and Freudiger, Christian and Lee, Honglak and Orringer, Daniel A.},
+    journal       = {Nature Medicine},
+    publisher     = {Springer Science and Business Media LLC},
+    volume        = {29},
+    number        = {4},
+    pages         = {828--832},
+    year          = {2023},
+    month         = mar,
+    issn          = {1546-170X},
+    doi           = {10.1038/s41591-023-02252-4},
+    eprint        = {2303.13610},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1038/s41591-023-02252-4},
+    keywords      = {glioma, label-free imaging, optical imaging, molecular classification}
   }
 
 # doi:10.1016/j.medj.2023.07.008
@@ -759,19 +769,21 @@ comba2022spatiotemporal: |-
 # doi:10.1227/neu.0000000000001929
 jiang2022rapid: |-
   @article{jiang2022rapid,
-    title     = {{Rapid Automated Analysis of Skull Base Tumor Specimens Using Intraoperative Optical Imaging and Artificial Intelligence}},
-    author    = {Jiang, Cheng and Bhattacharya, Abhishek and Linzey, Joseph R. and Joshi, Rushikesh S. and Cha, Sung Jik and Srinivasan, Sudharsan and Alber, Daniel and Kondepudi, Akhil and Urias, Esteban and Pandian, Balaji and Al-Holou, Wajd N. and Sullivan, Stephen E. and Thompson, B. Gregory and Heth, Jason A. and Freudiger, Christian W. and Khalsa, Siri Sahib S. and Pacione, Donato R. and Golfinos, John G. and Camelo-Piragua, Sandra and Orringer, Daniel A. and Lee, Honglak and Hollon, Todd C.},
-    journal   = {Neurosurgery},
-    publisher = {Ovid Technologies (Wolters Kluwer Health)},
-    volume    = {90},
-    number    = {6},
-    pages     = {758--767},
-    year      = {2022},
-    month     = mar,
-    issn      = {1524-4040},
-    doi       = {10.1227/neu.0000000000001929},
-    url       = {https://doi.org/10.1227/neu.0000000000001929},
-    keywords  = {skull base, optical imaging, intraoperative diagnosis, neuro-oncology}
+    title         = {{Rapid Automated Analysis of Skull Base Tumor Specimens Using Intraoperative Optical Imaging and Artificial Intelligence}},
+    author        = {Jiang, Cheng and Bhattacharya, Abhishek and Linzey, Joseph R. and Joshi, Rushikesh S. and Cha, Sung Jik and Srinivasan, Sudharsan and Alber, Daniel and Kondepudi, Akhil and Urias, Esteban and Pandian, Balaji and Al-Holou, Wajd N. and Sullivan, Stephen E. and Thompson, B. Gregory and Heth, Jason A. and Freudiger, Christian W. and Khalsa, Siri Sahib S. and Pacione, Donato R. and Golfinos, John G. and Camelo-Piragua, Sandra and Orringer, Daniel A. and Lee, Honglak and Hollon, Todd C.},
+    journal       = {Neurosurgery},
+    publisher     = {Ovid Technologies (Wolters Kluwer Health)},
+    volume        = {90},
+    number        = {6},
+    pages         = {758--767},
+    year          = {2022},
+    month         = mar,
+    issn          = {1524-4040},
+    doi           = {10.1227/neu.0000000000001929},
+    eprint        = {2108.03555},
+    archiveprefix = {arXiv},
+    url           = {https://doi.org/10.1227/neu.0000000000001929},
+    keywords      = {skull base, optical imaging, intraoperative diagnosis, neuro-oncology}
   }
 
 # doi:10.1016/j.wneu.2021.10.184
