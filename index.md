@@ -43,7 +43,7 @@ The team, the team, the team.
 - **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professor of Neurosurgery***.
 - More news [here](/news/).
 
-## Selected Publications and [Complete List](/publications/)  {#selected-publications}
+## Selected Publications and [Complete Publications List](/publications/)  {#selected-publications}
 
 {% include_relative _includes/selected_publications.md %}
 
