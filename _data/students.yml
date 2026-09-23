@@ -1,14 +1,17 @@
 # Lab members shown on /students/
 # Optional fields per person: role, research_focus, image, website, website_label, email, bio
+# `group_start` on the first person of a group renders a section heading above them.
 
 main:
   - name: Todd Hollon, MD
-    role: Principal Investigator
+    group_start: Principal Investigator
+    role: Research Scientist, Professor, Neurosurgeon
     image: /assets/img/people/toddhollon.png
     website: https://uofmhealth.org/profile/1295176014/todd-charles-hollon
     website_label: Clinical Website
 
   - name: Lin Wang
+    group_start: Lab Staff
     role: Laboratory Technician
     image: /assets/img/people/linwan.webp
 
@@ -17,6 +20,7 @@ main:
     image: /assets/img/people/eddyka.webp
 
   - name: Cheng Jiang
+    group_start: PhD Students
     role: PhD Candidate
     research_focus: Representation learning for optical microscopy
     image: /assets/img/people/chengjia.webp
@@ -56,7 +60,20 @@ main:
     research_focus: World models, mechanistic interpretability
     image: /assets/img/people/prateekp.webp
 
+  - name: Rikhil Seshadri
+    role: PhD Student
+    research_focus: Electronic health records, generalist AI models
+    image: /assets/img/people/rikhilse.webp
+
+  - name: Mingnan Yao
+    group_start: Undergraduate Students
+    role: Undergraduate Student
+    research_focus: Self-supervised learning, image segmentation
+    image: /assets/img/people/mingnany.webp
+    website: https://mingnan-y.github.io/
+
   - name: Samir Harake
+    group_start: Residents
     role: Neurosurgery Resident
     image: /assets/img/people/eharakej.webp
 

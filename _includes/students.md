@@ -6,6 +6,9 @@
 <li><p><em>Student profiles coming soon.</em></p></li>
 {% else %}
 {% for member in members %}
+{% if member.group_start %}
+<li class="member-group{% if forloop.first %} member-group-first{% endif %}"><h3>{{ member.group_start }}</h3></li>
+{% endif %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">

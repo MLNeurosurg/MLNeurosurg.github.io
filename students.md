@@ -11,7 +11,7 @@ description: >-
 
 The best part of my day is working with these people.
 
-[The Team Speech](https://www.youtube.com/watch?v=UrvwWfIeHu0){:target="_blank" rel="noopener"}
+[Bo's Team Speech](https://www.youtube.com/watch?v=UrvwWfIeHu0){:target="_blank" rel="noopener"}
 
 ### [Fun lab photos](/students/photos/) - Outings, meals, and celebrations.
 

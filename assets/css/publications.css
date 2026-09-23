@@ -380,3 +380,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 @media (prefers-color-scheme: dark) {
   .publications ol.bibliography li .pub-keyword { border-color: #4a4a4a; }
 }
+
+.publications ol.bibliography li.member-group {
+  min-height: 0;
+  margin: 0 0 0.75rem 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--global-text-color-light);
+}
+
+.publications ol.bibliography li.member-group.member-group-first { padding-top: 0; border-top: 0; }
+
+.publications ol.bibliography li.member-group h3 { margin: 0; font-size: 1.1rem; color: var(--global-theme-color); }
