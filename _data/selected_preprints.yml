@@ -16,17 +16,3 @@ main:
         link: https://pubmed.ncbi.nlm.nih.gov/42180331/
       - title: PMC
         link: https://pmc.ncbi.nlm.nih.gov/articles/PMC13193155/
-  - title: Optical Microscopy Predictions of Focal Recurrence in Glioblastoma
-    authors: Herr S, Olshausen N, Pekmezci M, Kaur J, Sibih Y, Ambati V, Scotford K, Persad A, Picart T, Kondepudi A, Oberheim-Bush NA, Kim A, Young J, Berger MS, Sushil M, Hollon T, and Hervey-Jumper SL
-    conference: medRxiv 2025
-    description: >
-      Using AI-quantified tumor infiltration from label-free optical microscopy of surgical margin tissue, combined with clinical, radiographic, and molecular features, a random forest model predicts sites of **focal glioblastoma recurrence** (validation AUC 80.3%). AI-derived infiltration was the strongest predictor, outperforming molecular features alone, pointing toward margin-guided precision adjuvant therapy for the highest-risk areas of disease.
-    image: /assets/img/paper_logo/herr2025medrxiv_focal_recurrence.png
-    venue_logo: "/assets/img/venues/medrxiv.png"
-    url: https://doi.org/10.1101/2025.09.24.25336541
-    pdf: https://doi.org/10.1101/2025.09.24.25336541
-    pills:
-      - title: medRxiv
-        link: https://doi.org/10.1101/2025.09.24.25336541
-      - title: PubMed
-        link: https://pubmed.ncbi.nlm.nih.gov/41040678/

@@ -1,6 +1,11 @@
 # MLiNS news (merged from mlneurosurg.github.io/_data/news.yaml).
 # Images live in /assets/img/news/
 main:
+  - venue: Science Advances | 2026
+    title: "AI predicts where glioblastoma will come back: optical microscopy predictions of focal recurrence"
+    link: https://www.science.org/doi/10.1126/sciadv.aec8202
+    image: /assets/img/news/herr2026_sciadv_focal_recurrence.png
+
   - venue: University of Michigan Medical School | 2026
     title: "Backpropagating to Better Patient Care: My Experiences in an AI Neurosurgery Lab"
     link: https://medschool.umich.edu/dose-reality/backpropagating-better-patient-care-my-experiences-ai-neurosurgery-lab

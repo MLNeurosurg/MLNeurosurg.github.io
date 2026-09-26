@@ -34,6 +34,22 @@ sections:
         image: /assets/img/paper_logo/prima2026.png
         demo: https://prima.mlins.org/
         url: https://www.nature.com/articles/s41551-025-01608-0
+      - title: Optical microscopy predictions of focal recurrence in glioblastoma
+        authors: Sanjeev Herr, Niels Olshausen, Melike Pekmezci, Jasleen Kaur, Youssef Sibih, Vardhaan Ambati, Abraham Dada, Katie Scotford, Amit Persad, Thiebaud Picart, Akhil Kondepudi, Gabrielle Malte, Gabriella Vulakh, Johanna Pechmann, Jessica Makolli, Nancy Ann Oberheim-Bush, Albert Kim, Jacob Young, Mitchel S. Berger, Ammar Mallouhi, Barbara Kiesel, Georg Widhalm, Lisa Körner, Madhumita Sushil, Todd Hollon, and Shawn L. Hervey-Jumper
+        conference: SCIENCE ADVANCES · 2026
+        description: >
+          AI-informed label-free optical microscopy scores tumor infiltration (**AI-infiltration**) in unprocessed margin samples taken at initial glioblastoma resection. Across 80 patients, 367 samples, and 133,454 images, a random forest combining AI-infiltration with clinical, radiographic, and molecular variables predicted the site of focal recurrence with 80% AUC in validation - with AI-infiltration the strongest contributor, outperforming tumor molecular features.
+        venue_logo: "/assets/img/venues/science_advances.png"
+        image: "/assets/img/paper_logo/herr2025medrxiv_focal_recurrence.png"
+        url: https://www.science.org/doi/10.1126/sciadv.aec8202
+        pdf: "/assets/papers/herr2026_focal_recurrence_sciadv.pdf"
+        pills:
+          - title: Paper
+            link: https://www.science.org/doi/10.1126/sciadv.aec8202
+          - title: PDF
+            link: "/assets/papers/herr2026_focal_recurrence_sciadv.pdf"
+          - title: DOI
+            link: https://doi.org/10.1126/sciadv.aec8202
       - title: Foundation models for fast, label-free detection of glioma infiltration
         authors: Akhil Kondepudi, Melike Pekmezci, Xinhai Hou, Katie Scotford, Cheng Jiang, Akshay Rao, Edward S. Harake, Asadur Chowdury, Wajd Al-Holou, Lin Wang, Aditya Pandey, Pedro R. Lowenstein, Maria G. Castro, Lisa Irina Koerner, Thomas Roetzer-Pejrimovsky, Georg Widhalm, Sandra Camelo-Piragua, Misha Movahed-Ezazi, Daniel A. Orringer, Honglak Lee, Christian Freudiger, Mitchel Berger, Shawn Hervey-Jumper, and Todd Hollon
         # conference_short: Nature

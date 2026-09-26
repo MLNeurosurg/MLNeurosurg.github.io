@@ -8,6 +8,23 @@
 # and MLHC proceedings) are built from publications.yml itself and therefore
 # carry no volume/pages - that data does not exist for them.
 
+# doi:10.1126/sciadv.aec8202
+herr2026optical: |-
+  @article{herr2026optical,
+    title     = {{Optical microscopy predictions of focal recurrence in glioblastoma}},
+    author    = {Herr, Sanjeev and Olshausen, Niels and Pekmezci, Melike and Kaur, Jasleen and Sibih, Youssef and Ambati, Vardhaan and Dada, Abraham and Scotford, Katie and Persad, Amit and Picart, Thiebaud and Kondepudi, Akhil and Malte, Gabrielle and Vulakh, Gabriella and Pechmann, Johanna and Makolli, Jessica and Oberheim-Bush, Nancy Ann and Kim, Albert and Young, Jacob and Berger, Mitchel S. and Mallouhi, Ammar and Kiesel, Barbara and Widhalm, Georg and Körner, Lisa and Sushil, Madhumita and Hollon, Todd and Hervey-Jumper, Shawn L.},
+    journal   = {Science Advances},
+    publisher = {American Association for the Advancement of Science (AAAS)},
+    volume    = {12},
+    number    = {39},
+    year      = {2026},
+    month     = sep,
+    issn      = {2375-2548},
+    doi       = {10.1126/sciadv.aec8202},
+    url       = {https://doi.org/10.1126/sciadv.aec8202},
+    keywords  = {glioblastoma, stimulated Raman histology, tumor recurrence, machine learning}
+  }
+
 # doi:10.1056/AIe2600897
 hollon2026benchmarking: |-
   @article{hollon2026benchmarking,
