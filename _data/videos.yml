@@ -6,6 +6,9 @@
 # Optional: `start` (seconds) appends a start time to the URL; `start_label` (e.g. "3:20")
 #           shows a "(starts at …)" note. `featured: true` also shows it on the homepage.
 videos:
+  - title: "Pioneering the Future of Brain Surgery > Look to Michigan"
+    id: jvSRfXlVdLw
+
   - title: "Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery"
     platform: vimeo
     url: https://vimeo.com/1074054655

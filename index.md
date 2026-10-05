@@ -53,6 +53,12 @@ The team, the team, the team.
 
 ## MLiNS Videos and Podcasts
 
+<div class="hero-video">
+<iframe src="https://www.youtube-nocookie.com/embed/jvSRfXlVdLw" title="Pioneering the Future of Brain Surgery | Look to Michigan" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Pioneering the Future of Brain Surgery > Look to Michigan](https://looktomichigan.umich.edu/stories/fastglioma/){:target="_blank" rel="noopener"}
+
 {% include videos.html featured=true %}
 
 More videos and podcasts [here](/videos/).

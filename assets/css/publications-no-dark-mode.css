@@ -349,3 +349,31 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li.member-group.member-group-first { padding-top: 0; border-top: 0; }
 
 .publications ol.bibliography li.member-group h3 { margin: 0; font-size: 1.1rem; color: var(--global-theme-color); }
+
+/* Homepage hero video: full-width 16:9 YouTube embed atop the videos section */
+.hero-video {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 6px;
+}
+
+/* Its caption paragraph follows directly; keep it tight to the video */
+.hero-video + p {
+  margin-top: 0;
+}
+
+.hero-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* Video list: caption sits tight under its thumbnail; spacing goes between videos */
+.video-item {
+  margin-bottom: 24px;
+}
+
+.video-item img {
+  display: block;
+  margin-bottom: 6px;
+}

@@ -16,7 +16,8 @@ Omit it to show every video (used on /videos/).
 {%- capture thumb -%}https://img.youtube.com/vi/{{ v.id }}/hqdefault.jpg{%- endcapture -%}
 {%- assign platform_label = "YouTube" -%}
 {%- endif %}
-<a href="{{ url }}"><img src="{{ thumb }}" alt="{{ v.title }} - watch on {{ platform_label }}" width="240" height="180"></a>
-
-[{{ v.title }} ({{ platform_label }}){% if v.start_label %} (starts at {{ v.start_label }}){% endif %}]({{ url }})
+<div class="video-item">
+<a href="{{ url }}"><img src="{{ thumb }}" alt="{{ v.title | escape }} - watch on {{ platform_label }}" width="240" height="180"></a>
+<a href="{{ url }}">{{ v.title | escape }} ({{ platform_label }}){% if v.start_label %} (starts at {{ v.start_label }}){% endif %}</a>
+</div>
 {% endfor -%}
