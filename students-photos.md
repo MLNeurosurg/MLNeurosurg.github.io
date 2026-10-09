@@ -11,6 +11,9 @@ description: >-
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Invited plenary panel at EANO 2026 in Rome, Italy](/assets/img/lab/mlins_eano_2026_plenary_panel.jpg)
+Invited plenary panel at EANO 2026 in Rome, Italy.
+
 ![University of Michigan Neurosurgery alumni](/assets/img/lab/mlins_um_neurosurgery_alums.jpg)
 UM Neurosurgery Alums
 
