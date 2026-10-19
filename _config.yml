@@ -1,6 +1,13 @@
 # Basic Information 
 title: Todd Hollon
 position: Associate Professor
+departments:
+  - name: Neurosurgery
+    link: https://medicine.umich.edu/dept/neurosurgery
+  - name: Computational Medicine & Bioinformatics
+    link: https://medicine.umich.edu/dept/computational-medicine-bioinformatics
+  - name: Computer Science & Engineering
+    link: https://cse.engin.umich.edu/
 affiliation: University of Michigan
 email: tocho (at) umich.edu
 

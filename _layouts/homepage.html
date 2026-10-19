@@ -119,6 +119,13 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
+        {% if site.departments %}
+        <div class="departments">
+          {% for dept in site.departments %}
+          <a href="{{ dept.link }}" rel="noopener"><autocolor>{{ dept.name }}</autocolor></a>
+          {% endfor %}
+        </div>
+        {% endif %}
         {% if site.affiliation %}
         {% if site.affiliation_link %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
