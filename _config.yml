@@ -42,7 +42,7 @@ huggingface: https://huggingface.co/mlinslab
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: /assets/img/people/FullSizeRender-1.png
+avatar: /assets/img/people/hollon_headshot.png
 favicon: /assets/img/lab_logo/logo_mlins_final.png
 favicon_dark: /assets/img/lab_logo/black_back_white_letter.png
 
