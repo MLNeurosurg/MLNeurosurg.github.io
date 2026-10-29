@@ -54,6 +54,10 @@ enable_footnote: false
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: false
 
+# Show a light/dark toggle button (top right). Light is the default; the
+# visitor's choice is remembered. Intended for use with auto_dark_mode: false.
+theme_toggle: true
+
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"

@@ -377,3 +377,43 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   display: block;
   margin-bottom: 6px;
 }
+
+/* Homepage "jump to" pills, sharing the outline style of .pub-bib-download */
+.quicklinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.quicklinks a {
+  font-size: 0.8rem;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+}
+
+.quicklinks a:hover {
+  color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+
+.back-to-top {
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+/* Keep the heading clear of the viewport edge after a jump */
+section h2[id] { scroll-margin-top: 1rem; }
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* The current page's link is filled in, so visitors can see where they are */
+.quicklinks a[aria-current="page"] {
+  color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
+}

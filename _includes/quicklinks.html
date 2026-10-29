@@ -1,0 +1,8 @@
+<nav class="quicklinks" aria-label="Quick links">
+  {% if page.url != "/" %}
+  <a href="{{ '/' | relative_url }}">Home</a>
+  {% endif %}
+  {% for link in site.data.quicklinks %}
+  <a href="{{ link.url }}"{% if link.external %} target="_blank" rel="noopener"{% endif %}{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.name }}</a>
+  {% endfor %}
+</nav>

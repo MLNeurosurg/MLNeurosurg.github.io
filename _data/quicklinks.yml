@@ -1,0 +1,20 @@
+# Site-wide quick links, rendered by _includes/quicklinks.html.
+# Shown at the top of every page by _layouts/homepage.html. Prefer a standalone
+# page; for a homepage-only section use /#anchor (an explicit {#id} in index.md).
+- name: Support
+  url: /support/
+- name: Team
+  url: /students/
+- name: Research
+  url: /research/
+- name: Demos
+  url: https://apps.mlins.org/
+  external: true
+- name: News
+  url: /news/
+- name: Publications
+  url: /publications/
+- name: Preprints
+  url: /#selected-preprints
+- name: Videos
+  url: /videos/

@@ -55,6 +55,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}">
     {% endif %}
+    {% if site.theme_toggle %}
+    <link rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}">
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+    {% endif %}
 
     {% comment %} Structured data: Person + Organization, homepage only. {% endcomment %}
     {% if page.url == "/" %}
@@ -106,6 +110,11 @@
 
   </head>
   <body>
+    {% if site.theme_toggle %}
+    <button type="button" class="theme-toggle" aria-label="Dark mode" aria-pressed="false">
+      <i class="fas fa-moon" aria-hidden="true"></i><i class="fas fa-sun" aria-hidden="true"></i>
+    </button>
+    {% endif %}
     <div class="wrapper">
       <header>
         
@@ -206,6 +215,8 @@
 
       </header>
       <section>
+
+      {% include quicklinks.html %}
 
       {{ content }}
 

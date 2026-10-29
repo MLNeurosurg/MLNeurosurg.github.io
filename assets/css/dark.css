@@ -1,0 +1,79 @@
+/* Dark theme, applied when the theme toggle sets <html data-theme="dark">.
+   Mirrors the prefers-color-scheme rules in style.css and publications.css,
+   but scoped to the attribute so the light stylesheets stay untouched. */
+
+html[data-theme="dark"] {
+  --global-bg-color: #20212b;
+  --global-text-color: #dadbdf;
+  --global-text-color-light: #9a9ba3;
+  --global-theme-color: rgb(36, 150, 203);
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] body {
+  background-color: #20212b;
+  color: #dadbdf;
+}
+
+html[data-theme="dark"] autocolor { color: #dadbdf; }
+html[data-theme="dark"] lightonly { visibility: hidden; }
+html[data-theme="dark"] darkonly { visibility: visible; }
+html[data-theme="dark"] papertitle,
+html[data-theme="dark"] strong { color: #eeeff0; }
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] header h1 a:hover,
+html[data-theme="dark"] th,
+html[data-theme="dark"] dt,
+html[data-theme="dark"] a { color: rgb(62, 183, 240); }
+
+html[data-theme="dark"] a:hover { color: var(--global-hover-color); }
+
+html[data-theme="dark"] .social-icons a { color: #3eb7f0 !important; }
+html[data-theme="dark"] .social-icons a:hover { background-color: #2c2d3a; }
+
+/* Logos drawn in UM blue: flatten to black, then invert to white */
+html[data-theme="dark"] .demos-intro img,
+html[data-theme="dark"] .lab-logo-sidebar img { filter: brightness(0) invert(1); }
+
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre { background: #2c2d3a; color: #dadbdf; }
+
+html[data-theme="dark"] .publications ol.bibliography li .pub-description { color: #b8b8b8; }
+html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: #fff; border-color: #fff; }
+html[data-theme="dark"] .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+html[data-theme="dark"] .publications ol.bibliography li .teaser { box-shadow: 3px 3px 6px #000; }
+html[data-theme="dark"] .pub-search input[type="search"],
+html[data-theme="dark"] .pub-search select { border-color: #5a5a5a; background-color: #2c2d3a; color: #dadbdf; }
+html[data-theme="dark"] .publications ol.bibliography li .pub-keyword { border-color: #4a4a4a; }
+
+/* Theme toggle button, fixed in the top-right corner */
+.theme-toggle {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 10;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--global-theme-color);
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+
+/* Show the icon for the theme a click switches to */
+.theme-toggle .fa-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .fa-sun { display: inline; }
+html[data-theme="dark"] .theme-toggle .fa-moon { display: none; }

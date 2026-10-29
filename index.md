@@ -2,17 +2,17 @@
 layout: homepage
 ---
 
-## Bio
+<!-- ## Bio {#bio} -->
 
-I am an associate tenured professor and the Novello & Quinones-Hinojosa Research Professor of Neurosurgery. I am the principal investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
+I am a neurosurgeon, associate professor and the Novello & Quinones-Hinojosa Research Professor of Neurosurgery. My outstanding team makes up the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data sources, model architectures, inductive biases, and learning enviroments for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
 We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research programs below. Please email me directly at tocho [at] umich.edu if interested.
 
-## [Photos and Bios of MLiNS Team](/students/)
+## [Photos and Bios of MLiNS Team](/students/) {#team}
 
 The team, the team, the team.
 
-## MLiNS Research Programs
+## [MLiNS Research Programs](/research/) {#research}
 
 - **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging
 - **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging
@@ -20,14 +20,14 @@ The team, the team, the team.
 - **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
-## [MLiNS Demos](https://apps.mlins.org/){:target="_blank" rel="noopener"}
+## [MLiNS Demos](https://apps.mlins.org/){:target="_blank" rel="noopener"} {#demos}
 
 <div class="demos-intro">
 <a href="https://apps.mlins.org/" target="_blank" rel="noopener"><img src="/assets/img/lab_logo/mlins_mark_umblue.png" alt="MLiNS Demos" width="64" height="64"></a>
 <p>Try our models in your browser - interactive demos for <strong>Prima</strong>, <strong>FastGlioma</strong>, and <strong>DeepGlioma</strong>.</p>
 </div>
 
-## MLiNS News
+## MLiNS News {#news}
 
 - **Sep 2026** - [Optical microscopy predictions of focal recurrence in glioblastoma](https://www.science.org/doi/10.1126/sciadv.aec8202), a collaboration with the Hervey-Jumper Lab at UCSF using **FastGlioma** to forecast where glioblastoma will recur, is published in ***Science Advances***.
 - **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.
@@ -43,15 +43,21 @@ The team, the team, the team.
 - **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professor of Neurosurgery***.
 - More news [here](/news/).
 
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
+
 ## Selected Publications and [Complete Publications List](/publications/)  {#selected-publications}
 
 {% include_relative _includes/selected_publications.md %}
+
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
 
 ## New Preprints {#selected-preprints}
 
 {% include_relative _includes/selected_preprints.md %}
 
-## MLiNS Videos and Podcasts
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
+
+## MLiNS Videos and Podcasts {#videos}
 
 <div class="hero-video">
 <iframe src="https://www.youtube-nocookie.com/embed/jvSRfXlVdLw" title="Pioneering the Future of Brain Surgery | Look to Michigan" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -63,7 +69,10 @@ The team, the team, the team.
 
 More videos and podcasts [here](/videos/).
 
-## Support for MLiNS Lab
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
+
+## [Support for MLiNS Lab](/support/) {#support}
+
 - [NIH NCI R01](https://reporter.nih.gov/search/fasIncKaf0K7CqBQs0Fyiw/project-details/11227784)
 - [NIH NINDS K12](https://www.nrcdp.org/)
 - [NIH NINDS F31](https://reporter.nih.gov/project-details/10824645)
@@ -76,3 +85,5 @@ More videos and podcasts [here](/videos/).
 - [Cook Family Foundation](https://www.cookfamilyfoundation.org/)
 
 Please email me directly at tocho [at] umich.edu if you would like to support our effort. **We are grateful for any contribution, big or small.**
+
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
