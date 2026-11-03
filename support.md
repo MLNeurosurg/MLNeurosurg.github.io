@@ -22,13 +22,22 @@ The Machine Learning in Neurosurgery (MLiNS) Lab builds artificial intelligence 
 
 You can try several of our models yourself through our [interactive demos](https://apps.mlins.org/){:target="_blank" rel="noopener"}.
 
-## How to give
+## How to join the Support Team
 
 To make a gift or to discuss how you would like to support our work, please email Dr. Todd Hollon directly at **tocho [at] umich.edu**. We are happy to talk about directing support toward a specific research program, student training, or the lab's work as a whole.
 
 ## Our supporters
 
 We thank the organizations and families whose support makes our research possible:
+
+![Todd Hollon with Dr. Antonia Novello and her family at the Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professorship ceremony](/assets/img/lab/mlins_novello_professorship_antonia_novello.jpg)
+*Celebrating the inaugural Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professorship in Neurosurgery with Dr. Antonia Novello and her family. We are deeply grateful for their generosity and their commitment to advancing care for patients with brain and spine disease.*
+
+![Todd Hollon with Dr. Alfredo Quiñones-Hinojosa and Chair of Neurosurgery Dr. Aditya Pandey at the Novello and Quiñones-Hinojosa Research Professorship ceremony](/assets/img/lab/mlins_novello_professorship_quinones_pandey.jpg)
+*Honored to be joined by **Dr. Alfredo Quiñones-Hinojosa**, world-renowned neurosurgeon-scientist and co-namesake of the professorship, and **Dr. Aditya Pandey**, our outstanding Chair of the Department of Neurosurgery, whose leadership and mentorship make our work possible.*
+
+![The Phil and Cheryl Yagoda family, founders of Ian's Friends Foundation](/assets/img/lab/mlins_yagoda_family_ians_friends.jpg)
+*The **Phil and Cheryl Yagoda family**, who founded [Ian's Friends Foundation](https://iansfriendsfoundation.com/) to fund brain tumor research. We are so grateful for their continued support and their dedication to finding better treatments for children and adults with brain tumors. Go Blue!*
 
 - [NIH NCI R01](https://reporter.nih.gov/search/fasIncKaf0K7CqBQs0Fyiw/project-details/11227784)
 - [NIH NINDS K12](https://www.nrcdp.org/)

@@ -7,13 +7,13 @@
   url: /students/
 - name: Research
   url: /research/
+- name: Publications
+  url: /publications/
 - name: Demos
   url: https://apps.mlins.org/
   external: true
 - name: News
   url: /news/
-- name: Publications
-  url: /publications/
 - name: Preprints
   url: /#selected-preprints
 - name: Videos
