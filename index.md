@@ -4,7 +4,7 @@ layout: homepage
 
 <!-- ## Bio {#bio} -->
 
-I am a neurosurgeon, associate professor and the Novello & Quinones-Hinojosa Research Professor of Neurosurgery. My outstanding team makes up the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data sources, model architectures, inductive biases, and learning enviroments for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
+I am a research scientist, neurosurgeon, and the Novello & Quinones-Hinojosa Research Professor of Neurosurgery. My outstanding team makes up the ***Machine Learning in Neurosurgery (MLiNS) Lab***, where we focus on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data sources, model architectures, inductive biases, and learning enviroments for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
 We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research programs below. Please email me directly at tocho [at] umich.edu if interested.
 
