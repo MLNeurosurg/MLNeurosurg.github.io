@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Patient trajectory chart with a forecast and uncertainty band">
+  <rect width="64" height="64" rx="16" fill="#f1e6ff"/>
+  <path d="M34 30 L53 15 L53 41 Z" fill="#cdb8ff"/>
+  <line x1="34" y1="12" x2="34" y2="51" stroke="#9a8cc7" stroke-width="1.5" stroke-dasharray="2.5 2.5"/>
+  <polyline points="15,44 20,38 25,41 30,33 34,30" fill="none" stroke="#6a4cc2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="34" y1="30" x2="52" y2="27" stroke="#6a4cc2" stroke-width="3" stroke-linecap="round" stroke-dasharray="3.5 3.5"/>
+  <circle cx="34" cy="30" r="3" fill="#ffffff" stroke="#6a4cc2" stroke-width="2.5"/>
+  <path d="M12 10 V52 H54" fill="none" stroke="#2b3a67" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,5 +1,25 @@
 # Related publications for /research/neuroimaging/ (same schema as publications.yml).
 main:
+  - title: A frontier machine intelligence for human neuroimaging
+    authors: Chenhui Zhao, Akshay Rao, Akhil Kondepudi, Yiwei Lyu, Xinhai Hou, Rikhil Seshadri, Cheng Jiang, Soumyanil Banerjee, Rushikesh Joshi, Samir Harake, Ashok Srinivasan, Shruti Mishra, Francisco Rivas-Rodriguez, Seunghong Rhee, Nathaniel Roddenberry, Neeraj Chaudhary, Zach Wilseck, Paul Park, Honglak Lee, Vikas Gulani, Aditya Pandey, and Todd Hollon
+    conference: arXiv · 2026
+    description: >
+      **Neuro-VL** is a vision-language model trained on nearly one million neuroimaging studies from routine clinical care. It interprets complete imaging studies, converses about findings, generates radiology reports, monitors disease across serial exams, and outperforms frontier general-purpose and medical models across international evaluation on 6 continents.
+    venue_logo: "/assets/img/venues/arxiv-logo.png"
+    url: https://arxiv.org/abs/2611.15094
+    pdf: "/assets/papers/zhao2026_neurovl_arxiv.pdf"
+    image: "/assets/img/paper_logo/zhao2026_neurovl.png"
+    demo: https://neurovl.mlins.org/
+    pills:
+      - title: arXiv
+        link: https://arxiv.org/abs/2611.15094
+      - title: PDF
+        link: "/assets/papers/zhao2026_neurovl_arxiv.pdf"
+      - title: Demo
+        link: https://neurovl.mlins.org/
+      - title: Hugging Face
+        link: https://huggingface.co/mlinslab/neuro-vl-8b-thinking
+
   - title: Health system learning enables generalist neuroimaging models
     authors: Akhil Kondepudi, Akshay Rao, Chenhui Zhao, Yiwei Lyu, Samir Harake, Soumyanil Banerjee, Jacob Ogle, Rushikesh S. Joshi, Anna-Katharina Meissner, Xinhai Hou, Cheng Jiang, Asadur Chowdury, Ashok Srinivasan, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
     conference: NATURE MEDICINE · 2026

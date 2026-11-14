@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Four collaborators connected to a brain with a tumor">
+  <rect width="64" height="64" rx="16" fill="#ffe4e1"/>
+  <g stroke="#e39a96" stroke-width="2" stroke-dasharray="3 2.5"><line x1="13" y1="16" x2="32" y2="32"/><line x1="51" y1="16" x2="32" y2="32"/><line x1="13" y1="49" x2="32" y2="32"/><line x1="51" y1="49" x2="32" y2="32"/></g>
+  <ellipse cx="32" cy="32" rx="9.5" ry="11.5" fill="#ffffff" stroke="#2b3a67" stroke-width="2.5"/>
+  <line x1="32" y1="21" x2="32" y2="43" stroke="#2b3a67" stroke-width="1.4"/>
+  <circle cx="35.8" cy="28.5" r="3.2" fill="#ff6b8b"/>
+  <g fill="#2b3a67"><circle cx="13" cy="12" r="3.6"/><circle cx="51" cy="12" r="3.6"/><circle cx="13" cy="45" r="3.6"/><circle cx="51" cy="45" r="3.6"/></g>
+  <path d="M7 23 Q7 17 13 17 Q19 17 19 23 Z" fill="#4a8ef0" stroke="#2b3a67" stroke-width="2"/>
+  <path d="M45 23 Q45 17 51 17 Q57 17 57 23 Z" fill="#7cc6a4" stroke="#2b3a67" stroke-width="2"/>
+  <path d="M7 56 Q7 50 13 50 Q19 50 19 56 Z" fill="#ffb703" stroke="#2b3a67" stroke-width="2"/>
+  <path d="M45 56 Q45 50 51 50 Q57 50 57 56 Z" fill="#b79cf0" stroke="#2b3a67" stroke-width="2"/>
+</svg>

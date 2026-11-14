@@ -1,6 +1,27 @@
 # Full publication list (recent first, then lab archive from mlneurosurg.github.io).
 # Homepage highlights: _data/selected_publications.yml + _includes/selected_publications.md
 main:
+- title: A frontier machine intelligence for human neuroimaging
+  bib_key: zhao2026frontier
+  keywords: [neuroimaging, vision-language model, radiology report generation, health system learning]
+  authors: Chenhui Zhao, Akshay Rao, Akhil Kondepudi, Yiwei Lyu, Xinhai Hou, Rikhil Seshadri, Cheng Jiang, Soumyanil Banerjee, Rushikesh Joshi, Samir Harake, Ashok Srinivasan, Shruti Mishra, Francisco Rivas-Rodriguez, Seunghong Rhee, Nathaniel Roddenberry, Neeraj Chaudhary, Zach Wilseck, Paul Park, Honglak Lee, Vikas Gulani, Aditya Pandey, and Todd Hollon
+  conference: arXiv · 2026
+  description: >
+    **Neuro-VL** is a vision-language model trained on nearly one million neuroimaging studies from routine clinical care. It interprets complete imaging studies, converses about findings, generates radiology reports, monitors disease across serial exams, and outperforms frontier general-purpose and medical models across international evaluation on 6 continents.
+  venue_logo: "/assets/img/venues/arxiv-logo.png"
+  image: "/assets/img/paper_logo/zhao2026_neurovl.png"
+  url: https://arxiv.org/abs/2611.15094
+  pdf: "/assets/papers/zhao2026_neurovl_arxiv.pdf"
+  demo: https://neurovl.mlins.org/
+  pills:
+  - title: arXiv
+    link: https://arxiv.org/abs/2611.15094
+  - title: PDF
+    link: "/assets/papers/zhao2026_neurovl_arxiv.pdf"
+  - title: Demo
+    link: https://neurovl.mlins.org/
+  - title: Hugging Face
+    link: https://huggingface.co/mlinslab/neuro-vl-8b-thinking
 - title: Optical microscopy predictions of focal recurrence in glioblastoma
   bib_key: herr2026optical
   keywords: [glioblastoma, stimulated Raman histology, tumor recurrence, machine learning]

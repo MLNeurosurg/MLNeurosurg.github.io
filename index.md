@@ -14,11 +14,12 @@ The team, the team, the team.
 
 ## [MLiNS Research Programs](/research/) {#research}
 
-- **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging
-- **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging
-- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, self-supevised learning, vision-language modeling
-- **[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction
-- **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
+- <a class="program-list-link" href="/research/neuroimaging/" aria-hidden="true" tabindex="-1"><img class="program-list-icon" src="/assets/img/research/icons/neuroimaging.svg" alt="" width="48" height="48"></a> <span markdown="span">**[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain and spine imaging</span>
+- <a class="program-list-link" href="/research/intelligent-histology/" aria-hidden="true" tabindex="-1"><img class="program-list-icon" src="/assets/img/research/icons/intelligent-histology.svg" alt="" width="48" height="48"></a> <span markdown="span">**[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, label-free imaging</span>
+- <a class="program-list-link" href="/research/computer-vision/" aria-hidden="true" tabindex="-1"><img class="program-list-icon" src="/assets/img/research/icons/computer-vision.svg" alt="" width="48" height="48"></a> <span markdown="span">**[Visual Intelligence](/research/computer-vision/)** - visual reasoning, self-supevised learning, vision-language modeling</span>
+- <a class="program-list-link" href="/research/patient-forecasting/" aria-hidden="true" tabindex="-1"><img class="program-list-icon" src="/assets/img/research/icons/patient-forecasting.svg" alt="" width="48" height="48"></a> <span markdown="span">**[Patient Forecasting](/research/patient-forecasting/)** - patient outcome and survival prediction</span>
+- <a class="program-list-link" href="/research/collaborative-neuro-oncology/" aria-hidden="true" tabindex="-1"><img class="program-list-icon" src="/assets/img/research/icons/collaborative-neuro-oncology.svg" alt="" width="48" height="48"></a> <span markdown="span">**[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research</span>
+{: .program-list}
 
 ## [MLiNS Demos](https://apps.mlins.org/){:target="_blank" rel="noopener"} {#demos}
 
@@ -45,15 +46,15 @@ The team, the team, the team.
 
 <p class="back-to-top"><a href="#top">↑ Back to top</a></p>
 
-## Selected Publications and [Complete Publications List](/publications/)  {#selected-publications}
-
-{% include_relative _includes/selected_publications.md %}
-
-<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
-
 ## New Preprints {#selected-preprints}
 
 {% include_relative _includes/selected_preprints.md %}
+
+<p class="back-to-top"><a href="#top">↑ Back to top</a></p>
+
+## Selected Publications and [Complete Publications List](/publications/)  {#selected-publications}
+
+{% include_relative _includes/selected_publications.md %}
 
 <p class="back-to-top"><a href="#top">↑ Back to top</a></p>
 

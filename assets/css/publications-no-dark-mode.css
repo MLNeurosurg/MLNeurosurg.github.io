@@ -417,3 +417,72 @@ html { scroll-behavior: smooth; }
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
 }
+
+/* Research index: themed icon beside each program summary. Icons carry their
+   own pastel tile, so they need no dark-mode filter. */
+.program-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.program-icon {
+  flex: 0 0 72px;
+  line-height: 0;
+  margin-top: 0.4rem;
+}
+
+.program-icon img {
+  width: 72px;
+  height: 72px;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.program-icon:hover img { transform: rotate(-4deg) scale(1.05); }
+
+.program-body { min-width: 0; }
+.program-body h3 { margin-top: 0.3rem; }
+
+@media (max-width: 480px) {
+  .program-icon { flex-basis: 52px; }
+  .program-icon img { width: 52px; height: 52px; }
+}
+
+/* Homepage research programs list: icon hangs where the bullet was, so
+   wrapped lines stay aligned with the text */
+ul.program-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.program-list li {
+  position: relative;
+  padding-left: 62px;
+  min-height: 48px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.program-list li > span { display: block; }
+
+ul.program-list a.program-list-link {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0;
+}
+
+ul.program-list img.program-list-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+/* Same tilt as the Research page icons; also fires when hovering the row's text link */
+ul.program-list li:hover img.program-list-icon { transform: rotate(-4deg) scale(1.08); }

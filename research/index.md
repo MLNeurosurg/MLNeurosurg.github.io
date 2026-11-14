@@ -15,11 +15,19 @@ We develop machine intelligence that understands human health and disease, espec
 {% assign program_urls = "/research/neuroimaging/,/research/intelligent-histology/,/research/computer-vision/,/research/patient-forecasting/,/research/collaborative-neuro-oncology/" | split: "," %}
 {% for url in program_urls %}
 {% assign program = site.pages | where: "url", url | first %}
+{% assign slug = url | remove: "/research/" | remove: "/" %}
+<div class="program-card">
+<a class="program-icon" href="{{ program.url }}" aria-hidden="true" tabindex="-1"><img src="/assets/img/research/icons/{{ slug }}.svg" alt="" width="72" height="72"></a>
+<div class="program-body" markdown="1">
+
 ### [{{ program.title }}]({{ program.url }})
 
 {{ program.description }}
 
 [Explore {{ program.title }} →]({{ program.url }})
+
+</div>
+</div>
 {% endfor %}
 
 Interested in joining one of these programs? We are hiring PhD students and postdocs in medical AI. Please email tocho [at] umich.edu.
