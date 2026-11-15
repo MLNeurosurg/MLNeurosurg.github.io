@@ -486,3 +486,24 @@ ul.program-list img.program-list-icon {
 
 /* Same tilt as the Research page icons; also fires when hovering the row's text link */
 ul.program-list li:hover img.program-list-icon { transform: rotate(-4deg) scale(1.08); }
+
+/* Research program pages: themed icon beside the page heading */
+.program-page-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.program-page-header img {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  display: block;
+}
+
+.program-page-header h2 { margin: 0; }
+
+@media (max-width: 480px) {
+  .program-page-header img { width: 48px; height: 48px; flex-basis: 48px; }
+}

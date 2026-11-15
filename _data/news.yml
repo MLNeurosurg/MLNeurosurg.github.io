@@ -1,6 +1,11 @@
 # MLiNS news (merged from mlneurosurg.github.io/_data/news.yaml).
 # Images live in /assets/img/news/
 main:
+  - venue: Look to Michigan | 2026
+    title: AI Breakthrough Helps Spot Brain Tumor Tissue That Can Be Missed in the OR
+    link: https://looktomichigan.umich.edu/stories/fastglioma/
+    image: /assets/img/news/fastglioma2026_looktomichigan.jpg
+
   - venue: Science Advances | 2026
     title: "AI predicts where glioblastoma will come back: optical microscopy predictions of focal recurrence"
     link: https://www.science.org/doi/10.1126/sciadv.aec8202

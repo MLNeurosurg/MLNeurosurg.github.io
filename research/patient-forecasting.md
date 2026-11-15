@@ -7,7 +7,10 @@ description: >-
 
 ---
 
-## Patient forecasting
+<div class="program-page-header">
+<img src="/assets/img/research/icons/patient-forecasting.svg" alt="" width="64" height="64">
+<h2>Patient forecasting</h2>
+</div>
 
 Machine learning has the potential to revolutionize the way we predict patient outcomes. Electronic medical records (EMR) have streamlined data collection and made it easier than ever to use ML algorithms to assist in patient care. Our work has focused on predicting (1) how well patients will recover after surgery and (2) what will ultimately affect their long-term outcome and survival. We use ML algorithms that allow for transparency and interpretability, both of which are essential to trust the recommendations of ML decision-support tools in healthcare. By identifying the specific set of symptoms, radiographic findings, laboratory values, etc. that our models use for prediction, physicians can use ML recommendations in the appropriate clinical context for personalized treatment decisions.
 
