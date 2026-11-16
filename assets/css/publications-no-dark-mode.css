@@ -507,3 +507,14 @@ ul.program-list li:hover img.program-list-icon { transform: rotate(-4deg) scale(
 @media (max-width: 480px) {
   .program-page-header img { width: 48px; height: 48px; flex-basis: 48px; }
 }
+
+/* Homepage: Neuro-VL demo video above the preprints list */
+.preprint-video { margin-bottom: 6px; }
+.preprint-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  background: #000;
+}
+.preprint-video + p { margin-top: 0; }

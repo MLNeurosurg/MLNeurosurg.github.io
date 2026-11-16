@@ -11,6 +11,12 @@ description: >-
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Akhil Kondepudi presenting his NeuroVFM poster at the Society for Neuro-Oncology 2026 Annual Meeting](/assets/img/lab/mlins_sno_2026_neurovfm_akhil.jpg)
+Akhil presenting NeuroVFM at SNO 2026.
+
+![Cheng Jiang presenting Silica at the Society for Neuro-Oncology 2026 Annual Meeting](/assets/img/lab/mlins_sno_2026_silica_cheng.jpg)
+Cheng presenting Silica at SNO 2026.
+
 ![Invited plenary panel at EANO 2026 in Rome, Italy](/assets/img/lab/mlins_eano_2026_plenary_panel.jpg)
 Invited plenary panel at EANO 2026 in Rome, Italy.
 

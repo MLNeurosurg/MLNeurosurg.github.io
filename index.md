@@ -30,6 +30,7 @@ The team, the team, the team.
 
 ## MLiNS News {#news}
 
+- **Nov 2026** - Chenhui Zhao's and Akshay Rao's preprint, [Neuro-VL: A frontier machine intelligence for human neuroimaging](https://arxiv.org/abs/2611.15094), is released on ***arXiv***. Watch the [video](#selected-preprints) and try the [Demo](https://neurovl.mlins.org/).
 - **Sep 2026** - [Optical microscopy predictions of focal recurrence in glioblastoma](https://www.science.org/doi/10.1126/sciadv.aec8202), a collaboration with the Hervey-Jumper Lab at UCSF using **FastGlioma** to forecast where glioblastoma will recur, is published in ***Science Advances***.
 - **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.
 - **Aug 2026** - Akhil Kondepudi's Research Briefing, [Learning from routine health system data builds better neuroimaging AI models](https://www.nature.com/articles/s41591-026-04567-4), is published in ***Nature Medicine***.
@@ -47,6 +48,14 @@ The team, the team, the team.
 <p class="back-to-top"><a href="#top">↑ Back to top</a></p>
 
 ## New Preprints {#selected-preprints}
+
+<div class="preprint-video">
+<video controls playsinline preload="metadata" width="1896" height="904" aria-label="Neuro-VL demo video">
+<source src="/assets/videos/neuro-vl.mp4#t=0.1" type="video/mp4">
+</video>
+</div>
+
+[Neuro-VL](https://arxiv.org/abs/2611.15094){:target="_blank" rel="noopener"}: conversational interpretation of complete neuroimaging studies.
 
 {% include_relative _includes/selected_preprints.md %}
 
