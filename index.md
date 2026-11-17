@@ -57,6 +57,12 @@ The team, the team, the team.
 
 [Neuro-VL](https://arxiv.org/abs/2611.15094){:target="_blank" rel="noopener"}: conversational interpretation of complete neuroimaging studies.
 
+<div class="hero-video podcast-video">
+<iframe src="https://www.youtube-nocookie.com/embed/IonqTwTNwuI" title="A frontier machine intelligence for human neuroimaging | AI Papers Podcast Daily" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+Listen: [Neuro-VL podcast](https://www.youtube.com/watch?v=IonqTwTNwuI){:target="_blank" rel="noopener"} (AI Papers Podcast Daily).
+
 {% include_relative _includes/selected_preprints.md %}
 
 <p class="back-to-top"><a href="#top">↑ Back to top</a></p>

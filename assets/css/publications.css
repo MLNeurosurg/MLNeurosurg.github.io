@@ -459,3 +459,8 @@ html { scroll-behavior: smooth; }
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
 }
+
+/* Smaller embedded podcast player under the preprint video */
+.podcast-video {
+  max-width: 360px;
+}

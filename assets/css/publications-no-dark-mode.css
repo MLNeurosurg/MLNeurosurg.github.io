@@ -518,3 +518,8 @@ ul.program-list li:hover img.program-list-icon { transform: rotate(-4deg) scale(
   background: #000;
 }
 .preprint-video + p { margin-top: 0; }
+
+/* Smaller embedded podcast player under the preprint video */
+.podcast-video {
+  max-width: 360px;
+}
