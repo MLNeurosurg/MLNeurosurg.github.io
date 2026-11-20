@@ -6,6 +6,11 @@
 # Optional: `start` (seconds) appends a start time to the URL; `start_label` (e.g. "3:20")
 #           shows a "(starts at …)" note. `featured: true` also shows it on the homepage.
 videos:
+  - title: "University of Michigan Regents Meeting - November 2026"
+    id: I7l98lXIxMI
+    start: 3688
+    start_label: "1:01:28"
+
   - title: "Pioneering the Future of Brain Surgery > Look to Michigan"
     id: jvSRfXlVdLw
 

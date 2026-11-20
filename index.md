@@ -30,6 +30,7 @@ The team, the team, the team.
 
 ## MLiNS News {#news}
 
+- **Nov 2026** - Todd Hollon presents to the University of Michigan Board of Regents. Watch the [video](#videos) (starts at 1:01:28).
 - **Nov 2026** - Chenhui Zhao's and Akshay Rao's preprint, [Neuro-VL: A frontier machine intelligence for human neuroimaging](https://arxiv.org/abs/2611.15094), is released on ***arXiv***. Watch the [video](#selected-preprints) and try the [Demo](https://neurovl.mlins.org/).
 - **Sep 2026** - [Optical microscopy predictions of focal recurrence in glioblastoma](https://www.science.org/doi/10.1126/sciadv.aec8202), a collaboration with the Hervey-Jumper Lab at UCSF using **FastGlioma** to forecast where glioblastoma will recur, is published in ***Science Advances***.
 - **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.
@@ -74,6 +75,12 @@ Listen: [Neuro-VL podcast](https://www.youtube.com/watch?v=IonqTwTNwuI){:target=
 <p class="back-to-top"><a href="#top">↑ Back to top</a></p>
 
 ## MLiNS Videos and Podcasts {#videos}
+
+<div class="hero-video">
+<iframe src="https://www.youtube-nocookie.com/embed/I7l98lXIxMI?start=3688" title="University of Michigan Regents Meeting - November 2026" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[University of Michigan Regents Meeting - November 2026](https://www.youtube.com/watch?v=I7l98lXIxMI&t=3688s){:target="_blank" rel="noopener"} (starts at 1:01:28).
 
 <div class="hero-video">
 <iframe src="https://www.youtube-nocookie.com/embed/jvSRfXlVdLw" title="Pioneering the Future of Brain Surgery | Look to Michigan" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
