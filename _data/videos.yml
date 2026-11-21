@@ -3,6 +3,7 @@
 #
 # YouTube entries: set `id` (the 11-char video ID). Thumbnail + URL are derived.
 # Other platforms (e.g. Vimeo): set `platform`, `url`, and `thumbnail` explicitly.
+# Optional: `thumbnail` overrides the YouTube-derived thumbnail.
 # Optional: `start` (seconds) appends a start time to the URL; `start_label` (e.g. "3:20")
 #           shows a "(starts at …)" note. `featured: true` also shows it on the homepage.
 videos:
@@ -10,6 +11,7 @@ videos:
     id: I7l98lXIxMI
     start: 3688
     start_label: "1:01:28"
+    thumbnail: /assets/img/videos/umich_regents_nov2026.jpg
 
   - title: "Pioneering the Future of Brain Surgery > Look to Michigan"
     id: jvSRfXlVdLw

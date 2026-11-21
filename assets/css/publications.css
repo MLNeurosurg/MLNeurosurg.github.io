@@ -410,6 +410,39 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   display: block;
 }
 
+/* Click-to-play video: custom cover image with a play button; JS swaps in the iframe */
+.hero-video .video-facade {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-video .video-facade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-video .video-facade::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 68px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  background: rgba(23, 23, 23, 0.8) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='white'/%3E%3C/svg%3E") center / 28px no-repeat;
+  transition: background-color 0.15s;
+}
+
+.hero-video .video-facade:hover::after,
+.hero-video .video-facade:focus-visible::after {
+  background-color: #f00;
+}
+
 /* Video list: caption sits tight under its thumbnail; spacing goes between videos */
 .video-item {
   margin-bottom: 24px;
@@ -463,4 +496,15 @@ html { scroll-behavior: smooth; }
 /* Smaller embedded podcast player under the preprint video */
 .podcast-video {
   max-width: 360px;
+}
+
+/* Sidebar affiliation: Block M sits inline before "University of Michigan" */
+.affiliation-mark {
+  display: inline-block;
+  width: 32px;
+  height: auto;
+  margin-right: 8px;
+  vertical-align: -5px;
+  border: 0;
+  box-shadow: none;
 }
