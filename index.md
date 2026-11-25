@@ -8,6 +8,8 @@ I am a research scientist, neurosurgeon, and the Novello & Quinones-Hinojosa Res
 
 We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research programs below. Please email me directly at tocho [at] umich.edu if interested.
 
+**Patients seeking care:** please see [For Patients](/patients/) for how to request an appointment.
+
 ## [Photos and Bios of MLiNS Team](/students/) {#team}
 
 The team, the team, the team.
@@ -30,7 +32,7 @@ The team, the team, the team.
 
 ## MLiNS News {#news}
 
-- **Nov 2026** - Todd Hollon invited to present to University of Michigan Board of Regents. Watch the [Video](#videos) (starts at 1:01:28).
+- **Nov 2026** - Todd Hollon invited to present to University of Michigan Board of Regents. Watch the [Video](#videos) (starts at 1:01:28) and read [The Michigan Daily](https://www.michigandaily.com/news/administration/umich-board-of-regents-votes-to-proceed-with-1-2-billion-data-center/){:target="_blank" rel="noopener"} coverage.
 - **Nov 2026** - Chenhui Zhao's and Akshay Rao's preprint, [Neuro-VL: A frontier machine intelligence for human neuroimaging](https://arxiv.org/abs/2611.15094), is released on ***arXiv***. Watch the [video](#selected-preprints) and try the [Demo](https://neurovl.mlins.org/).
 - **Sep 2026** - [Optical microscopy predictions of focal recurrence in glioblastoma](https://www.science.org/doi/10.1126/sciadv.aec8202), a collaboration with the Hervey-Jumper Lab at UCSF using **FastGlioma** to forecast where glioblastoma will recur, is published in ***Science Advances***.
 - **Sep 2026** - The MLiNS Lab added two talented students, **Annie Huang** and **Prateek Pinchi**.

@@ -1,6 +1,8 @@
 # Site-wide quick links, rendered by _includes/quicklinks.html.
 # Shown at the top of every page by _layouts/homepage.html. Prefer a standalone
 # page; for a homepage-only section use /#anchor (an explicit {#id} in index.md).
+- name: For Patients
+  url: /patients/
 - name: Support Us
   url: /support/
 - name: Team
@@ -14,7 +16,5 @@
   external: true
 - name: News
   url: /news/
-- name: Preprints
-  url: /#selected-preprints
 - name: Videos
   url: /videos/

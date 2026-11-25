@@ -1,6 +1,11 @@
 # MLiNS news (merged from mlneurosurg.github.io/_data/news.yaml).
 # Images live in /assets/img/news/
 main:
+  - venue: The Michigan Daily | 2026
+    title: "U-M Board of Regents votes to proceed with $1.2 billion data center, with Todd Hollon presenting its impact on AI research"
+    link: https://www.michigandaily.com/news/administration/umich-board-of-regents-votes-to-proceed-with-1-2-billion-data-center/
+    image: /assets/img/news/michigandaily2026_regents_datacenter.jpg
+
   - venue: Look to Michigan | 2026
     title: AI Breakthrough Helps Spot Brain Tumor Tissue That Can Be Missed in the OR
     link: https://looktomichigan.umich.edu/stories/fastglioma/

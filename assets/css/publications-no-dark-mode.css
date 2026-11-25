@@ -567,3 +567,29 @@ ul.program-list li:hover img.program-list-icon { transform: rotate(-4deg) scale(
   border: 0;
   box-shadow: none;
 }
+
+/* Patients page: appointment button and important-notice box */
+.patient-cta {
+  margin: 1rem 0 1.5rem;
+}
+
+.patient-cta a {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+  font-weight: 600;
+}
+
+.patient-cta a:hover,
+.patient-cta a:focus-visible {
+  background-color: var(--global-hover-color);
+  color: #00274c;
+}
+
+.patient-notice {
+  border-left: 4px solid #ffcb05;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 203, 5, 0.08);
+}
